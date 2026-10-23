@@ -45,8 +45,9 @@ dev = [
 [project.scripts]
 trace-traits = "trace_traits.cli:main"
 
-# [project.urls] is added in the first post-release edit, pointing at the
-# public repository once it exists.
+[project.urls]
+Repository = "https://github.com/manojkumar9121/TRACE"
+Issues = "https://github.com/manojkumar9121/TRACE/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/trace_core", "src/trace_traits"]
