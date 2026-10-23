@@ -52,23 +52,29 @@ next — built), **T3 response** (a contrast against a matched baseline — buil
 
 ## What it's for
 
-Six things this library genuinely fits, each with what it *will not* give
-you. Everything below is built on the same rule: describe the communication,
-cite the messages it came from, and stay quiet when the evidence is thin.
+Six things this library genuinely fits, and one place to build slowly.
+Everything below is built on the same rule: describe the communication, cite
+the messages it came from, and stay quiet when the evidence is thin.
 
 1. **Reply suggestions that know when to stay quiet.** Model whoever's
    messages you hold — your own habits, or a contact's rhythm — as a person:
    do they answer in minutes or hours, in one line or paragraphs, with emoji,
    with questions. The base-rate and contextual predictors return a
    **distribution**, not a guess, and the measured skill tells you when the
-   context carries no signal (≈0) — a good product hides the suggestion bar
-   in exactly those cases instead of showing a wrong guess.
+   context carries no signal (≈0). Use it as the ranking prior for a
+   suggestions bar: show suggestions early only when this specific person's
+   predicted probability is high; hide them when the interval is wide.
+   That "when to stay quiet" behaviour is what most apps do badly, and the
+   null-is-not-a-finding discipline is built for exactly it — an unsettled
+   reading is an answer, not a failure.
 2. **Timing intelligence without a timezone.** T4 measures *when* someone
    writes and *how fast* they reply — relative to their own median hour, so
    it wraps midnight and survives DST and travel, and needs no location
-   data. That is "best windows to reach this person", "usually replies
-   within ~2h on weekdays", and a long silence surfaced around their own
-   norm (the library's declared reading is ≈3 days), not last-seen guessing.
+   data. Plus the long-silence reading (≈3-day gaps, from the same tier).
+   "Best time to reach Rhea." "Priya takes ~2h on weekdays — don't panic at
+   the three-hour gap." "You haven't heard from Sam in five days." That is
+   the product: descriptive, useful, and reasonably low-creepiness when it
+   is about your own contacts and they consented — not last-seen guessing.
 3. **Your own archive as a dashboard.** Point it at a chat export you own
    and get a six-dimension profile — bands with sample sizes, never meters —
    plus, with T3, an honest answer to "did my replies actually get shorter
@@ -81,21 +87,54 @@ cite the messages it came from, and stay quiet when the evidence is thin.
    was measured over.
 5. **Evidence-gated memory for AI chatbots.** The generalizable half is
    `trace_core`, which is independent of chat traits: score any model-made
-   claim about a person by the evidence behind it. One observation never
-   becomes a known fact (a corroboration floor of two attributed lineages),
-   stale beliefs decay on half-lives instead of lingering, uncited output is
-   dropped rather than repaired, and injected text cannot mint confidence.
-   If your product has an LLM that forms beliefs about users, this is the
-   don't-overclaim layer.
+   claim about a person by the evidence behind it — a claims gatekeeper.
+   "She prefers weekends" and "he's frustrated with billing" are the same
+   shape of problem: one observation never becomes a known fact (INV-1's
+   floor of two attributed lineages), stale beliefs decay on half-lives
+   instead of lingering, uncited output is dropped rather than repaired, and
+   injected text cannot mint confidence. Labs and chat products all have
+   this problem; it is arguably the most generally useful half of the
+   repository. And it does not start from zero: if your assistant already
+   keeps a memory file about the user, import it as *declared* evidence — a
+   memory the user wrote or confirmed enters at a human-asserted weight; one
+   the model inferred enters at the inference weight, with any unknown age
+   treated conservatively. The next conversations then corroborate a seed up
+   or let it decay — because the model's memory of you is not automatically
+   strong, and now it is scored like everything else.
 6. **Stylometry and research with receipts.** Every number reconstructs from
    named terms; every figure states whether it is synthetic, hand- or
    independently-authored; and the evaluation protocol itself — labels frozen
    by a second author before any run — is a method you can copy for your own
    feature's evals.
 
-**The honest ceiling.** None of these work on day one of a new user: below
-the declared floors (100 subject words, two conversations) the library
-returns `insufficient_evidence` instead of a guess. The held-out grade above
+### Where to go slow: predicting what the user is about to send
+
+"Watch them type and dispatch the model call before they press send" is
+technically possible, and three brakes on it are load-bearing:
+
+1. **TRACE measures coarse habits, not what someone is about to type.**
+   Keystroke-level prediction is the LLM's job, and the traits layer's own
+   held-out grade is 62% agreement on six band words — rate-level accuracy,
+   not content-level.
+2. **Wrong speculation costs more goodwill than right prediction earns.**
+   Users notice a wrong pre-suggested prompt far more than a right one —
+   which is why the intervals matter: a wide interval should read "don't".
+3. **Pre-dispatching unsent text is a consent and privacy minefield.**
+   Prediction is not permission; what a person types into an unfocused box
+   is arguably still theirs alone.
+
+Build toward it with the library the way it is designed — as the per-person
+decision rule for *when a guess is worth spending on*: high predicted
+probability, narrow interval, low cost of being wrong. Where any of the
+three is missing, the honest move is the library's own: stay quiet.
+
+**The honest ceiling.** Chat-derived habits cannot be faked from nothing:
+below the declared floors (100 subject words, two conversations) the trait
+dimensions return `insufficient_evidence` instead of a guess. What *can*
+start from day one is use case 5's belief layer, if you seed it from memory
+you already hold — at the weight its provenance deserves — and let direct
+conversation corroborate it up. Seeded memory replaces nothing a chat never
+showed: there is no shortcut to a measured habit. The held-out grade above
 is band-word agreement on six coarse dimensions — treat every output as a
 prior, not a prediction. And if a use case needs consent you don't have,
 stop at **[Intended use and non-goals](#intended-use-and-non-goals)** before
