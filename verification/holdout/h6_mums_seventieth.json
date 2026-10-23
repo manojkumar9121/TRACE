@@ -1,0 +1,287 @@
+{
+  "persona": "Mum's Seventieth",
+  "subject": "them",
+  "observer": "me",
+  "messages": [
+    {
+      "id": "m0",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "morning. have you booked anything for mum's seventieth, or are we both pretending it's next year",
+      "sent_at": "2026-09-05T09:40:00+02:00"
+    },
+    {
+      "id": "m1",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "im pretending. has anita sent the guest list, or is she still 'writing it up'?",
+      "sent_at": "2026-09-05T13:12:00+02:00"
+    },
+    {
+      "id": "m2",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "sent it tuesday. 24 people, plus the cousins' kids apparently",
+      "sent_at": "2026-09-05T13:15:00+02:00"
+    },
+    {
+      "id": "m3",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "24. the hall seats 40, so we're safe on numbers at least",
+      "sent_at": "2026-09-05T13:19:00+02:00"
+    },
+    {
+      "id": "m4",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "we are. do we do food ourselves or get it catered",
+      "sent_at": "2026-09-05T13:21:00+02:00"
+    },
+    {
+      "id": "m5",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "cater. mum will offer to cook and you have to say no 🙂",
+      "sent_at": "2026-09-05T17:46:00+02:00"
+    },
+    {
+      "id": "m6",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "i rehearsed the line. she said fine and then made three trays of the square thing anyway",
+      "sent_at": "2026-09-05T17:48:00+02:00"
+    },
+    {
+      "id": "m7",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "of course she did 🙂 the anniversary is just her cooking's coronation",
+      "sent_at": "2026-09-05T21:03:00+02:00"
+    },
+    {
+      "id": "m8",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "framing that. and the cake? real cake or the plum thing",
+      "sent_at": "2026-09-05T21:05:00+02:00"
+    },
+    {
+      "id": "m9",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "plum thing. non negotiable, it's in the constitution",
+      "sent_at": "2026-09-05T21:08:00+02:00"
+    },
+    {
+      "id": "m10",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "i'll ask anita to guard it. the plum thing claims my dignity every year",
+      "sent_at": "2026-09-05T21:09:00+02:00"
+    },
+    {
+      "id": "m11",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "she says cake is sorted. i think she ordered it at a bakery",
+      "sent_at": "2026-09-06T08:47:00+02:00"
+    },
+    {
+      "id": "m12",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "quietly at a bakery?? after all her speeches about bought cake",
+      "sent_at": "2026-09-06T08:49:00+02:00"
+    },
+    {
+      "id": "m13",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "she'll deny it until the party. don't be a witness 🎂",
+      "sent_at": "2026-09-06T22:10:00+02:00"
+    },
+    {
+      "id": "m14",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "anita booked the hall. invitations need to go out this week — she flies out on the 22nd",
+      "sent_at": "2026-09-12T10:31:00+02:00"
+    },
+    {
+      "id": "m15",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "ok. paper invites for the aunties or digital for everyone?",
+      "sent_at": "2026-09-12T10:35:00+02:00"
+    },
+    {
+      "id": "m16",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "digital for everyone, but print six for the ones who still frame things",
+      "sent_at": "2026-09-12T12:02:00+02:00"
+    },
+    {
+      "id": "m17",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "the framers. i'll write the dates carefully this time",
+      "sent_at": "2026-09-12T12:04:00+02:00"
+    },
+    {
+      "id": "m18",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "please. last year's card said the 30th and we still hear about it",
+      "sent_at": "2026-09-12T15:40:00+02:00"
+    },
+    {
+      "id": "m19",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "that was your fault entirely",
+      "sent_at": "2026-09-12T15:42:00+02:00"
+    },
+    {
+      "id": "m20",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "i know. wrong date, then blame the printer — my signature move",
+      "sent_at": "2026-09-12T18:55:00+02:00"
+    },
+    {
+      "id": "m21",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "consistent at least. dani asked what time it starts",
+      "sent_at": "2026-09-12T18:57:00+02:00"
+    },
+    {
+      "id": "m22",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "doors at five — can you confirm with him by wednesday? mum keeps counting him as a yes",
+      "sent_at": "2026-09-12T21:34:00+02:00"
+    },
+    {
+      "id": "m23",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "he won't commit until he's seen the menu. i'll mention the plum thing",
+      "sent_at": "2026-09-12T21:36:00+02:00"
+    },
+    {
+      "id": "m24",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "then he's a lock",
+      "sent_at": "2026-09-12T21:38:00+02:00"
+    },
+    {
+      "id": "m25",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "my gift ideas are bad though, help",
+      "sent_at": "2026-09-12T21:40:00+02:00"
+    },
+    {
+      "id": "m26",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "the photo album you never finish. finish it",
+      "sent_at": "2026-09-12T21:41:00+02:00"
+    },
+    {
+      "id": "m27",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "party in a week. did you write that run sheet yet, or do i have to chase anita's ghost while she's away?",
+      "sent_at": "2026-09-19T09:02:00+02:00"
+    },
+    {
+      "id": "m28",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "writing it now, promise. doors at 5, food at 6, speeches after cake or before",
+      "sent_at": "2026-09-19T09:06:00+02:00"
+    },
+    {
+      "id": "m29",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "after. mum cries at speeches, feed her first",
+      "sent_at": "2026-09-19T11:44:00+02:00"
+    },
+    {
+      "id": "m30",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "wise. and who's talking",
+      "sent_at": "2026-09-19T11:46:00+02:00"
+    },
+    {
+      "id": "m31",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "i do the short one, you do the funny one, anita's facts arrive by email apparently",
+      "sent_at": "2026-09-19T15:21:00+02:00"
+    },
+    {
+      "id": "m32",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "her facts will be a custody hearing for the bean soup recipe",
+      "sent_at": "2026-09-19T15:23:00+02:00"
+    },
+    {
+      "id": "m33",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "bean soup history will be presented, it's tradition now",
+      "sent_at": "2026-09-19T18:37:00+02:00"
+    },
+    {
+      "id": "m34",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "run sheet is sent. anything for the kids table",
+      "sent_at": "2026-09-19T18:39:00+02:00"
+    },
+    {
+      "id": "m35",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "colouring stuff. ask jana, she has a box left from the christening",
+      "sent_at": "2026-09-19T21:16:00+02:00"
+    },
+    {
+      "id": "m36",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "i'll text her tonight. weirdly on track",
+      "sent_at": "2026-09-19T21:18:00+02:00"
+    },
+    {
+      "id": "m37",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "don't jinx it 🙂",
+      "sent_at": "2026-09-19T21:20:00+02:00"
+    },
+    {
+      "id": "m38",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "final jinx: sunday i collect you at half four, hall by five?",
+      "sent_at": "2026-09-19T21:22:00+02:00"
+    },
+    {
+      "id": "m39",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "yep. bring the good tape",
+      "sent_at": "2026-09-19T21:47:00+02:00"
+    }
+  ]
+}

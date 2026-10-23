@@ -1,0 +1,1108 @@
+{
+  "results": [
+    {
+      "area": "degenerate",
+      "name": "empty corpus",
+      "input_desc": "no messages at all",
+      "expected": "no raise; every reading insufficient; every prediction has low<=value<=high",
+      "actual": "features ok (['insufficient_evidence', 'insufficient_evidence', 'insufficient_evidence', 'insufficient_evidence', 'insufficient_evidence', 'insufficient_evidence']), predictions ok (4), all intervals valid=True",
+      "verdict": "PASS",
+      "reproducer": "corpus_from_messages(Person(subject='them'), [])",
+      "notes": ""
+    },
+    {
+      "area": "degenerate",
+      "name": "single message corpus",
+      "input_desc": "1 message",
+      "expected": "no raise; all readings insufficient_evidence",
+      "actual": "bands=['insufficient_evidence', 'insufficient_evidence', 'insufficient_evidence', 'insufficient_evidence', 'insufficient_evidence', 'insufficient_evidence']",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "degenerate",
+      "name": "subject sent nothing",
+      "input_desc": "6 messages, all from the other person",
+      "expected": "DM-005.5: sample below MIN_SAMPLE -> insufficient_evidence and value None",
+      "actual": "Initiation band='insufficient_evidence' value=None n_evidence=0 n_conv=0",
+      "verdict": "PASS",
+      "reproducer": "see verification/fuzz_harness.py :: degenerate_inputs.t_none_by_subject",
+      "notes": ""
+    },
+    {
+      "area": "degenerate",
+      "name": "all messages empty string",
+      "input_desc": "20 messages with text=''",
+      "expected": "no raise; empty messages must not be reported as a measured trait with a numeric value",
+      "actual": "bands=[('Response length', 'insufficient_evidence', None), ('Emoji usage', 'low', 0.0), ('Questions', 'low', 0.0), ('Initiation', 'high', 1.0), ('Reply latency', 'insufficient_evidence', None), ('Vocabulary', 'insufficient_evidence', None)] preds=[('likely_length', 0.0, 0.0, 0.0), ('likely_emoji', 0.045454545454545456, 0.0, 0.16113012549493322), ('likely_responds', 0.5, 0.0, 1.0), ('reply_latency_minutes', 3.0, 2.0, 4.0)]",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "degenerate",
+      "name": "all messages undated",
+      "input_desc": "20 messages with sent_at=None",
+      "expected": "no raise; latency and response-rate readings say they do not know",
+      "actual": "bands=[('Response length', 'moderate'), ('Emoji usage', 'low'), ('Questions', 'low'), ('Initiation', 'high'), ('Reply latency', 'insufficient_evidence'), ('Vocabulary', 'low')] preds=[('likely_length', 30.0, 29.0, 31.0), ('likely_emoji', 0.045454545454545456, 0.0, 0.16113012549493322), ('likely_responds', 0.5, 0.0, 1.0), ('reply_latency_minutes', 0.0, 0.0, 0.0)]",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "degenerate",
+      "name": "one conversation only",
+      "input_desc": "40 messages in a single conversation",
+      "expected": "DM-005.6: a sample in one thread must not satisfy the gate",
+      "actual": "bands=[('Response length', 'insufficient_evidence'), ('Emoji usage', 'insufficient_evidence'), ('Questions', 'insufficient_evidence'), ('Initiation', 'insufficient_evidence'), ('Reply latency', 'insufficient_evidence'), ('Vocabulary', 'insufficient_evidence')]",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "degenerate",
+      "name": "whitespace-only messages",
+      "input_desc": "20 messages of spaces/tabs",
+      "expected": "no raise",
+      "actual": "bands=[('Response length', 'insufficient_evidence', None), ('Emoji usage', 'low', 0.0), ('Questions', 'low', 0.0), ('Initiation', 'high', 1.0), ('Reply latency', 'insufficient_evidence', None), ('Vocabulary', 'insufficient_evidence', None)]",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "degenerate",
+      "name": "punctuation-only messages",
+      "input_desc": "20 messages of '!!!???...'",
+      "expected": "no raise",
+      "actual": "bands=[('Response length', 'low', 9.0), ('Emoji usage', 'low', 0.0), ('Questions', 'high', 1.0), ('Initiation', 'high', 1.0), ('Reply latency', 'insufficient_evidence', None), ('Vocabulary', 'insufficient_evidence', None)]",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "degenerate",
+      "name": "emoji-only messages",
+      "input_desc": "20 messages of '\ud83d\ude00\ud83d\ude00\ud83d\ude00'",
+      "expected": "no raise",
+      "actual": "bands=[('Response length', 'insufficient_evidence', None), ('Emoji usage', 'high', 1.0), ('Questions', 'low', 0.0), ('Initiation', 'high', 1.0), ('Reply latency', 'insufficient_evidence', None), ('Vocabulary', 'insufficient_evidence', None)]",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "degenerate",
+      "name": "message is exactly one emoji",
+      "input_desc": "20 messages of '\ud83d\ude00'",
+      "expected": "no raise; emoji detection must be per-message not per-length",
+      "actual": "emoji band='high' value=1.0 (a lone emoji is 1 char -> below ACK_MIN_CHARS=4)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "degenerate",
+      "name": "1 MB single message",
+      "input_desc": "one message of ~1,000,000 chars",
+      "expected": "no raise; completes in reasonable time",
+      "actual": "ok in 22.064s; bands=['high', 'low', 'low', 'high', 'insufficient_evidence', 'low']",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "degenerate",
+      "name": "hostile unicode",
+      "input_desc": "RTL, ZWJ, combining, CJK, lone surrogate, NUL, bidi controls",
+      "expected": "no raise anywhere in the pipeline (incl. lineage.fingerprint)",
+      "actual": "RTL arabic:ok | RTL hebrew:ok | ZWJ family:ok | combining marks:ok | CJK:ok | zero-width joiner:ok | lone surrogate:ok | RTL override:ok | bidi control:ok | NUL:ok | variation selector:ok",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "degenerate",
+      "name": "lone surrogate -> lineage.fingerprint",
+      "input_desc": "text containing an unpaired surrogate",
+      "expected": "returns a digest; must not raise UnicodeEncodeError",
+      "actual": "ef99da8f5640ae376aa095e15aaa97b8",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "degenerate",
+      "name": "mixed naive/aware datetimes",
+      "input_desc": "one naive sent_at, one aware sent_at",
+      "expected": "a clean ValueError naming the problem, never TypeError from sorted()",
+      "actual": "ValueError(corpus mixes 1 timezone-aware timestamps with 1 naive ones; every timestamp must be the same kind)",
+      "verdict": "PASS",
+      "reproducer": "corpus_from_messages(Person(subject='them'), [Message('a','c','them','one',datetime(2026,1,1)), Message('b','c','them','two',datetime(2026,1,2,tzinfo=UTC))])",
+      "notes": ""
+    },
+    {
+      "area": "degenerate",
+      "name": "duplicate message_ids",
+      "input_desc": "two messages with message_id='dup'",
+      "expected": "must not silently drop one row without telling the caller",
+      "actual": "evidence rows=2 distinct ids in scorer=1",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "determinism",
+      "name": "extract_features twice",
+      "input_desc": "same corpus twice",
+      "expected": "byte-identical readings",
+      "actual": "identical=True",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "determinism",
+      "name": "build_predictor twice",
+      "input_desc": "same corpus twice",
+      "expected": "byte-identical predictions",
+      "actual": "identical=True",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "determinism",
+      "name": "score twice",
+      "input_desc": "same evidence, same now",
+      "expected": "byte-identical score and terms",
+      "actual": "identical=True",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "determinism",
+      "name": "reactivity twice",
+      "input_desc": "same corpus + stimuli twice",
+      "expected": "byte-identical reading",
+      "actual": "identical=True band=insufficient_evidence",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "determinism",
+      "name": "rank tiebreak",
+      "input_desc": "20 candidates with identical scores",
+      "expected": "PM-002.4: equal inputs produce equal order with a stable tiebreak",
+      "actual": "order stable under input permutation = True",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "determinism",
+      "name": "wall-clock audit",
+      "input_desc": "grep src/ for clock reads",
+      "expected": "only a legitimate caller-facing entry point may read the clock",
+      "actual": "src/trace_traits/cli.py:94:    now = datetime.now().astimezone()",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "determinism",
+      "name": "random stream audit",
+      "input_desc": "grep src/ for random usage",
+      "expected": "every random stream is explicitly seeded",
+      "actual": "unseeded random uses: ['src/trace_traits/evaluate.py:200:        subject_opens = rng.random() < plant.initiation_rate', 'src/trace_traits/evaluate.py:211:                speaker = responder if rng.random() < rate else previous', 'src/trace_traits/evaluate.py:236:def _plant_text(rng: random.Random, plant: Plant, conversation: int, index: int) -> str:', 'src/trace_traits/evaluate.py:239:    Each message gets its **own** random stream, seeded from its position.', 'src/trace_traits/evaluate.py:240:    That is not fastidiousness: ``random.gauss`` caches the second of its pair', 'src/trace_traits/evaluate.py:241:    of normal deviates, so it consumes a random number alternately \u2014 two, then', 'src/trace_traits/evaluate.py:254:    body = \"\ud83d\ude00\" + \"x\" * max(0, length - 1) if local.random() < plant.emoji_rate else \"x\" * length', 'src/trace_traits/evaluate.py:255:    if local.random() < plant.question_rate:', 'src/trace_traits/respond_synth.py:70:def _plant_text(rng: random.Random, plant: ReactivityPlant, speaker_is_subject: bool) -> str:', 'src/trace_traits/respond_synth.py:87:        if rng.random() < plant.emoji_rate:', 'src/trace_traits/respond_synth.py:89:        if rng.random() < plant.question_rate:', 'src/trace_traits/respond_synth.py:91:        if rng.random() < 0.05:', 'src/trace_traits/respond_synth.py:158:        subject_opens = rng.random() < plant.initiation_rate', 'src/trace_traits/respond_synth.py:168:                speaker = responder if rng.random() < rate else previous', 'src/trace_traits/respond_synth.py:172:            if speaker != plant.name and rng.random() < source.event_rate:', 'src/trace_traits/respond_synth.py:185:            position for position in response_positions if rng.random() < plant.withdrawal_rate', 'src/trace_traits/temporal.py:65:beat what random relabelling produces. The test does not decide the', 'src/trace_traits/stats.py:52:#: The seed every random process in the library shares.']",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "lineage",
+      "name": "fingerprint collision surface",
+      "input_desc": "emoji-only / empty / punctuation-only / case+punctuation variants",
+      "expected": "distinct messages must not collapse onto one lineage_id",
+      "actual": "emoji==empty:True empty==punct:True 'hello there'=='hello, there!':True 'ok'=='OK':True",
+      "verdict": "XFAIL",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "lineage",
+      "name": "BY_FINGERPRINT granularity",
+      "input_desc": "14 distinct messages in ONE conversation",
+      "expected": "INV-1/\u00a78.2: one conversation must count as one independence group, not 14",
+      "actual": "14 msgs in 1 conversation -> n_lineages=1 n_segments=1; 2 citations from that ONE conversation -> decide='candidate' caps=['insufficient_corroboration'] value=0.009",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "lineage",
+      "name": "BY_FINGERPRINT separates conversations",
+      "input_desc": "5 conversations, distinct text",
+      "expected": "five distinct conversations are five lineages",
+      "actual": "5 distinct conversations -> n_lineages=5 (expected 5)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "lineage",
+      "name": "same conversation uploaded twice",
+      "input_desc": "2 copies, identical text, different ids",
+      "expected": "\u00a78.2: a re-uploaded conversation corroborates ONCE (n_lineages == 1)",
+      "actual": "conversation: n_lineages=2 n_evidence=20 value=0.018 | by_fingerprint: n_lineages=1 n_evidence=20 value=0.009 | per_upload: n_lineages=2 n_evidence=20 value=0.018",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "lineage",
+      "name": "fingerprint collision at conversation level",
+      "input_desc": "2 distinct conversations, both emoji-only",
+      "expected": "distinct conversations must not collapse onto one lineage_id",
+      "actual": "2 distinct conversations, both emoji-only -> n_lineages=1 (expected 2; normalisation collapses them)",
+      "verdict": "XFAIL",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "lineage",
+      "name": "per-row lineage minting",
+      "input_desc": "10 rows each with a unique lineage_id",
+      "expected": "core cannot verify lineage (\u00a78.2); the failure mode must be visible in the README",
+      "actual": "10 rows, 10 fresh lineages -> n_lineages=10 value=0.027 caps=[] (core cannot detect this by design \u2014 README must say so)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "lineage",
+      "name": "profile n_conversations label",
+      "input_desc": "BY_FINGERPRINT corpus with 2 conversations",
+      "expected": "DM-005.1: n_conversations must be the number of conversations, not the number of lineages",
+      "actual": "corpus really has 2 conversations; profile reports n_conversations=[('Response length', 2, 20), ('Emoji usage', 2, 20), ('Questions', 2, 20), ('Initiation', 2, 2), ('Vocabulary', 2, 20)]",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "lineage",
+      "name": "LineageStrategy declared",
+      "input_desc": "all three strategies",
+      "expected": "each strategy yields a distinct grouping",
+      "actual": "conversation: lineages=2 | per_upload: lineages=2 | by_fingerprint: lineages=2",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "time",
+      "name": "future occurred_at",
+      "input_desc": "occurred_at = now + 365 days",
+      "expected": "age_days clamps to 0 (never negative)",
+      "actual": "age_days=0.0 freshness=1.0 value=0.2500",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "time",
+      "name": "occurred_at == now",
+      "input_desc": "exact equality",
+      "expected": "age_days == 0, freshness == 1.0",
+      "actual": "age_days=0.0 freshness=1.0",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "time",
+      "name": "evidence from 1970",
+      "input_desc": "occurred_at = 1970-01-01",
+      "expected": "scores ~0, does not raise",
+      "actual": "age_days=20605.5 freshness=1.728e-207 value=5.184e-208",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "time",
+      "name": "naive now",
+      "input_desc": "now without tzinfo",
+      "expected": "ValueError('now must be timezone-aware') on every clock-taking entry point",
+      "actual": "score:ValueError(now must be timezone-aware) | rank:ValueError(now must be timezone-aware) | decide:ValueError(now must be timezone-aware)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "time",
+      "name": "mixed naive/aware evidence",
+      "input_desc": "one naive occurred_at, one aware",
+      "expected": "a clean ValueError naming the problem, never TypeError from max()",
+      "actual": "ValueError(evidence mixes 1 timezone-aware timestamps with 1 naive ones; every timestamp must be the same kind)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "time",
+      "name": "naive occurred_at (uniform)",
+      "input_desc": "occurred_at without tzinfo",
+      "expected": "a clean ValueError naming the problem, never a wrong number",
+      "actual": "NO RAISE -> value=0.009055653083670429",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "time",
+      "name": "all evidence undated",
+      "input_desc": "occurred_at=None on both rows",
+      "expected": "PM-001.6: freshness == 0.0",
+      "actual": "freshness=0.0 value=0.0 n_undated=2",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "time",
+      "name": "DST / offset skew",
+      "input_desc": "two timestamps in different UTC offsets",
+      "expected": "newest_at is the newest in absolute time",
+      "actual": "newest_at=2026-05-01 12:00:00+00:00 age_days=31.0000",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "time",
+      "name": "clock skew (time goes backwards)",
+      "input_desc": "second message 5h before the first",
+      "expected": "negative gaps are excluded, not reported as a latency",
+      "actual": "reply latency band='insufficient_evidence' value=None (negative gaps must not be counted)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "policy",
+      "name": "invalid source weights",
+      "input_desc": "NaN, inf, negative, zero, >1, bool, str",
+      "expected": "IF-001.3: every invalid weight raises PolicyError",
+      "actual": "source_weight[NaN]:PolicyError(source_weight['message'] must be finite, got nan) | source_weight[+inf]:PolicyError(source_weight['message'] must be finite, got inf) | source_weight[-inf]:PolicyError(source_weight['message'] must be finite, got -inf) | source_weight[negative]:PolicyError(source_weight['message'] must be in [0, 1], got -0.1) | source_weight[zero]:NO RAISE | source_weight[gt1]:PolicyError(source_weight['message'] must be in [0, 1], got 1.1) | source_weight[bool]:PolicyError(source_weight['message'] must be a number, got bool) | source_weight[str]:PolicyError(source_weight['message'] must be a number, got str)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "policy",
+      "name": "invalid half-life",
+      "input_desc": "0, negative, NaN, inf",
+      "expected": "IF-001.4: half_life_days shall be positive",
+      "actual": "half_life[zero]:PolicyError(half_life_days['behavioral'] must be positive, got 0.0) | half_life[negative]:PolicyError(half_life_days['behavioral'] must be positive, got -5.0) | half_life[NaN]:PolicyError(half_life_days['behavioral'] must be finite, got nan) | half_life[inf]:PolicyError(half_life_days['behavioral'] must be finite, got inf)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "policy",
+      "name": "corroboration_threshold = 1",
+      "input_desc": "corroboration_floor in {1, 0, -3}",
+      "expected": "INV-1: setting it to 1 raises PolicyError",
+      "actual": "corroboration_floor=1:PolicyError(corroboration_floor must be >= 2 (the INV-1 floor), got 1) | corroboration_floor=0:PolicyError(corroboration_floor must be >= 2 (the INV-1 floor), got 0) | corroboration_floor=-3:PolicyError(corroboration_floor must be >= 2 (the INV-1 floor), got -3)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "policy",
+      "name": "coverage denominator < 1",
+      "input_desc": "coverage_denominator in {0, -1}",
+      "expected": "PolicyError",
+      "actual": "coverage_denominator=0:PolicyError(coverage_denominator must be >= 1, got 0) | coverage_denominator=-1:PolicyError(coverage_denominator must be >= 1, got -1)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "policy",
+      "name": "sample_target <= 0",
+      "input_desc": "sample_target in {0, -1}",
+      "expected": "IF-001.9: sample_target shall be positive when supplied",
+      "actual": "construct sample_target=0:PolicyError(sample_target must be positive when supplied, got 0) | use sample_target=0:PolicyError | construct sample_target=-1:PolicyError(sample_target must be positive when supplied, got -1) | use sample_target=-1:PolicyError",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "policy",
+      "name": "invalid retrieval weights",
+      "input_desc": "negative, NaN, inf, bool, >1",
+      "expected": "IF-001.7: retrieval weights shall be non-negative; >1 is not forbidden",
+      "actual": "weight[negative]:PolicyError(retrieval weight['vector'] must be non-negative, got -0.1) | weight[NaN]:PolicyError(retrieval weight['vector'] must be finite, got nan) | weight[inf]:PolicyError(retrieval weight['vector'] must be finite, got inf) | weight[bool]:PolicyError(retrieval weight['vector'] must be a number, got bool) | weight>1 (allowed?):NO RAISE",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "policy",
+      "name": "unknown source type",
+      "input_desc": "source_type='never_seen_before'",
+      "expected": "IF-001.6: the most conservative known weight",
+      "actual": "unknown source type weight=0.7 (min known = 0.7 expected)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "policy",
+      "name": "unknown claim kind",
+      "input_desc": "claim.kind='mystery'",
+      "expected": "conservative (shortest) half-life",
+      "actual": "unknown claim kind half_life=30.0 (shortest known = 30 expected)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "policy",
+      "name": "no field shadows a protocol method",
+      "input_desc": "TableConfidencePolicy / TableRetrievalPolicy",
+      "expected": "IF-001.8: structural check must pass for the right reason",
+      "actual": "TableConfidencePolicy fields=['source_weights', 'half_lives', 'corroboration_floor', 'coverage_denominator', 'unknown_source_weight', 'sample_target'] methods=['source_weight', 'half_life_days', 'corroboration_threshold', 'coverage_target', 'sample_adequacy']",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "policy",
+      "name": "empty policy tables",
+      "input_desc": "source_weights={} / half_lives={}",
+      "expected": "PolicyError rather than a ZeroDivisionError or a silent default",
+      "actual": "empty source_weights:PolicyError | empty half_lives:PolicyError",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "policy",
+      "name": "optimistic unknown_source_weight override",
+      "input_desc": "unknown_source_weight=1.0",
+      "expected": "IF-001.6: an optimistic unknown_source_weight override shall be refused",
+      "actual": "NO RAISE: the optimistic override was accepted",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "scoring",
+      "name": "unattributed evidence satisfies INV-1",
+      "input_desc": "two rows with speaker=None",
+      "expected": "CDI-009: speaker=None shall NEVER satisfy INV-1 nor be cited for a claim with a non-None subject",
+      "actual": "decide='candidate' (Only 0 attributed sources. At least 2 are needed before this counts as a pattern.) | score n_lineages=2 caps=['insufficient_corroboration'] value=0.250",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "scoring",
+      "name": "unattributed evidence cited for a subject claim",
+      "input_desc": "one row with speaker=None, claim.subject='them'",
+      "expected": "PM-003.5: a citation whose speaker is not the claim's subject raises CitationError",
+      "actual": "decide='candidate' reason='Only 0 attributed sources. At least 2 are needed before this counts as a pattern.'",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "scoring",
+      "name": "Citation with stance='neutral'",
+      "input_desc": "2 citations whose stance is neutral",
+      "expected": "CDI-003: a Citation's stance is supports|contradicts \u2014 never neutral; neutral must not count as support",
+      "actual": "CitationError(citation 'e1' has stance 'neutral'; a citation is supports or contradicts)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "scoring",
+      "name": "bogus verdict string",
+      "input_desc": "Verdict(verdict='banana')",
+      "expected": "PM-003.1: the outcome table is complete; an unrecognised verdict must not be read as 'supported'",
+      "actual": "decide='candidate' caps=['invalid_verdict']",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "scoring",
+      "name": "contradicting citation from another speaker",
+      "input_desc": "Citation(e2, 'contradicts') where e2.speaker != subject",
+      "expected": "PM-003.5: a citation spoken by someone other than the subject raises CitationError",
+      "actual": "CitationError(evidence 'e2' is spoken by 'someone_else', but the claim is about 'them')",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "scoring",
+      "name": "score()/decide() agree on unattributed lineages",
+      "input_desc": "4 attribution configurations",
+      "expected": "both paths must agree that unattributed rows do not satisfy INV-1",
+      "actual": "2 attributed: score n_lineages=2 value=0.600 caps=[] || decide=accepted || 1 attributed + 1 unattributed: score n_lineages=2 value=0.250 caps=['insufficient_corroboration'] || decide=candidate || 2 unattributed: score n_lineages=2 value=0.250 caps=['insufficient_corroboration'] || decide=candidate",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "scoring",
+      "name": "contradiction denominator",
+      "input_desc": "2 supporting + 2 contradicting",
+      "expected": "PM-001.3/D-b: n_citations is the count of SUPPORTING citations",
+      "actual": "contradiction term=0.0 (2 supporting, 2 contradicting -> 1 - 2/2 = 0.0)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "scoring",
+      "name": "citation naming an unknown id",
+      "input_desc": "Link/Citation('nope')",
+      "expected": "INV-4: raises CitationError, never silently dropped",
+      "actual": "score:CitationError | decide:CitationError",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "scoring",
+      "name": "supporting citation from another speaker",
+      "input_desc": "Citation(e2,'supports'), e2.speaker='other_person'",
+      "expected": "PM-003.5: raises CitationError",
+      "actual": "CitationError(evidence 'e2' is spoken by 'other_person', but the claim is about 'them')",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "scoring",
+      "name": "value reconstructs from terms",
+      "input_desc": "4 evidence configurations",
+      "expected": "PM-001.7/INV-6: score_reconstructs(scored) is True for every one",
+      "actual": "2 lineages fresh: reconstructs=True value=0.600000 | 1 lineage: reconstructs=True value=0.250000 | no citations: reconstructs=True value=0.000000 | all undated: reconstructs=True value=0.000000",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "scoring",
+      "name": "retrieval formula: sum vs normalised",
+      "input_desc": "weights summing to 1.0",
+      "expected": "PM-002.1: value = SUM(w_i * term_i) \u2014 the implementation divides by the weight total",
+      "actual": "value=0.8000; raw weighted SUM per PM-002.1 would be 0.8000 (normalised by total weight -> 0.8000)",
+      "verdict": "UNSPECIFIED",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "scoring",
+      "name": "retrieval weights not summing to 1",
+      "input_desc": "four weights of 1.0 each",
+      "expected": "IF-001.7: weights need not sum to 1; the ranking must still be well defined",
+      "actual": "weights total 4.0; terms all 1.0 -> value=0.9250 (raw sum would be 4.0 -> clamped to 1.0)",
+      "verdict": "UNSPECIFIED",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "scoring",
+      "name": "all retrieval weights zero",
+      "input_desc": "four weights of 0.0",
+      "expected": "no ZeroDivisionError",
+      "actual": "value=0.0 (no division by zero)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "scoring",
+      "name": "human-asserted bypass",
+      "input_desc": "one user_stated row",
+      "expected": "accepted despite one lineage",
+      "actual": "state='accepted' (PM-003.2: human-asserted bypasses corroboration)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "scoring",
+      "name": "quarantine reachable only with a detector",
+      "input_desc": "quarantine_detector returning True",
+      "expected": "PM-003.3: quarantined is reachable only when a detector is supplied",
+      "actual": "state='quarantined'",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "scoring",
+      "name": "quarantine without a detector",
+      "input_desc": "no quarantine_detector",
+      "expected": "state is never 'quarantined'",
+      "actual": "state='candidate' (must never be 'quarantined')",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "scoring",
+      "name": "INV-2 present scope downgrade",
+      "input_desc": "support dated 400 days ago, claim.scope=present",
+      "expected": "effective_scope is downgraded to historical",
+      "actual": "effective_scope=<TemporalScope.HISTORICAL: 'historical'> (INV-2: stale support downgrades present)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "scoring",
+      "name": "INV-2 present scope with undated support",
+      "input_desc": "all support undated, scope=present",
+      "expected": "downgraded to historical",
+      "actual": "effective_scope=<TemporalScope.HISTORICAL: 'historical'> (undated support cannot make a claim current)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "traits",
+      "name": "DM-005.6 sample gate",
+      "input_desc": "30 messages in ONE conversation",
+      "expected": "every reading reports insufficient_evidence",
+      "actual": "[('Response length', 'insufficient_evidence', 30, 1), ('Emoji usage', 'insufficient_evidence', 30, 1), ('Questions', 'insufficient_evidence', 30, 1), ('Initiation', 'insufficient_evidence', 30, 1), ('Reply latency', 'insufficient_evidence', 30, 1), ('Vocabulary', 'insufficient_evidence', 30, 1)]",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "traits",
+      "name": "DM-005.3/005.4 evidence ids",
+      "input_desc": "40 messages, 4 conversations",
+      "expected": "readings cite only the subject's own messages",
+      "actual": "Response length: cites=40 wrong_speaker=0 | Emoji usage: cites=40 wrong_speaker=0 | Questions: cites=40 wrong_speaker=0 | Initiation: cites=4 wrong_speaker=0 | Vocabulary: cites=40 wrong_speaker=0",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "traits",
+      "name": "reply latency semantics",
+      "input_desc": "other->subject gap of 30 min, subject->subject gap of 1 min",
+      "expected": "reply latency measures the subject's response to the other person, not subject-to-subject gaps",
+      "actual": "true reply latency = 30 min (other -> subject); reported median = None band='insufficient_evidence' n_evidence=2",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "traits",
+      "name": "response-rate denominator",
+      "input_desc": "other, other, subject",
+      "expected": "PM-005.4: denominators match; a reply after two other messages is still a reply",
+      "actual": "opportunities=2; by 'first subject message after' the subject answered BOTH -> rate 1.0; reported rate=0.500 n_evidence=2",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "traits",
+      "name": "PM-005.3 Beta smoothing on response rate",
+      "input_desc": "6 messages, no replies",
+      "expected": "rate is Beta-smoothed, not 0.0/1.0",
+      "actual": "response rate value=0.500 (PM-005.3 requires a Beta-smoothed posterior; unsmoothed 0/1 is 'confident nonsense')",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "traits",
+      "name": "DM-006.3 zero-width interval",
+      "input_desc": "sample [1,1,1,1,1,1,2] and a constant sample",
+      "expected": "the interval shall not be zero-width where the sample is not constant, and the caveat shall say so",
+      "actual": "non-constant sample [1,1,1,1,1,1,2] -> interval (1.0, 2.0) width=1.0; constant [5]*8 -> (4.0, 6.0)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "traits",
+      "name": "DM-006.2 low <= value <= high",
+      "input_desc": "corpora of 0,1,2,3,5 messages",
+      "expected": "every prediction satisfies low <= value <= high",
+      "actual": "all predictions satisfy low <= value <= high",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "traits",
+      "name": "PM-004.4 recomputation detects tampering",
+      "input_desc": "claim text with a mutated detail",
+      "expected": "an altered detail is caught (unsupported)",
+      "actual": "Response length: honest=supported tampered=unsupported | Emoji usage: honest=supported tampered=unsupported | Questions: honest=supported tampered=unsupported | Initiation: honest=supported tampered=unsupported | Vocabulary: honest=supported tampered=unsupported",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "traits",
+      "name": "DM-008.3 'absent' band reachable",
+      "input_desc": "12 stimuli, every one unanswered",
+      "expected": "'absent' is a permitted band for mostly-unanswered events and must be reachable",
+      "actual": "band='insufficient_evidence' n_episodes=12 n_replies=12 bands seen=[]",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "traits",
+      "name": "PM-007.3.1 band from verdicts",
+      "input_desc": "20 answered stimuli, no change",
+      "expected": "band derives from the measure verdicts; 'unsettled' never collapses into 'stable'",
+      "actual": "band='insufficient_evidence' verdicts=[] consistency=0.00",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "traits",
+      "name": "PM-007.4 margin is policy",
+      "input_desc": "same corpus, wide vs narrow margin",
+      "expected": "the margin changes the verdict \u2014 it is not a library constant",
+      "actual": "wide margin band='insufficient_evidence'; narrow margin band='insufficient_evidence' (PM-007.4: margin is policy, and changes the verdict)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "traits",
+      "name": "stimulus id not in the corpus",
+      "input_desc": "Stimulus('does_not_exist')",
+      "expected": "must not raise; must not silently report a measurement",
+      "actual": "band='insufficient_evidence' n_episodes=0 (unknown stimulus id)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "traits",
+      "name": "PM-006.3 proposal validation",
+      "input_desc": "model cites an unknown id and the other speaker",
+      "expected": "bad citations are dropped and counted, not repaired",
+      "actual": "schema_ok=True proposals=1 dropped_unresolved=1 dropped_wrong_speaker=1",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "traits",
+      "name": "perception backend construction",
+      "input_desc": "OpenRouterBackend('some/model')",
+      "expected": "constructs without network access",
+      "actual": "backend constructed, api_key present=False (no network call attempted)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "traits",
+      "name": "PM-006.2 untrusted data block",
+      "input_desc": "message containing a prompt injection",
+      "expected": "the corpus is rendered as a delimited, explicitly untrusted data block",
+      "actual": "delimited=True untrusted_marker=True ids=['m0']",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "imports",
+      "name": "trace_core import closure",
+      "input_desc": "import every trace_core module",
+      "expected": "only stdlib + trace_core",
+      "actual": "__editable___between_0_0_0_finder|__editable___between_api_0_1_0_finder|__editable___ytdlp_tui_0_1_0_finder|__future__|__main__|_abc|_ast|_blake2|_codecs|_collections|_collections_abc|_contextvars|_datetime|_distutils_hack|_frozen_importlib|_frozen_importlib_external|_functools|_hashlib|_imp|_io|_opcode|_opcode_metadata|_operator|_py_warnings|_signal|_sitebuiltins|_sre|_stat|_thread|_tokenize|_types|_typing|_warnings|_weakref|_weakrefset|abc|abrt_exception_handler3|annotationlib|ast|builtins|codecs|collections|contextlib|copy|copyreg|dataclasses|datetime|dis|encodings|enum|errno|fcntl|fnmatch|functools|genericpath|glob|grp|hashlib|importlib|inspect|io|itertools|keyword|linecache|marshal|math|ntpath|opcode|operator|os|pathlib|posix|posixpath|pwd|re|reprlib|site|stat|sys|time|token|tokenize|trace_core|types|typing|unicodedata|warnings|weakref|zipimport",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "imports",
+      "name": "no network/db modules reachable",
+      "input_desc": "sys.modules after importing trace_core",
+      "expected": "CONF-1/CONF-2: no sqlite3/requests/urllib/http/socket",
+      "actual": "none",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "imports",
+      "name": "no network primitives in trace_core",
+      "input_desc": "grep trace_core/ for socket/urlopen/requests",
+      "expected": "CONF-2: the core performs no network I/O",
+      "actual": "no network primitives in trace_core/",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "imports",
+      "name": "network use in trace_traits",
+      "input_desc": "grep trace_traits/ for network primitives",
+      "expected": "only the optional perception backend may reach the network; it must be lazy",
+      "actual": "src/trace_traits/perception.py:823:        import urllib.request || src/trace_traits/perception.py:848:        request = urllib.request.Request( || src/trace_traits/perception.py:857:        with urllib.request.urlopen(request, timeout=self._timeout) as response:",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "imports",
+      "name": "perception tier imports lazily",
+      "input_desc": "import trace_traits",
+      "expected": "importing the package must not pull in urllib/socket",
+      "actual": "(urllib, socket, http) present after `import trace_traits`: False False False",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "imports",
+      "name": "AST audit of trace_core imports",
+      "input_desc": "parse every trace_core module",
+      "expected": "CONF-1: only the standard library and trace_core's own modules",
+      "actual": "non-stdlib imports: none",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "gating",
+      "name": "no wall-clock reads in new modules",
+      "input_desc": "grep gating/reference/evidence for clock reads",
+      "expected": "the clock is injected everywhere (CONF-style rule)",
+      "actual": "{'trace_core.gating': 'none', 'trace_core.reference': 'none', 'trace_core.evidence': 'none'}",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "gating",
+      "name": "constrain_schema narrows nested temporal_scope",
+      "input_desc": "schema with scope at 3 depths",
+      "expected": "every temporal_scope enum narrows to the permitted scope at every depth; input not mutated",
+      "actual": "stale=unknown:['unknown'],['unknown'],['unknown'] | aging=historical:['historical'],['historical'],['historical'] | fresh=present:['present'],['present'],['present'] | original_unmutated=['present', 'historical', 'unknown']",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "gating",
+      "name": "constrain_schema depth-cap escape",
+      "input_desc": "schema nested 2..20 levels",
+      "expected": "the 12-level walk cap must not leave a scope unconstrained, or it is a silent gate bypass",
+      "actual": "depth=2:constrained depth=10:constrained depth=12:constrained depth=14:constrained depth=20:constrained",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "gating",
+      "name": "TemporalValidator downgrades present on stale",
+      "input_desc": "a present-tense claim on a stale verdict",
+      "expected": "downgraded to historical and flagged; a fresh verdict leaves it alone",
+      "actual": "stale -> 'historical' flagged=True violations=1 | fresh -> 'present' violations=0",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "gating",
+      "name": "TemporalValidator depth escape",
+      "input_desc": "claim nested 0..10 levels",
+      "expected": "a present-tense claim must be downgraded at every nesting depth",
+      "actual": "depth=0:0 still present depth=5:0 still present depth=6:0 still present depth=7:0 still present depth=10:0 still present",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "gating",
+      "name": "unknown citation dropped, never repaired",
+      "input_desc": "a citation to 'ghost' plus one to 'e1'",
+      "expected": "the unknown id is dropped and reported; the claim is not re-pointed at a plausible id",
+      "actual": "stripped=(('c2', 'citation_not_in_packet'), ('c3', 'uncited_claim')) surviving=[{'id': 'c1', 'evidence_refs': ['e1']}] | resolve_citations resolved=['e1'] dropped=('ghost',)",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "gating",
+      "name": "validators chain without double-stripping",
+      "input_desc": "a fact and a simulation, both uncited",
+      "expected": "each claim is stripped once, by the first validator that owns the failure",
+      "actual": "stripped=(('c2', 'citation_not_in_packet'), ('c3', 'citation_not_in_packet')) survivors=[] ok=False",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "gating",
+      "name": "gating edge cases",
+      "input_desc": "naive datetimes, inverted thresholds, archived, absent",
+      "expected": "ValueError for bad input; archived forces stale; absent is a state, not a crash",
+      "actual": "naive now:ValueError | naive evidence_through:NO RAISE | fresh>stale:ValueError | negative fresh_days:ValueError | future_evidence=fresh | archived=stale | absent=absent",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "gating",
+      "name": "build_packet budget bound",
+      "input_desc": "50 candidates of 100 chars",
+      "expected": "the packet is bounded by the budget; the best passage is always kept",
+      "actual": "max_tokens=100 -> kept=3 truncated=True | max_tokens=0 -> kept=1 | max_tokens=-5 -> kept=1",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "performance",
+      "name": "extract_features at scale",
+      "input_desc": "50,000 messages / 5,000 conversations",
+      "expected": "completes in seconds, not minutes",
+      "actual": "42.030s -> 6 readings",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "performance",
+      "name": "build_predictor at scale",
+      "input_desc": "50,000 messages / 5,000 conversations",
+      "expected": "completes in seconds",
+      "actual": "45.956s -> 4 predictions",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "performance",
+      "name": "reactivity at scale",
+      "input_desc": "50,000 messages / 5,000 conversations, 500 stimuli",
+      "expected": "bootstrap (2000 resamples per ratio measure) must not dominate",
+      "actual": "0.187s -> band=insufficient_evidence",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "performance",
+      "name": "Scorer.score with 10,000 links",
+      "input_desc": "10,000 linked evidence rows",
+      "expected": "no quadratic blow-up",
+      "actual": "0.036s value=0.0334",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "performance",
+      "name": "score scaling shape",
+      "input_desc": "5k / 10k / 20k / 40k links",
+      "expected": "time grows linearly, not quadratically",
+      "actual": "n=5000: 0.0138s | n=10000: 0.0288s | n=20000: 0.0578s | n=40000: 0.1211s",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    },
+    {
+      "area": "performance",
+      "name": "BY_FINGERPRINT scaling shape",
+      "input_desc": "5k-50k messages, 500-5000 conversations",
+      "expected": "conversation-level fingerprinting must not be quadratic",
+      "actual": "n=5000,c=500: 0.095s | n=10000,c=1000: 0.262s | n=20000,c=2000: 0.579s | n=50000,c=5000: 1.204s",
+      "verdict": "PASS",
+      "reproducer": "",
+      "notes": ""
+    }
+  ],
+  "perf": [
+    {
+      "label": "extract_features",
+      "n_messages": 50000,
+      "n_conversations": 5000,
+      "seconds": 42.0297,
+      "result": "6 readings"
+    },
+    {
+      "label": "build_predictor",
+      "n_messages": 50000,
+      "n_conversations": 5000,
+      "seconds": 45.9559,
+      "result": "4 predictions"
+    },
+    {
+      "label": "reactivity",
+      "n_messages": 50000,
+      "n_conversations": 5000,
+      "seconds": 0.1874,
+      "result": "band=insufficient_evidence"
+    },
+    {
+      "label": "Scorer.score(10000 links)",
+      "n_messages": 10000,
+      "n_conversations": 100,
+      "seconds": 0.036,
+      "result": "value=0.0334"
+    },
+    {
+      "label": "evidence_from_corpus(BY_FINGERPRINT)",
+      "n_messages": 5000,
+      "n_conversations": 500,
+      "seconds": 0.0947,
+      "result": "500 lineages"
+    },
+    {
+      "label": "evidence_from_corpus(BY_FINGERPRINT)",
+      "n_messages": 10000,
+      "n_conversations": 1000,
+      "seconds": 0.2618,
+      "result": "1000 lineages"
+    },
+    {
+      "label": "evidence_from_corpus(BY_FINGERPRINT)",
+      "n_messages": 20000,
+      "n_conversations": 2000,
+      "seconds": 0.5788,
+      "result": "2000 lineages"
+    },
+    {
+      "label": "evidence_from_corpus(BY_FINGERPRINT)",
+      "n_messages": 50000,
+      "n_conversations": 5000,
+      "seconds": 1.2041,
+      "result": "5000 lineages"
+    }
+  ],
+  "summary": {
+    "pass": 100,
+    "fail": 0,
+    "xfail": 2,
+    "unspecified": 2
+  }
+}

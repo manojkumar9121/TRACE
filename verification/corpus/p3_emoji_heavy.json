@@ -1,0 +1,35 @@
+{
+  "persona": "p3_emoji_heavy",
+  "note": "Hand-authored. Subject uses mainstream emoji in most of their messages; observer never uses emoji.",
+  "messages": [
+    {"id": "m1", "conversation_id": "c1", "speaker": "me", "text": "did the photos come through from the weekend?", "sent_at": "2026-05-03T11:02:00"},
+    {"id": "m2", "conversation_id": "c1", "speaker": "them", "text": "yesss they look amazing 😍", "sent_at": "2026-05-03T11:03:00"},
+    {"id": "m3", "conversation_id": "c1", "speaker": "them", "text": "the one of the lake at sunset is my favourite 🌅", "sent_at": "2026-05-03T11:04:00"},
+    {"id": "m4", "conversation_id": "c1", "speaker": "me", "text": "send them over when you get a chance", "sent_at": "2026-05-03T11:08:00"},
+    {"id": "m5", "conversation_id": "c1", "speaker": "them", "text": "done ✅", "sent_at": "2026-05-03T11:09:00"},
+    {"id": "m6", "conversation_id": "c1", "speaker": "them", "text": "omg the food was so good too 🍕", "sent_at": "2026-05-03T11:10:00"},
+
+    {"id": "m7", "conversation_id": "c2", "speaker": "them", "text": "so are we still on for friday?? 🎉", "sent_at": "2026-05-09T20:01:00"},
+    {"id": "m8", "conversation_id": "c2", "speaker": "me", "text": "yeah, booked the table for eight", "sent_at": "2026-05-09T20:05:00"},
+    {"id": "m9", "conversation_id": "c2", "speaker": "them", "text": "yay 🙌", "sent_at": "2026-05-09T20:06:00"},
+    {"id": "m10", "conversation_id": "c2", "speaker": "me", "text": "who have you invited so far", "sent_at": "2026-05-09T20:12:00"},
+    {"id": "m11", "conversation_id": "c2", "speaker": "them", "text": "just priya and tom so far", "sent_at": "2026-05-09T20:13:00"},
+    {"id": "m12", "conversation_id": "c2", "speaker": "them", "text": "i'll ask sam tomorrow 🤞", "sent_at": "2026-05-09T20:14:00"},
+    {"id": "m13", "conversation_id": "c2", "speaker": "me", "text": "nice, no rush", "sent_at": "2026-05-09T20:20:00"},
+    {"id": "m14", "conversation_id": "c2", "speaker": "them", "text": "perfect 🎈", "sent_at": "2026-05-09T20:21:00"},
+
+    {"id": "m15", "conversation_id": "c3", "speaker": "them", "text": "the traffic was absolutely brutal this morning 🚗", "sent_at": "2026-05-17T08:04:00"},
+    {"id": "m16", "conversation_id": "c3", "speaker": "me", "text": "how long did it take you", "sent_at": "2026-05-17T08:10:00"},
+    {"id": "m17", "conversation_id": "c3", "speaker": "them", "text": "nearly two hours 😩", "sent_at": "2026-05-17T08:11:00"},
+    {"id": "m18", "conversation_id": "c3", "speaker": "them", "text": "i'm never driving in again tbh", "sent_at": "2026-05-17T08:12:00"},
+    {"id": "m19", "conversation_id": "c3", "speaker": "me", "text": "the train might be quicker for you", "sent_at": "2026-05-17T08:20:00"},
+    {"id": "m20", "conversation_id": "c3", "speaker": "them", "text": "good point 👍", "sent_at": "2026-05-17T08:21:00"},
+    {"id": "m21", "conversation_id": "c3", "speaker": "them", "text": "i'll look into it later 😄", "sent_at": "2026-05-17T08:22:00"},
+
+    {"id": "m22", "conversation_id": "c4", "speaker": "me", "text": "the report is due friday, are you nearly done?", "sent_at": "2026-05-24T16:02:00"},
+    {"id": "m23", "conversation_id": "c4", "speaker": "them", "text": "almost there! just need to add the graphs 📊", "sent_at": "2026-05-24T16:04:00"},
+    {"id": "m24", "conversation_id": "c4", "speaker": "me", "text": "no rush, but don't forget it", "sent_at": "2026-05-24T16:10:00"},
+    {"id": "m25", "conversation_id": "c4", "speaker": "them", "text": "i won't 🤞", "sent_at": "2026-05-24T16:11:00"},
+    {"id": "m26", "conversation_id": "c4", "speaker": "them", "text": "will send it tonight for sure 💪", "sent_at": "2026-05-24T16:12:00"}
+  ]
+}

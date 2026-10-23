@@ -1,0 +1,273 @@
+{
+  "persona": "Launch Night",
+  "subject": "them",
+  "observer": "me",
+  "messages": [
+    {
+      "id": "m0",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "we actually shipped. still waiting for it to feel real",
+      "sent_at": "2026-09-03T18:21:00+02:00"
+    },
+    {
+      "id": "m1",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "it shipped!! i refreshed the deploy page like six times just to watch it say green 🙂",
+      "sent_at": "2026-09-03T18:22:00+02:00"
+    },
+    {
+      "id": "m2",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "green and everything. have you dared to look at the error dashboard yet",
+      "sent_at": "2026-09-03T18:23:00+02:00"
+    },
+    {
+      "id": "m3",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "not since the release notes went out. tomorrow's problem. tonight is a bar problem",
+      "sent_at": "2026-09-03T18:24:00+02:00"
+    },
+    {
+      "id": "m4",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "marta booked the corner table for seven",
+      "sent_at": "2026-09-03T18:25:00+02:00"
+    },
+    {
+      "id": "m5",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "i'm already holding my coat. saving the speech for after the second drink",
+      "sent_at": "2026-09-03T18:26:00+02:00"
+    },
+    {
+      "id": "m6",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "there is going to be a speech",
+      "sent_at": "2026-09-03T18:27:00+02:00"
+    },
+    {
+      "id": "m7",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "a small one. mostly names i'll get wrong and one very serious point about the coffee machine",
+      "sent_at": "2026-09-03T18:28:00+02:00"
+    },
+    {
+      "id": "m8",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "please do not put the coffee machine in the launch speech",
+      "sent_at": "2026-09-03T18:29:00+02:00"
+    },
+    {
+      "id": "m9",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "too late. it's structure now. problem, machine, resolution",
+      "sent_at": "2026-09-03T18:31:00+02:00"
+    },
+    {
+      "id": "m10",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "we're out front, come down whenever",
+      "sent_at": "2026-09-03T20:02:00+02:00"
+    },
+    {
+      "id": "m11",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "walking. if anyone asks, i did not almost deploy to prod on a friday in july 😅",
+      "sent_at": "2026-09-03T20:04:00+02:00"
+    },
+    {
+      "id": "m12",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "atmos says she's pre-ordered you a gin",
+      "sent_at": "2026-09-03T20:05:00+02:00"
+    },
+    {
+      "id": "m13",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "she knows me too well. five minutes",
+      "sent_at": "2026-09-03T20:06:00+02:00"
+    },
+    {
+      "id": "m14",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "morning. i survived the speech and only called the coffee machine by the intern's name once",
+      "sent_at": "2026-09-04T08:57:00+02:00"
+    },
+    {
+      "id": "m15",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "i heard about that from three different people already",
+      "sent_at": "2026-09-04T09:01:00+02:00"
+    },
+    {
+      "id": "m16",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "as long as the version numbers are right nobody gets to judge my appliance names",
+      "sent_at": "2026-09-04T09:02:00+02:00"
+    },
+    {
+      "id": "m17",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "also did marketing ever fix the banner typo, or did we ship that?",
+      "sent_at": "2026-09-04T09:04:00+02:00"
+    },
+    {
+      "id": "m18",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "tom fixed it yesterday, it goes out with tonight's content push",
+      "sent_at": "2026-09-04T09:06:00+02:00"
+    },
+    {
+      "id": "m19",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "good. 'browswer' was starting to feel like a pet",
+      "sent_at": "2026-09-04T09:08:00+02:00"
+    },
+    {
+      "id": "m20",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "you could've flagged it in june like a normal person",
+      "sent_at": "2026-09-04T09:10:00+02:00"
+    },
+    {
+      "id": "m21",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "and miss the satisfaction of it getting fixed at the eleventh hour? never",
+      "sent_at": "2026-09-04T09:12:00+02:00"
+    },
+    {
+      "id": "m22",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "heading into roadmap review — want me to grab a retro slot for thursday?",
+      "sent_at": "2026-09-04T10:41:00+02:00"
+    },
+    {
+      "id": "m23",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "yes please, right after lunch. and cap it at 45 minutes or nobody stays awake",
+      "sent_at": "2026-09-04T10:44:00+02:00"
+    },
+    {
+      "id": "m24",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "deal, invite incoming",
+      "sent_at": "2026-09-04T10:45:00+02:00"
+    },
+    {
+      "id": "m25",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "put 'no laptops' in the description. retro runners of the world, know your power 🙂",
+      "sent_at": "2026-09-04T10:47:00+02:00"
+    },
+    {
+      "id": "m26",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "retro prep: i can take the 'what went wrong' half, want notes duty or the wins?",
+      "sent_at": "2026-09-08T11:12:00+02:00"
+    },
+    {
+      "id": "m27",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "notes for me. i take them fast and my handwriting has an air of authority nobody argues with",
+      "sent_at": "2026-09-08T11:15:00+02:00"
+    },
+    {
+      "id": "m28",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "done. you're also on funnel numbers",
+      "sent_at": "2026-09-08T11:16:00+02:00"
+    },
+    {
+      "id": "m29",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "already pulled — plus the support tag breakdown, which is the only slide anyone will remember",
+      "sent_at": "2026-09-08T11:18:00+02:00"
+    },
+    {
+      "id": "m30",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "marta wants a one-line quote from each of us for the all-hands",
+      "sent_at": "2026-09-08T13:05:00+02:00"
+    },
+    {
+      "id": "m31",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "'we shipped the thing and the thing stayed shipped.' i've been sitting on that for a week",
+      "sent_at": "2026-09-08T13:08:00+02:00"
+    },
+    {
+      "id": "m32",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "honest. i'll take it",
+      "sent_at": "2026-09-08T13:10:00+02:00"
+    },
+    {
+      "id": "m33",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "should we invite priya? she ran the migration and nobody ever invites her to anything",
+      "sent_at": "2026-09-08T13:11:00+02:00"
+    },
+    {
+      "id": "m34",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "yes obviously, adding her now",
+      "sent_at": "2026-09-08T13:13:00+02:00"
+    },
+    {
+      "id": "m35",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "good. agenda: wins, disasters, one lesson, coffee machine tribute. 45 minutes",
+      "sent_at": "2026-09-08T13:14:00+02:00"
+    },
+    {
+      "id": "m36",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "invite sent. priya replied 'about time'",
+      "sent_at": "2026-09-08T15:27:00+02:00"
+    },
+    {
+      "id": "m37",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "then the tribute is partly hers 🙂",
+      "sent_at": "2026-09-08T15:30:00+02:00"
+    }
+  ]
+}

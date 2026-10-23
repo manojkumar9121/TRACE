@@ -1,0 +1,266 @@
+{
+  "persona": "Burst Pipe",
+  "subject": "them",
+  "observer": "me",
+  "messages": [
+    {
+      "id": "m0",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "there's water coming through the ceiling light in the hall. not a drip, more than a drip",
+      "sent_at": "2026-09-02T20:47:00+02:00"
+    },
+    {
+      "id": "m1",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "yeah saw it earlier. towel's down",
+      "sent_at": "2026-09-02T21:15:00+02:00"
+    },
+    {
+      "id": "m2",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "is it still pooling",
+      "sent_at": "2026-09-02T21:16:00+02:00"
+    },
+    {
+      "id": "m3",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "pooling a bit. something behind the toilet",
+      "sent_at": "2026-09-02T21:58:00+02:00"
+    },
+    {
+      "id": "m4",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "calling the emergency line, they want photos of the ceiling and the floor",
+      "sent_at": "2026-09-02T22:00:00+02:00"
+    },
+    {
+      "id": "m5",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "took two, sent them to your email",
+      "sent_at": "2026-09-02T22:03:00+02:00"
+    },
+    {
+      "id": "m6",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "got them. he says shut the mains off",
+      "sent_at": "2026-09-02T22:06:00+02:00"
+    },
+    {
+      "id": "m7",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "done. hall light's dead too now",
+      "sent_at": "2026-09-02T23:04:00+02:00"
+    },
+    {
+      "id": "m8",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "that's the same circuit, normal when it's isolated. don't worry about it tonight",
+      "sent_at": "2026-09-02T23:06:00+02:00"
+    },
+    {
+      "id": "m9",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "k. towels soaked, window's open",
+      "sent_at": "2026-09-02T23:08:00+02:00"
+    },
+    {
+      "id": "m10",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "don't stay up over it. text me if it gets worse",
+      "sent_at": "2026-09-02T23:10:00+02:00"
+    },
+    {
+      "id": "m11",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "stopped now. carpet's wet, ceiling's dry",
+      "sent_at": "2026-09-03T07:58:00+02:00"
+    },
+    {
+      "id": "m12",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "good. plumber can only do friday morning, i'll keep chasing them",
+      "sent_at": "2026-09-03T08:00:00+02:00"
+    },
+    {
+      "id": "m13",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "plumber confirmed friday 9am but wants someone home. can you do it or should we swap?",
+      "sent_at": "2026-09-04T09:12:00+02:00"
+    },
+    {
+      "id": "m14",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "i'll be in, i'm home anyway",
+      "sent_at": "2026-09-04T13:47:00+02:00"
+    },
+    {
+      "id": "m15",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "amazing, i'll tell him. the kitchen tap started dripping too, think it's connected",
+      "sent_at": "2026-09-04T13:49:00+02:00"
+    },
+    {
+      "id": "m16",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "maybe. i'll look at it tonight",
+      "sent_at": "2026-09-04T17:22:00+02:00"
+    },
+    {
+      "id": "m17",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "no rush, it's a drip not a flood",
+      "sent_at": "2026-09-04T17:24:00+02:00"
+    },
+    {
+      "id": "m18",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "k",
+      "sent_at": "2026-09-04T17:26:00+02:00"
+    },
+    {
+      "id": "m19",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "did you end up looking at it",
+      "sent_at": "2026-09-04T20:41:00+02:00"
+    },
+    {
+      "id": "m20",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "it's the washer. ordered one, comes weds",
+      "sent_at": "2026-09-04T22:15:00+02:00"
+    },
+    {
+      "id": "m21",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "nice, five minute fix when it lands",
+      "sent_at": "2026-09-04T22:16:00+02:00"
+    },
+    {
+      "id": "m22",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "i've done one before. kind of",
+      "sent_at": "2026-09-04T22:18:00+02:00"
+    },
+    {
+      "id": "m23",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "i'll supervise from the sofa",
+      "sent_at": "2026-09-04T22:19:00+02:00"
+    },
+    {
+      "id": "m24",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "that's the plan",
+      "sent_at": "2026-09-04T22:21:00+02:00"
+    },
+    {
+      "id": "m25",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "reminder: plumber friday 9am, you're on door duty. also the washer landed",
+      "sent_at": "2026-09-09T16:05:00+02:00"
+    },
+    {
+      "id": "m26",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "ok. ill put the kettle on",
+      "sent_at": "2026-09-09T19:48:00+02:00"
+    },
+    {
+      "id": "m27",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "hero. bring coffee upstairs too, i'm on revision five of this deck",
+      "sent_at": "2026-09-09T19:49:00+02:00"
+    },
+    {
+      "id": "m28",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "k",
+      "sent_at": "2026-09-09T19:51:00+02:00"
+    },
+    {
+      "id": "m29",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "one more thing — he asked if the bathroom tiling is original, no idea on my end",
+      "sent_at": "2026-09-09T20:33:00+02:00"
+    },
+    {
+      "id": "m30",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "all original i think. ask mum, she was there",
+      "sent_at": "2026-09-09T20:34:00+02:00"
+    },
+    {
+      "id": "m31",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "true. i'll text her tonight",
+      "sent_at": "2026-09-09T20:36:00+02:00"
+    },
+    {
+      "id": "m32",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "she says 1987",
+      "sent_at": "2026-09-09T22:02:00+02:00"
+    },
+    {
+      "id": "m33",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "1987, great. friday it is then",
+      "sent_at": "2026-09-09T22:04:00+02:00"
+    },
+    {
+      "id": "m34",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "friday",
+      "sent_at": "2026-09-09T22:05:00+02:00"
+    },
+    {
+      "id": "m35",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "i'll get milk and something for lunch",
+      "sent_at": "2026-09-09T22:06:00+02:00"
+    },
+    {
+      "id": "m36",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "good pastries. not from the corner shop",
+      "sent_at": "2026-09-09T22:07:00+02:00"
+    }
+  ]
+}

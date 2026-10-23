@@ -1,0 +1,26 @@
+{
+  "persona": "p12_plain_typography_no_emoji",
+  "note": "Hand-authored ADVERSARIAL probe. The subject uses NO emoji, but does use plain typographic characters that people type as text: check marks (U+2714), crosses (U+2717), plain stars (U+2605), arrows (U+2192) and a wavy dash (U+3030). A human reading this transcript says 'this person does not use emoji'. The library's emoji detector includes the whole 0x2600-0x27BF dingbat block, so it may report emoji usage that is not there.",
+  "messages": [
+    {"id": "m1", "conversation_id": "c1", "speaker": "me", "text": "can you confirm the checklist is done", "sent_at": "2027-04-05T09:00:00"},
+    {"id": "m2", "conversation_id": "c1", "speaker": "them", "text": "✔ invoices, ✔ signed contract, ✗ insurance form still outstanding", "sent_at": "2027-04-05T09:04:00"},
+    {"id": "m3", "conversation_id": "c1", "speaker": "me", "text": "thanks, I will chase the insurance form", "sent_at": "2027-04-05T09:12:00"},
+    {"id": "m4", "conversation_id": "c1", "speaker": "them", "text": "★ the account is the one we set up in March, not the old one", "sent_at": "2027-04-05T09:15:00"},
+    {"id": "m5", "conversation_id": "c1", "speaker": "me", "text": "noted, I have the details", "sent_at": "2027-04-05T09:20:00"},
+    {"id": "m6", "conversation_id": "c1", "speaker": "them", "text": "✔ good, one less thing to do", "sent_at": "2027-04-05T09:22:00"},
+
+    {"id": "m7", "conversation_id": "c2", "speaker": "me", "text": "which route did you take back", "sent_at": "2027-04-11T18:00:00"},
+    {"id": "m8", "conversation_id": "c2", "speaker": "them", "text": "the long way around → then cut back through the park", "sent_at": "2027-04-11T18:03:00"},
+    {"id": "m9", "conversation_id": "c2", "speaker": "me", "text": "that explains the delay", "sent_at": "2027-04-11T18:07:00"},
+    {"id": "m10", "conversation_id": "c2", "speaker": "them", "text": "✔ traffic was light for once, it was the diversion that did it", "sent_at": "2027-04-11T18:09:00"},
+    {"id": "m11", "conversation_id": "c2", "speaker": "me", "text": "the council's fault for not telling anyone", "sent_at": "2027-04-11T18:14:00"},
+    {"id": "m12", "conversation_id": "c2", "speaker": "them", "text": "✗ as usual, I suppose → one of these things", "sent_at": "2027-04-11T18:16:00"},
+
+    {"id": "m13", "conversation_id": "c3", "speaker": "me", "text": "did the revised figures arrive", "sent_at": "2027-04-19T11:00:00"},
+    {"id": "m14", "conversation_id": "c3", "speaker": "them", "text": "✔ they came through overnight, I have started on the summary", "sent_at": "2027-04-19T11:02:00"},
+    {"id": "m15", "conversation_id": "c3", "speaker": "me", "text": "how does it look", "sent_at": "2027-04-19T11:08:00"},
+    {"id": "m16", "conversation_id": "c3", "speaker": "them", "text": "★ roughly what we expected, the second quarter is a little lower than forecast", "sent_at": "2027-04-19T11:11:00"},
+    {"id": "m17", "conversation_id": "c3", "speaker": "me", "text": "fine, I will take that to the board", "sent_at": "2027-04-19T11:18:00"},
+    {"id": "m18", "conversation_id": "c3", "speaker": "them", "text": "✔ I will send the table over once the formatting is done", "sent_at": "2027-04-19T11:20:00"}
+  ]
+}

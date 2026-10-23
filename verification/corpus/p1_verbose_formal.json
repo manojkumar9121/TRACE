@@ -1,0 +1,34 @@
+{
+  "persona": "p1_verbose_formal",
+  "note": "Hand-authored. Subject writes long formal paragraphs; observer writes short replies.",
+  "messages": [
+    {"id": "m1", "conversation_id": "c1", "speaker": "me", "text": "morning — got two minutes before standup?", "sent_at": "2026-03-02T09:02:00"},
+    {"id": "m2", "conversation_id": "c1", "speaker": "them", "text": "I do, though not for long, because there is one thing I would rather resolve on a call than in a thread: the customer has asked us to hold the current release date, and I do not think that is possible without pulling a second engineer off the billing rewrite, which I know you will not want to do.", "sent_at": "2026-03-02T09:09:00"},
+    {"id": "m3", "conversation_id": "c1", "speaker": "me", "text": "ok but they are a big account", "sent_at": "2026-03-02T09:14:00"},
+    {"id": "m4", "conversation_id": "c1", "speaker": "them", "text": "They are, which is exactly why I would rather negotiate scope than headcount. If we move the integration tests to the following sprint and ship the reporting module alone in March, nobody downstream has to be told the date slipped. If instead we hold the date, we take the rewrite off the critical path and I would rather not do that in the same quarter as the migration.", "sent_at": "2026-03-02T09:22:00"},
+    {"id": "m5", "conversation_id": "c1", "speaker": "me", "text": "that works if qa has capacity", "sent_at": "2026-03-02T09:26:00"},
+    {"id": "m6", "conversation_id": "c1", "speaker": "them", "text": "Then I will ask QA directly this morning, and I will copy you on the answer either way so that nobody is waiting on a decision that has already effectively been made.", "sent_at": "2026-03-02T09:35:00"},
+
+    {"id": "m7", "conversation_id": "c2", "speaker": "them", "text": "Following up on the reporting module, I have written up the two approaches in a short document and I would value your reaction to the second one, which trades a little more build time for a considerably simpler data model that the support team can query without asking engineering for help.", "sent_at": "2026-03-04T10:02:00"},
+    {"id": "m8", "conversation_id": "c2", "speaker": "me", "text": "send it over", "sent_at": "2026-03-04T10:06:00"},
+    {"id": "m9", "conversation_id": "c2", "speaker": "them", "text": "Sent. The short version is that we materialise the daily rollup at write time rather than computing it on read, which means the dashboard is fast but yesterday's numbers are final and cannot be adjusted after the fact — I think that trade is right for a report nobody disputes.", "sent_at": "2026-03-04T10:18:00"},
+    {"id": "m10", "conversation_id": "c2", "speaker": "me", "text": "fine", "sent_at": "2026-03-04T10:21:00"},
+    {"id": "m11", "conversation_id": "c2", "speaker": "them", "text": "There is one more consideration I should flag before you commit: the rollup table will grow by roughly forty thousand rows a day, so somebody will need a retention policy in place before the end of the quarter, otherwise we will be doing a manual cleanup in April and nobody enjoys that.", "sent_at": "2026-03-04T10:40:00"},
+    {"id": "m12", "conversation_id": "c2", "speaker": "me", "text": "who owns that", "sent_at": "2026-03-04T10:44:00"},
+
+    {"id": "m13", "conversation_id": "c3", "speaker": "me", "text": "are we still doing the friday demo", "sent_at": "2026-03-09T14:03:00"},
+    {"id": "m14", "conversation_id": "c3", "speaker": "them", "text": "We are, though I would like to shorten it. The current plan has twenty minutes of implementation detail in front of people who do not need it, and I have seen the audience disengage around the halfway point in the last two of these, so I would rather show the flow, take questions, and keep the schema discussion for the engineering audience separately.", "sent_at": "2026-03-09T14:11:00"},
+    {"id": "m15", "conversation_id": "c3", "speaker": "me", "text": "ok", "sent_at": "2026-03-09T14:14:00"},
+    {"id": "m16", "conversation_id": "c3", "speaker": "them", "text": "I will send an updated agenda this afternoon. If you disagree and want the full technical walkthrough kept, tell me today and I will restructure it, but I would rather assume the shorter version is right.", "sent_at": "2026-03-09T14:30:00"},
+    {"id": "m17", "conversation_id": "c3", "speaker": "me", "text": "shorter is better", "sent_at": "2026-03-09T14:33:00"},
+    {"id": "m18", "conversation_id": "c3", "speaker": "them", "text": "One practical detail on the demo: the environment has the new pricing rules switched off, so I will turn them on myself ten minutes before we start rather than trying to do it live and having something go wrong in front of the customer.", "sent_at": "2026-03-09T14:44:00"},
+
+    {"id": "m19", "conversation_id": "c4", "speaker": "them", "text": "I have been thinking about what happens when this contract ends, because I do not want to be in a position in November where we are making decisions month to month and nobody has a plan. A renewal conversation now, while everything is working, is far less abrasive than the same conversation once the renewal is the only thing standing between us and a cliff edge.", "sent_at": "2026-03-16T09:05:00"},
+    {"id": "m20", "conversation_id": "c4", "speaker": "me", "text": "we can talk about it next month", "sent_at": "2026-03-16T09:09:00"},
+    {"id": "m21", "conversation_id": "c4", "speaker": "them", "text": "We can, and I am not suggesting otherwise. I am only asking that we start thinking about it now, because the number of months that would let us negotiate from a position of strength is finite, and it is much easier to have that conversation while things are good than while a deadline is visible.", "sent_at": "2026-03-16T09:26:00"},
+    {"id": "m22", "conversation_id": "c4", "speaker": "me", "text": "noted", "sent_at": "2026-03-16T09:30:00"},
+    {"id": "m23", "conversation_id": "c4", "speaker": "them", "text": "I have put a note in the shared document so it does not get lost between us. If the timing is wrong I will drop it, but I did not want to raise it only in my own head and then be surprised in October.", "sent_at": "2026-03-16T09:48:00"},
+    {"id": "m24", "conversation_id": "c4", "speaker": "me", "text": "thanks", "sent_at": "2026-03-16T09:52:00"},
+    {"id": "m25", "conversation_id": "c4", "speaker": "them", "text": "One last thing and then I will stop: I have booked the room for the retrospective on the twenty-eighth, and I have asked each of the three of us to bring one example of a decision we would make differently. That is all, no slides.", "sent_at": "2026-03-16T10:15:00"}
+  ]
+}

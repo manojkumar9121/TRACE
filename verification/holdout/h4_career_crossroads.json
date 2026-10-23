@@ -1,0 +1,273 @@
+{
+  "persona": "Career Crossroads",
+  "subject": "them",
+  "observer": "me",
+  "messages": [
+    {
+      "id": "m0",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "i've been turning the lisbon offer over all weekend, and i think the money is good but the work is narrower than what i do now. is that a real step back, or do i just like the sound of my current title?",
+      "sent_at": "2026-09-07T09:23:00+02:00"
+    },
+    {
+      "id": "m1",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "narrow is only a step back if the skills don't travel. what's the actual brief?",
+      "sent_at": "2026-09-07T09:40:00+02:00"
+    },
+    {
+      "id": "m2",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "platform reliability for one product line. good team, three strong engineers, and the roadmap i'd inherit is honestly interesting — but i'd stop touching the parts i built last year",
+      "sent_at": "2026-09-07T10:12:00+02:00"
+    },
+    {
+      "id": "m3",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "and does the offer have a path back to breadth, or is narrow the identity of the role",
+      "sent_at": "2026-09-07T10:15:00+02:00"
+    },
+    {
+      "id": "m4",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "they said breadth comes later, quote, when the platform is boring. i find that phrase appealing and also slightly suspicious",
+      "sent_at": "2026-09-07T10:51:00+02:00"
+    },
+    {
+      "id": "m5",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "suspicious is correct. when they say boring, make them define boring in numbers — error budget, on-call load, scope of the mandate",
+      "sent_at": "2026-09-07T10:53:00+02:00"
+    },
+    {
+      "id": "m6",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "that's the question my gut wanted to ask and my politeness wouldn't let it. i'll ask it thursday",
+      "sent_at": "2026-09-07T11:34:00+02:00"
+    },
+    {
+      "id": "m7",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "good. and don't accept thursday's vibe as an answer, make them point at a metric",
+      "sent_at": "2026-09-07T11:36:00+02:00"
+    },
+    {
+      "id": "m8",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "metric-first it is. unrelated: re-reading my notes from our june session, the 'keep your runway boring and your problems interesting' line hasn't aged a day",
+      "sent_at": "2026-09-07T12:02:00+02:00"
+    },
+    {
+      "id": "m9",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "i unironically stand by that one. save it for thursday's notes",
+      "sent_at": "2026-09-07T12:05:00+02:00"
+    },
+    {
+      "id": "m10",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "will do. one more — does anything ever come up about platform engineers moving the other way, from narrow roles back to product teams?",
+      "sent_at": "2026-09-07T14:26:00+02:00"
+    },
+    {
+      "id": "m11",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "constantly. two this year, and both got more out of it than they expected",
+      "sent_at": "2026-09-07T14:30:00+02:00"
+    },
+    {
+      "id": "m12",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "that settles my bias a little. thursday i'll take notes and report back",
+      "sent_at": "2026-09-07T15:18:00+02:00"
+    },
+    {
+      "id": "m13",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "i'm around until six if the call runs long",
+      "sent_at": "2026-09-07T15:20:00+02:00"
+    },
+    {
+      "id": "m14",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "thinking of you this morning. remember: metric, numbers, and ask for a decision date if they dodge it",
+      "sent_at": "2026-09-10T08:50:00+02:00"
+    },
+    {
+      "id": "m15",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "went in early to rehearse in a meeting room. i'll write everything down so thursday-me can't romanticise anything",
+      "sent_at": "2026-09-10T09:35:00+02:00"
+    },
+    {
+      "id": "m16",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "rehearse the awkward pause too",
+      "sent_at": "2026-09-10T09:37:00+02:00"
+    },
+    {
+      "id": "m17",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "the pause is rehearsed. they flinched at the error-budget question, in a good way — the numbers exist, they just never show them to candidates",
+      "sent_at": "2026-09-10T12:47:00+02:00"
+    },
+    {
+      "id": "m18",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "that's a real answer, not a vibe",
+      "sent_at": "2026-09-10T12:49:00+02:00"
+    },
+    {
+      "id": "m19",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "i'll push on the breadth path next week. also they mentioned the team keeps weekly retro docs candidates can read, which felt honest",
+      "sent_at": "2026-09-10T13:40:00+02:00"
+    },
+    {
+      "id": "m20",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "read them. people's internal writing is the real brochure",
+      "sent_at": "2026-09-10T13:43:00+02:00"
+    },
+    {
+      "id": "m21",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "reading them now. the sentiment halfway through is a little tired, but the specifics are all there — incidents with real post-mortems, not theatre",
+      "sent_at": "2026-09-10T16:22:00+02:00"
+    },
+    {
+      "id": "m22",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "tired-but-specific beats polished-and-empty every time",
+      "sent_at": "2026-09-10T16:24:00+02:00"
+    },
+    {
+      "id": "m23",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "last thing today: if they come back tuesday with a sign-by-friday deadline, is that a pressure tactic or normal ops?",
+      "sent_at": "2026-09-10T16:55:00+02:00"
+    },
+    {
+      "id": "m24",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "normal ops unless it's aggressive for no reason. ask what's driving it",
+      "sent_at": "2026-09-10T16:58:00+02:00"
+    },
+    {
+      "id": "m25",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "will do. talk monday",
+      "sent_at": "2026-09-10T18:12:00+02:00"
+    },
+    {
+      "id": "m26",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "decision time. they came back with the numbers, a slightly better title, and no friday ultimatum after all — the retro docs were right, they run on reality rather than theatre",
+      "sent_at": "2026-09-16T08:05:00+02:00"
+    },
+    {
+      "id": "m27",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "and what did the numbers say about breadth",
+      "sent_at": "2026-09-16T08:20:00+02:00"
+    },
+    {
+      "id": "m28",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "if the platform stays unreliable the mandate grows; if it ever becomes boring, i rotate to the security team for a year. written down, with a name attached",
+      "sent_at": "2026-09-16T09:02:00+02:00"
+    },
+    {
+      "id": "m29",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "then it's a real offer with a real floor",
+      "sent_at": "2026-09-16T09:05:00+02:00"
+    },
+    {
+      "id": "m30",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "i told them i'd sign by monday. i feel strangely calm about it, which is probably information too",
+      "sent_at": "2026-09-16T10:15:00+02:00"
+    },
+    {
+      "id": "m31",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "that calm is the signal. celebrate properly, and send me your first retro once you've started",
+      "sent_at": "2026-09-16T10:18:00+02:00"
+    },
+    {
+      "id": "m32",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "deal. and when the first incident lands, i'll send you the post-mortem as a housewarming gift 🙂",
+      "sent_at": "2026-09-16T11:26:00+02:00"
+    },
+    {
+      "id": "m33",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "a retirement gift, more like. proud of you",
+      "sent_at": "2026-09-16T11:30:00+02:00"
+    },
+    {
+      "id": "m34",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "don't make me sentimental at my desk. one practical thing: when you're next in town in october, dinner is on me",
+      "sent_at": "2026-09-16T11:33:00+02:00"
+    },
+    {
+      "id": "m35",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "october it is. i'll bring the good notebook",
+      "sent_at": "2026-09-16T11:35:00+02:00"
+    },
+    {
+      "id": "m36",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "the leather one. bring it, i intend to steal your method for margin notes",
+      "sent_at": "2026-09-16T14:08:00+02:00"
+    },
+    {
+      "id": "m37",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "the leather one, guarded with my life. see you in lisbon's opposite",
+      "sent_at": "2026-09-16T14:10:00+02:00"
+    }
+  ]
+}

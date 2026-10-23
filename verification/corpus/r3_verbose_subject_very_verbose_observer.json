@@ -1,0 +1,26 @@
+{
+  "persona": "r3_verbose_subject_very_verbose_observer",
+  "note": "Hand-authored RELATIVE-BASELINE probe (pair member 3). Subject messages are the same content as r1/r2 but written out again; the observer here writes very long messages (~150-250 chars). Relative basis predicts ratio ~0.7 => 'moderate' or 'low'. The ABSOLUTE basis would predict 'high' for a ~190-char subject mean. This is the strongest discriminator between the two bases: absolute and relative disagree in OPPOSITE directions between r1 and r3.",
+  "messages": [
+    {"id": "m1", "conversation_id": "c1", "speaker": "me", "text": "I was thinking about the trip, and I wondered whether we could push the dates back by a fortnight to make it less rushed for everyone involved.", "sent_at": "2027-01-08T10:00:00"},
+    {"id": "m2", "conversation_id": "c1", "speaker": "them", "text": "That does make sense to me, honestly. A fortnight would give us more breathing room, and I do not think the booking is quite as fixed as I had been assuming.", "sent_at": "2027-01-08T10:05:00"},
+    {"id": "m3", "conversation_id": "c1", "speaker": "me", "text": "I will look at what the cancellation terms actually are before we commit to anything, just so we both know what it costs us, and then we can decide whether it is worth moving.", "sent_at": "2027-01-08T10:20:00"},
+    {"id": "m4", "conversation_id": "c1", "speaker": "them", "text": "Good idea. My instinct is that the difference is small, but I would rather know the number than guess and then be surprised later on, especially if it turns out to be a seasonal difference.", "sent_at": "2027-01-08T10:26:00"},
+    {"id": "m5", "conversation_id": "c1", "speaker": "me", "text": "I will send you the terms when I have dug them out, probably tomorrow once I have found the original email in the archive.", "sent_at": "2027-01-08T10:31:00"},
+    {"id": "m6", "conversation_id": "c1", "speaker": "them", "text": "No rush at all, and if the numbers are terrible we can always look at the other dates that were mentioned as a fallback option last week.", "sent_at": "2027-01-08T10:38:00"},
+
+    {"id": "m7", "conversation_id": "c2", "speaker": "me", "text": "The hotel said they can move us without any penalty at all, which is better than I expected given how early we originally booked everything.", "sent_at": "2027-01-15T15:00:00"},
+    {"id": "m8", "conversation_id": "c2", "speaker": "them", "text": "That is excellent news. It means we lose nothing by moving, so I will go ahead and rearrange the trains while you sort out the car hire for the new dates.", "sent_at": "2027-01-15T15:04:00"},
+    {"id": "m9", "conversation_id": "c2", "speaker": "me", "text": "I will keep an eye on the dates of the car hire, because the quotes I saw last week have already gone up rather a lot.", "sent_at": "2027-01-15T15:18:00"},
+    {"id": "m10", "conversation_id": "c2", "speaker": "them", "text": "Let us not chase the car hire for now. The train is the more important booking, and if we get that sorted the rest can follow at a more relaxed pace, and there is no point spending a Friday evening comparing quotes.", "sent_at": "2027-01-15T15:25:00"},
+    {"id": "m11", "conversation_id": "c2", "speaker": "me", "text": "That is true, the train prices are going up every week at the moment so that one does need doing before the spring.", "sent_at": "2027-01-15T15:33:00"},
+    {"id": "m12", "conversation_id": "c2", "speaker": "them", "text": "Agreed, I will book the tickets this evening once the new dates are confirmed by the hotel in writing, and then we can see where we stand.", "sent_at": "2027-01-15T15:41:00"},
+
+    {"id": "m13", "conversation_id": "c3", "speaker": "me", "text": "It is booked, the new dates are in the diary and I have sent the confirmation to both of us so nobody is caught out by the old arrangement.", "sent_at": "2027-01-22T09:30:00"},
+    {"id": "m14", "conversation_id": "c3", "speaker": "them", "text": "Brilliant, thank you for taking that on. I will let the others know, and we can look at the restaurant bookings again once the dates have actually shifted, because they were going to charge a fee for the table we had pencilled in.", "sent_at": "2027-01-22T09:36:00"},
+    {"id": "m15", "conversation_id": "c3", "speaker": "me", "text": "Good plan, there is no rush now that the train is sorted out and everything else can follow on from there in the new year.", "sent_at": "2027-01-22T09:50:00"},
+    {"id": "m16", "conversation_id": "c3", "speaker": "them", "text": "I will keep an eye on the prices for the remaining bookings, but I would not lose sleep over it, they will not change dramatically this far out from the date.", "sent_at": "2027-01-22T09:57:00"},
+    {"id": "m17", "conversation_id": "c3", "speaker": "me", "text": "That is reassuring, and I will stop checking the price every single morning if you think that is a reasonable thing to do.", "sent_at": "2027-01-22T10:04:00"},
+    {"id": "m18", "conversation_id": "c3", "speaker": "them", "text": "Please do, refreshing the page does not make the number go down, and I will keep you posted if anything material changes before we travel.", "sent_at": "2027-01-22T10:11:00"}
+  ]
+}

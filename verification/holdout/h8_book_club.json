@@ -1,0 +1,273 @@
+{
+  "persona": "The Salt Ledger",
+  "subject": "them",
+  "observer": "me",
+  "messages": [
+    {
+      "id": "m0",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "finished part one tonight and had to sit in the stairwell for a while. no spoilers about the lighthouse",
+      "sent_at": "2026-09-11T19:20:00+01:00"
+    },
+    {
+      "id": "m1",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "The stairwell is the right reading room for that one. Part one ends the way a tide goes out — you're left standing further from shore than you were, without quite knowing how you got there",
+      "sent_at": "2026-09-12T08:15:00+01:00"
+    },
+    {
+      "id": "m2",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "the ledger-counting scene did it to me",
+      "sent_at": "2026-09-12T08:18:00+01:00"
+    },
+    {
+      "id": "m3",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "That counting is the first time the prose drops its mask. Until then he is performing composure for the reader; the recitation is him speaking to the only listener he still trusts, which is repetition itself",
+      "sent_at": "2026-09-12T10:21:00+01:00"
+    },
+    {
+      "id": "m4",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "repetition itself. the club notes missed all of this by a mile",
+      "sent_at": "2026-09-12T10:24:00+01:00"
+    },
+    {
+      "id": "m5",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "Of course they did — club notes are built for plot traffic, not for what the sentences are doing. Saved for later: does the second part keep the present tense, or does time finally move?",
+      "sent_at": "2026-09-12T12:11:00+01:00"
+    },
+    {
+      "id": "m6",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "present tense holds, except in the letters, which go past. it wrecks your sense of when anything is happening",
+      "sent_at": "2026-09-12T12:14:00+01:00"
+    },
+    {
+      "id": "m7",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "That's the device working, not failing. The letters are the only place he permits a completed past — which tells you exactly where his grief lives",
+      "sent_at": "2026-09-12T14:21:00+01:00"
+    },
+    {
+      "id": "m8",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "right. do i read on tonight or sit with part one for a day first",
+      "sent_at": "2026-09-12T14:24:00+01:00"
+    },
+    {
+      "id": "m9",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "Read on. The second part rewards momentum more than reverence, and its closing page does to the lighthouse what part one did to the tide",
+      "sent_at": "2026-09-12T16:12:00+01:00"
+    },
+    {
+      "id": "m10",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "i'll report back from the stairwell",
+      "sent_at": "2026-09-12T16:15:00+01:00"
+    },
+    {
+      "id": "m11",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "Report from wherever you like — though ring my bell rather than messaging late. Tuesdays and thursdays i'm at my sister's until ten",
+      "sent_at": "2026-09-12T18:32:00+01:00"
+    },
+    {
+      "id": "m12",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "I've started a margin page for you — the appendices cross-reference the ledger entries in ways the club edition cuts entirely. It'll be finished by the weekend",
+      "sent_at": "2026-09-15T18:40:00+01:00"
+    },
+    {
+      "id": "m13",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "take your time. also: the letter on page 208 rearranged my whole reading of the marriage",
+      "sent_at": "2026-09-15T20:12:00+01:00"
+    },
+    {
+      "id": "m14",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "Then the book is doing its work in you. The marriage only becomes legible once you notice she is the sole addressee left in the surviving letters — every other name in the ledger is a transaction",
+      "sent_at": "2026-09-16T08:34:00+01:00"
+    },
+    {
+      "id": "m15",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "every other name is a transaction. that's the sentence the club needs",
+      "sent_at": "2026-09-16T08:37:00+01:00"
+    },
+    {
+      "id": "m16",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "Come to the next one and say it aloud. People polite-argue with printed notes; they rarely know what to do with an actual reading",
+      "sent_at": "2026-09-16T10:12:00+01:00"
+    },
+    {
+      "id": "m17",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "only if you're there to back me up",
+      "sent_at": "2026-09-16T10:19:00+01:00"
+    },
+    {
+      "id": "m18",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "I sit two armchairs from the kettle, you can't miss me. Bring page flags this time — you dog-ear like someone punishing the book for being good",
+      "sent_at": "2026-09-16T10:58:00+01:00"
+    },
+    {
+      "id": "m19",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "the dog-ears are a love language. tuesday then",
+      "sent_at": "2026-09-16T11:02:00+01:00"
+    },
+    {
+      "id": "m20",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "Tuesday. I'll make the coffee before you ask — instant is a compromise, but it's the compromise we've lived with since 2019",
+      "sent_at": "2026-09-16T11:37:00+01:00"
+    },
+    {
+      "id": "m21",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "deal. and no spoilers from the appendices",
+      "sent_at": "2026-09-16T12:05:00+01:00"
+    },
+    {
+      "id": "m22",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "Margin notes are commentary, not prophecy. Though i will admit the appendix on the keepers' rota re-rigged the final chapter for me entirely",
+      "sent_at": "2026-09-16T12:47:00+01:00"
+    },
+    {
+      "id": "m23",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "now saturday feels very far away",
+      "sent_at": "2026-09-16T12:51:00+01:00"
+    },
+    {
+      "id": "m24",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "It always does, eventually. That's the one mercy no appendix can take from us",
+      "sent_at": "2026-09-16T13:33:00+01:00"
+    },
+    {
+      "id": "m25",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "I finished the margin page for your loan — and i hear from the stairwell hour that you've finished the book. Tell me the ending did what the letters promised",
+      "sent_at": "2026-09-20T09:12:00+01:00"
+    },
+    {
+      "id": "m26",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "it did. the whole ending is a reallocation — everything he counted turns out to be a debt",
+      "sent_at": "2026-09-20T09:18:00+01:00"
+    },
+    {
+      "id": "m27",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "Then you've read it right. Nothing resolves; the debts are settled in daylight he never knew was owned. And the niece's silence at the close is deliberate, not an accident of the cutting",
+      "sent_at": "2026-09-20T10:01:00+01:00"
+    },
+    {
+      "id": "m28",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "the silence as the last kindness. i kept waiting for a reveal",
+      "sent_at": "2026-09-20T10:04:00+01:00"
+    },
+    {
+      "id": "m29",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "Everyone the ledger touches ends up keeping the lighthouse in some way. The book is quietly refusing to appoint her",
+      "sent_at": "2026-09-20T10:47:00+01:00"
+    },
+    {
+      "id": "m30",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "who has to carry what — that's the whole thesis",
+      "sent_at": "2026-09-20T10:50:00+01:00"
+    },
+    {
+      "id": "m31",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "Yes, plus its corollary: carrying can be inherited by accident. Save that one for tuesday, it starts the argument you'll want",
+      "sent_at": "2026-09-20T11:33:00+01:00"
+    },
+    {
+      "id": "m32",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "and the appendices will be waiting on your hall table?",
+      "sent_at": "2026-09-20T11:36:00+01:00"
+    },
+    {
+      "id": "m33",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "With the margin page clipped on top. Mind my margins — the shorthand around the rota section defeats even me",
+      "sent_at": "2026-09-20T12:21:00+01:00"
+    },
+    {
+      "id": "m34",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "one thing i couldn't crack: does the niece ever actually see the third ledger?",
+      "sent_at": "2026-09-20T17:41:00+01:00"
+    },
+    {
+      "id": "m35",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "No — and the withholding is the last mercy in it. Anyone who reads the third ledger starts keeping something; hers is the one inheritance the book refuses to arrange",
+      "sent_at": "2026-09-21T08:21:00+01:00"
+    },
+    {
+      "id": "m36",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "the club is getting two arguments on tuesday then, you realise",
+      "sent_at": "2026-09-21T08:24:00+01:00"
+    },
+    {
+      "id": "m37",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "Two is modest. I'm bringing the rota shorthand as a third — see you tuesday",
+      "sent_at": "2026-09-21T09:07:00+01:00"
+    }
+  ]
+}

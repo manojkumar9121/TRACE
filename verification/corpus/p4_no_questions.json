@@ -1,0 +1,32 @@
+{
+  "persona": "p4_no_questions",
+  "note": "Hand-authored. Subject makes statements and rarely asks; the observer asks most of the questions.",
+  "messages": [
+    {"id": "m1", "conversation_id": "c1", "speaker": "me", "text": "what do you want to do about the weekend?", "sent_at": "2026-07-04T10:01:00"},
+    {"id": "m2", "conversation_id": "c1", "speaker": "them", "text": "I will drive down on Friday evening, that should work for everyone.", "sent_at": "2026-07-04T10:05:00"},
+    {"id": "m3", "conversation_id": "c1", "speaker": "me", "text": "should I bring anything?", "sent_at": "2026-07-04T10:09:00"},
+    {"id": "m4", "conversation_id": "c1", "speaker": "them", "text": "Bring the projector, we were going to put the film on the wall.", "sent_at": "2026-07-04T10:12:00"},
+    {"id": "m5", "conversation_id": "c1", "speaker": "me", "text": "how long is the drive?", "sent_at": "2026-07-04T10:16:00"},
+    {"id": "m6", "conversation_id": "c1", "speaker": "them", "text": "About two hours if the ring road is clear, which it never is at that hour.", "sent_at": "2026-07-04T10:19:00"},
+    {"id": "m7", "conversation_id": "c1", "speaker": "me", "text": "ok, I'll leave around six", "sent_at": "2026-07-04T10:24:00"},
+    {"id": "m8", "conversation_id": "c1", "speaker": "them", "text": "Perfect, I will put the kettle on when you get here.", "sent_at": "2026-07-04T10:26:00"},
+
+    {"id": "m9", "conversation_id": "c2", "speaker": "me", "text": "did the invoice go out?", "sent_at": "2026-07-12T15:01:00"},
+    {"id": "m10", "conversation_id": "c2", "speaker": "them", "text": "It went out this morning, and they paid an hour later, which never happens.", "sent_at": "2026-07-12T15:06:00"},
+    {"id": "m11", "conversation_id": "c2", "speaker": "me", "text": "can you send me the receipt?", "sent_at": "2026-07-12T15:10:00"},
+    {"id": "m12", "conversation_id": "c2", "speaker": "them", "text": "Sent, it is in the shared folder as well.", "sent_at": "2026-07-12T15:13:00"},
+    {"id": "m13", "conversation_id": "c2", "speaker": "me", "text": "what should we do with the leftover stock?", "sent_at": "2026-07-12T15:18:00"},
+    {"id": "m14", "conversation_id": "c2", "speaker": "them", "text": "We can hold it over to the autumn sale, it will not spoil.", "sent_at": "2026-07-12T15:22:00"},
+    {"id": "m15", "conversation_id": "c2", "speaker": "me", "text": "fine by me", "sent_at": "2026-07-12T15:26:00"},
+    {"id": "m16", "conversation_id": "c2", "speaker": "them", "text": "I will put a note on the storage room door so nobody opens the boxes.", "sent_at": "2026-07-12T15:28:00"},
+
+    {"id": "m17", "conversation_id": "c3", "speaker": "me", "text": "are we still meeting at the usual place?", "sent_at": "2026-07-19T09:30:00"},
+    {"id": "m18", "conversation_id": "c3", "speaker": "them", "text": "We are, I will be there a bit early to grab a table.", "sent_at": "2026-07-19T09:36:00"},
+    {"id": "m19", "conversation_id": "c3", "speaker": "me", "text": "who else is coming?", "sent_at": "2026-07-19T09:40:00"},
+    {"id": "m20", "conversation_id": "c3", "speaker": "them", "text": "Just the four of us, as far as I know.", "sent_at": "2026-07-19T09:44:00"},
+    {"id": "m21", "conversation_id": "c3", "speaker": "me", "text": "shall we order food when we get there?", "sent_at": "2026-07-19T09:48:00"},
+    {"id": "m22", "conversation_id": "c3", "speaker": "them", "text": "That would be easiest, the menu is enormous and nobody can decide.", "sent_at": "2026-07-19T09:52:00"},
+    {"id": "m23", "conversation_id": "c3", "speaker": "me", "text": "true, ok", "sent_at": "2026-07-19T09:55:00"},
+    {"id": "m24", "conversation_id": "c3", "speaker": "them", "text": "I will get there at half past six then.", "sent_at": "2026-07-19T09:57:00"}
+  ]
+}

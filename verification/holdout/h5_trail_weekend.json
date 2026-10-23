@@ -1,0 +1,301 @@
+{
+  "persona": "Trail Weekend",
+  "subject": "them",
+  "observer": "me",
+  "messages": [
+    {
+      "id": "m0",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "🚴 found it — a loop over the reservoir pass, down into the gorge road, back over the ridge. 62km, 900m up. saturday looks dry!!",
+      "sent_at": "2026-08-21T18:59:00+02:00"
+    },
+    {
+      "id": "m1",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "900?? my legs are still not speaking to me after last time",
+      "sent_at": "2026-08-21T19:01:00+02:00"
+    },
+    {
+      "id": "m2",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "900 is a friendly 900 — one grind, then you coast the whole descent 🚵",
+      "sent_at": "2026-08-21T19:02:00+02:00"
+    },
+    {
+      "id": "m3",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "you say that every single time",
+      "sent_at": "2026-08-21T19:03:00+02:00"
+    },
+    {
+      "id": "m4",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "and i'm always right 🙂 when do you want wheels rolling? i'd say 7:00 to beat the campervans",
+      "sent_at": "2026-08-21T19:04:00+02:00"
+    },
+    {
+      "id": "m5",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "seven is brutal but fine. who's actually in?",
+      "sent_at": "2026-08-21T19:06:00+02:00"
+    },
+    {
+      "id": "m6",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "me, you, and mara says probably — is tomas still up for the long version or is the knee casting a veto?",
+      "sent_at": "2026-08-21T19:07:00+02:00"
+    },
+    {
+      "id": "m7",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "haven't heard from him since the dam. does the high route have water anywhere after that?",
+      "sent_at": "2026-08-21T19:09:00+02:00"
+    },
+    {
+      "id": "m8",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "one tap at km 18 and a spring past the gorge — you carrying two bottles anyway?",
+      "sent_at": "2026-08-21T19:10:00+02:00"
+    },
+    {
+      "id": "m9",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "two bottles and snacks, always",
+      "sent_at": "2026-08-21T19:11:00+02:00"
+    },
+    {
+      "id": "m10",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "smart. i'm fitting the wide tyres tonight, that ridge gravel got sketchy last autumn 🛠️",
+      "sent_at": "2026-08-21T19:13:00+02:00"
+    },
+    {
+      "id": "m11",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "same, and i'll bring the pump with the broken gauge",
+      "sent_at": "2026-08-21T19:14:00+02:00"
+    },
+    {
+      "id": "m12",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "😂 that pump has lied to us twice. meet at the bakery 7:15, bread first, suffering after",
+      "sent_at": "2026-08-21T19:16:00+02:00"
+    },
+    {
+      "id": "m13",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "that's the spirit. sharing the route file to the group chat now",
+      "sent_at": "2026-08-21T19:17:00+02:00"
+    },
+    {
+      "id": "m14",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "☔ well, saturday's gone — steady rain till the afternoon. do we write the week off, or move to the shaded valley loop next saturday?",
+      "sent_at": "2026-08-23T09:02:00+02:00"
+    },
+    {
+      "id": "m15",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "valley loop next saturday. i'm not riding in that",
+      "sent_at": "2026-08-23T09:04:00+02:00"
+    },
+    {
+      "id": "m16",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "mara's driving her sister to the airport that morning, so she's free after. i'd rather eat rain than do a boring valley, but i will survive 🌬️",
+      "sent_at": "2026-08-23T09:06:00+02:00"
+    },
+    {
+      "id": "m17",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "the valley has that bakery with the plum pastry",
+      "sent_at": "2026-08-23T09:08:00+02:00"
+    },
+    {
+      "id": "m18",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "sold. valley loop, next saturday, 10am, no suffering — pastries as the training goal 🥐",
+      "sent_at": "2026-08-23T09:09:00+02:00"
+    },
+    {
+      "id": "m19",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "ten is civilised. what do we do about tomas?",
+      "sent_at": "2026-08-23T09:11:00+02:00"
+    },
+    {
+      "id": "m20",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "knee's still grumbling — should we plan the dam walk for him or let him bail on his own terms?",
+      "sent_at": "2026-08-23T09:13:00+02:00"
+    },
+    {
+      "id": "m21",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "plan the walk. he grumbles but he loves it",
+      "sent_at": "2026-08-23T09:14:00+02:00"
+    },
+    {
+      "id": "m22",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "he'll take 400 photos of the same duck either way, tradition 😄",
+      "sent_at": "2026-08-23T09:16:00+02:00"
+    },
+    {
+      "id": "m23",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "i'll dig out the bike lights anyway, days are getting shorter",
+      "sent_at": "2026-08-23T09:18:00+02:00"
+    },
+    {
+      "id": "m24",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "good call. i'll check the brake pads tonight and swap the back wheel if it's squared off 🔧",
+      "sent_at": "2026-08-23T09:19:00+02:00"
+    },
+    {
+      "id": "m25",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "and pump it properly this time, not with the lying pump",
+      "sent_at": "2026-08-23T09:21:00+02:00"
+    },
+    {
+      "id": "m26",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "the lying pump stays home forever. i bought the little digital one in june 🎉",
+      "sent_at": "2026-08-23T09:23:00+02:00"
+    },
+    {
+      "id": "m27",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "packing check for tomorrow!! layers for 12 degrees at the start, warm at the top. i've got the flask, the salt tablets and a spare tube — you take the pump, mara has the snacks gig",
+      "sent_at": "2026-08-28T21:10:00+02:00"
+    },
+    {
+      "id": "m28",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "snacks gig accepted. meeting point still the bakery?",
+      "sent_at": "2026-08-28T21:12:00+02:00"
+    },
+    {
+      "id": "m29",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "yes, wheels roll at 10 — does 9:50 arrival work for you?",
+      "sent_at": "2026-08-28T21:13:00+02:00"
+    },
+    {
+      "id": "m30",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "9:45 for me, bike already loaded",
+      "sent_at": "2026-08-28T21:15:00+02:00"
+    },
+    {
+      "id": "m31",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "over-prepared as usual 😄 route file is shared — the tricky bit is the gravel by the fish farm, walk it if it's loose, no shoulder gambles",
+      "sent_at": "2026-08-28T21:16:00+02:00"
+    },
+    {
+      "id": "m32",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "walking it, my shoulder thanks you in advance",
+      "sent_at": "2026-08-28T21:18:00+02:00"
+    },
+    {
+      "id": "m33",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "we finish at the lake around 3, where tomas will be waiting, insufferably smug about his duck census 🦆",
+      "sent_at": "2026-08-28T21:20:00+02:00"
+    },
+    {
+      "id": "m34",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "ha, classic. i'm off to sleep, big day",
+      "sent_at": "2026-08-28T21:21:00+02:00"
+    },
+    {
+      "id": "m35",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "night!! golden saturday incoming 🌅",
+      "sent_at": "2026-08-28T21:22:00+02:00"
+    },
+    {
+      "id": "m36",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "forecast still holding for tomorrow?",
+      "sent_at": "2026-08-28T21:24:00+02:00"
+    },
+    {
+      "id": "m37",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "rain stays east of the ridge until sunday. mara just wrote 'do not let them make me climb anything dangerous' — are we outnumbered or what 😂",
+      "sent_at": "2026-08-28T21:25:00+02:00"
+    },
+    {
+      "id": "m38",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "democracy. valley loop stands",
+      "sent_at": "2026-08-28T21:27:00+02:00"
+    },
+    {
+      "id": "m39",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "valley loop forever. the toilet stop at the dam café is in the route file, so nobody can heroically skip it",
+      "sent_at": "2026-08-28T21:28:00+02:00"
+    },
+    {
+      "id": "m40",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "heroic skipping cancelled then",
+      "sent_at": "2026-08-28T21:30:00+02:00"
+    },
+    {
+      "id": "m41",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "exactly. last thing before i sleep — do you have mara's new number? she never answers the old one 📱",
+      "sent_at": "2026-08-28T21:31:00+02:00"
+    }
+  ]
+}

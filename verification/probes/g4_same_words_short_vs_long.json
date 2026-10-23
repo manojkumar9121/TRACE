@@ -1,0 +1,37 @@
+{
+  "persona": "g4_same_words_short_vs_long",
+  "note": "Hand-authored ADVERSARIAL micro-probe for the vocabulary dimension. The subject uses EXACTLY THE SAME 18-word vocabulary in both conversations. In c1 the same words are strung into long messages (low type-token ratio); in c2 each short message uses different words (high type-token ratio). Nothing about the person's vocabulary changes — only how long their messages are. Ground truth: the band must be the SAME in both, because the vocabulary is the same. A length-driven band gives 'low' for c1 and 'high' for c2.",
+  "messages": [
+    {"id": "m1", "conversation_id": "c1", "speaker": "me", "text": "how is the project going", "sent_at": "2027-06-01T10:00:00"},
+    {"id": "m2", "conversation_id": "c1", "speaker": "them", "text": "the project is going reasonably well and the team have worked hard on the difficult parts of the project that everyone said would be difficult", "sent_at": "2027-06-01T10:05:00"},
+    {"id": "m3", "conversation_id": "c1", "speaker": "me", "text": "and the difficult parts", "sent_at": "2027-06-01T10:12:00"},
+    {"id": "m4", "conversation_id": "c1", "speaker": "them", "text": "the difficult parts are difficult but the team have really worked hard on the difficult parts of the project and the difficult parts are getting done", "sent_at": "2027-06-01T10:15:00"},
+    {"id": "m5", "conversation_id": "c1", "speaker": "me", "text": "when do you think it will be done", "sent_at": "2027-06-01T10:20:00"},
+    {"id": "m6", "conversation_id": "c1", "speaker": "them", "text": "the team think the project will be done reasonably soon and the difficult parts of the project are nearly finished", "sent_at": "2027-06-01T10:23:00"},
+    {"id": "m7", "conversation_id": "c1", "speaker": "me", "text": "any worries", "sent_at": "2027-06-01T10:28:00"},
+    {"id": "m8", "conversation_id": "c1", "speaker": "them", "text": "no real worries, the project is going well and the team have worked hard and the difficult parts are nearly done", "sent_at": "2027-06-01T10:31:00"},
+    {"id": "m9", "conversation_id": "c1", "speaker": "me", "text": "good, I will tell them it is on track", "sent_at": "2027-06-01T10:36:00"},
+    {"id": "m10", "conversation_id": "c1", "speaker": "them", "text": "the team will be glad of that, it has been hard work and the difficult parts of the project were always going to be difficult", "sent_at": "2027-06-01T10:39:00"},
+    {"id": "m11", "conversation_id": "c1", "speaker": "me", "text": "and they know that", "sent_at": "2027-06-01T10:44:00"},
+    {"id": "m12", "conversation_id": "c1", "speaker": "them", "text": "the team know, and they have really worked hard on the difficult parts of the project that everyone said would be difficult", "sent_at": "2027-06-01T10:47:00"},
+    {"id": "m13", "conversation_id": "c1", "speaker": "me", "text": "that is what I would expect", "sent_at": "2027-06-01T10:52:00"},
+    {"id": "m14", "conversation_id": "c1", "speaker": "them", "text": "the team have worked hard and the project is going reasonably well and the difficult parts are nearly finished", "sent_at": "2027-06-01T10:55:00"},
+
+    {"id": "m15", "conversation_id": "c2", "speaker": "me", "text": "now the same vocabulary in short form", "sent_at": "2027-06-08T10:00:00"},
+    {"id": "m16", "conversation_id": "c2", "speaker": "them", "text": "project reasonably well", "sent_at": "2027-06-08T10:05:00"},
+    {"id": "m17", "conversation_id": "c2", "speaker": "me", "text": "and the team", "sent_at": "2027-06-08T10:12:00"},
+    {"id": "m18", "conversation_id": "c2", "speaker": "them", "text": "hard working indeed", "sent_at": "2027-06-08T10:15:00"},
+    {"id": "m19", "conversation_id": "c2", "speaker": "me", "text": "the difficult parts", "sent_at": "2027-06-08T10:20:00"},
+    {"id": "m20", "conversation_id": "c2", "speaker": "them", "text": "really quite difficult", "sent_at": "2027-06-08T10:23:00"},
+    {"id": "m21", "conversation_id": "c2", "speaker": "me", "text": "any worries", "sent_at": "2027-06-08T10:28:00"},
+    {"id": "m22", "conversation_id": "c2", "speaker": "them", "text": "getting concerned honestly", "sent_at": "2027-06-08T10:31:00"},
+    {"id": "m23", "conversation_id": "c2", "speaker": "me", "text": "when will it be finished", "sent_at": "2027-06-08T10:36:00"},
+    {"id": "m24", "conversation_id": "c2", "speaker": "them", "text": "quite soon probably", "sent_at": "2027-06-08T10:39:00"},
+    {"id": "m25", "conversation_id": "c2", "speaker": "me", "text": "glad it is going well", "sent_at": "2027-06-08T10:44:00"},
+    {"id": "m26", "conversation_id": "c2", "speaker": "them", "text": "finish really well indeed", "sent_at": "2027-06-08T10:47:00"},
+    {"id": "m27", "conversation_id": "c2", "speaker": "me", "text": "anything else to report", "sent_at": "2027-06-08T10:52:00"},
+    {"id": "m28", "conversation_id": "c2", "speaker": "them", "text": "nothing much really", "sent_at": "2027-06-08T10:55:00"},
+    {"id": "m29", "conversation_id": "c2", "speaker": "me", "text": "good to hear", "sent_at": "2027-06-08T11:00:00"},
+    {"id": "m30", "conversation_id": "c2", "speaker": "them", "text": "thanks very much", "sent_at": "2027-06-08T11:03:00"}
+  ]
+}

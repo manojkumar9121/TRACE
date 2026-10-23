@@ -1,0 +1,91 @@
+G-14 HELD-OUT RUN (frozen labels, AI-authored, disclosed)
+  labels sha256: ff0f1164164d633d…
+  verdict tally: {'WRONG-BAND': 18, 'MATCH': 29, 'MISMATCH': 1}
+  graded rows (47): agreement 0.5957
+  withheld rows (1): agreement 1.0
+  overall: 0.6042 over 48 labelled rows
+
+=== h1_launch_night ===
+  Response length  frozen=moderate   (74.3500)  measured=high                   (74.3500)  [WRONG-BAND]  <<< WRONG-BAND
+      value 74.3500 matches the planted statistic, but the band is 'high' where the planted truth is 'moderate'
+  Emoji usage      frozen=moderate   (0.2000)  measured=moderate               (0.2000)  [MATCH]
+  Questions        frozen=low        (0.1500)  measured=moderate               (0.1500)  [WRONG-BAND]  <<< WRONG-BAND
+      value 0.1500 matches the planted statistic, but the band is 'moderate' where the planted truth is 'low'
+  Initiation       frozen=low        (0.3333)  measured=moderate               (0.3333)  [WRONG-BAND]  <<< WRONG-BAND
+      value 0.3333 matches the planted statistic, but the band is 'moderate' where the planted truth is 'low'
+  Reply latency    frozen=low        (2.0000)  measured=low                    (2.0000)  [MATCH]
+  Vocabulary       frozen=moderate   (0.8104)  measured=high                   (0.8104)  [WRONG-BAND]  <<< WRONG-BAND
+      value 0.8104 matches the planted statistic, but the band is 'high' where the planted truth is 'moderate'
+
+=== h2_two_cities ===
+  Response length  frozen=high       (142.4286)  measured=high                   (142.4286)  [MATCH]
+  Emoji usage      frozen=low        (0.0000)  measured=low                    (0.0000)  [MATCH]
+  Questions        frozen=high       (0.4286)  measured=high                   (0.4286)  [MATCH]
+  Initiation       frozen=high       (1.0000)  measured=high                   (1.0000)  [MATCH]
+  Reply latency    frozen=moderate   (14.0000)  measured=moderate               (14.0000)  [MATCH]
+  Vocabulary       frozen=high       (0.7945)  measured=moderate               (0.7945)  [WRONG-BAND]  <<< WRONG-BAND
+      value 0.7945 matches the planted statistic, but the band is 'moderate' where the planted truth is 'high'
+
+=== h3_burst_pipe ===
+  Response length  frozen=low        (29.8750)  measured=low                    (29.8750)  [MATCH]
+  Emoji usage      frozen=low        (0.0000)  measured=low                    (0.0000)  [MATCH]
+  Questions        frozen=low        (0.0000)  measured=low                    (0.0000)  [MATCH]
+  Initiation       frozen=low        (0.0000)  measured=low                    (0.0000)  [MATCH]
+  Reply latency    frozen=high       (15.5000)  measured=moderate               (15.5000)  [WRONG-BAND]  <<< WRONG-BAND
+      value 15.5000 matches the planted statistic, but the band is 'moderate' where the planted truth is 'high'
+  Vocabulary       frozen=insufficient_evidence (None)  measured=insufficient_evidence  (None)  [MATCH]
+      the planted truth also reads this corpus as too small for this dimension
+
+=== h4_career_crossroads ===
+  Response length  frozen=moderate   (123.1053)  measured=high                   (123.1053)  [WRONG-BAND]  <<< WRONG-BAND
+      value 123.1053 matches the planted statistic, but the band is 'high' where the planted truth is 'moderate'
+  Emoji usage      frozen=low        (0.0526)  measured=low                    (0.0526)  [MATCH]
+  Questions        frozen=moderate   (0.1579)  measured=moderate               (0.1579)  [MATCH]
+  Initiation       frozen=moderate   (0.6667)  measured=high                   (0.6667)  [WRONG-BAND]  <<< WRONG-BAND
+      value 0.6667 matches the planted statistic, but the band is 'high' where the planted truth is 'moderate'
+  Reply latency    frozen=moderate   (48.0000)  measured=moderate               (48.0000)  [MATCH]
+  Vocabulary       frozen=high       (0.7935)  measured=moderate               (0.7935)  [WRONG-BAND]  <<< WRONG-BAND
+      value 0.7935 matches the planted statistic, but the band is 'moderate' where the planted truth is 'high'
+
+=== h5_trail_weekend ===
+  Response length  frozen=moderate   (99.0909)  measured=high                   (99.0909)  [WRONG-BAND]  <<< WRONG-BAND
+      value 99.0909 matches the planted statistic, but the band is 'high' where the planted truth is 'moderate'
+  Emoji usage      frozen=high       (0.7273)  measured=high                   (0.6364)  [MISMATCH]  <<< MISMATCH
+      band 'high' matches, but the reported value 0.6364 disagrees with the planted statistic 0.7272727272727273
+  Questions        frozen=high       (0.3182)  measured=moderate               (0.3182)  [WRONG-BAND]  <<< WRONG-BAND
+      value 0.3182 matches the planted statistic, but the band is 'moderate' where the planted truth is 'high'
+  Initiation       frozen=high       (1.0000)  measured=high                   (1.0000)  [MATCH]
+  Reply latency    frozen=low        (1.0000)  measured=low                    (1.0000)  [MATCH]
+  Vocabulary       frozen=high       (0.8227)  measured=high                   (0.8227)  [MATCH]
+
+=== h6_mums_seventieth ===
+  Response length  frozen=low        (59.0000)  measured=moderate               (59.0000)  [WRONG-BAND]  <<< WRONG-BAND
+      value 59.0000 matches the planted statistic, but the band is 'moderate' where the planted truth is 'low'
+  Emoji usage      frozen=moderate   (0.1905)  measured=moderate               (0.1905)  [MATCH]
+  Questions        frozen=moderate   (0.1429)  measured=moderate               (0.1429)  [MATCH]
+  Initiation       frozen=moderate   (0.6667)  measured=high                   (0.6667)  [WRONG-BAND]  <<< WRONG-BAND
+      value 0.6667 matches the planted statistic, but the band is 'high' where the planted truth is 'moderate'
+  Reply latency    frozen=high       (158.0000)  measured=high                   (158.0000)  [MATCH]
+  Vocabulary       frozen=moderate   (0.8015)  measured=high                   (0.8015)  [WRONG-BAND]  <<< WRONG-BAND
+      value 0.8015 matches the planted statistic, but the band is 'high' where the planted truth is 'moderate'
+
+=== h7_overdue_invoice ===
+  Response length  frozen=moderate   (125.0952)  measured=high                   (125.0952)  [WRONG-BAND]  <<< WRONG-BAND
+      value 125.0952 matches the planted statistic, but the band is 'high' where the planted truth is 'moderate'
+  Emoji usage      frozen=low        (0.0000)  measured=low                    (0.0000)  [MATCH]
+  Questions        frozen=moderate   (0.2381)  measured=moderate               (0.2381)  [MATCH]
+  Initiation       frozen=high       (1.0000)  measured=high                   (1.0000)  [MATCH]
+  Reply latency    frozen=moderate   (36.5000)  measured=moderate               (36.5000)  [MATCH]
+  Vocabulary       frozen=moderate   (0.8180)  measured=high                   (0.8180)  [WRONG-BAND]  <<< WRONG-BAND
+      value 0.8180 matches the planted statistic, but the band is 'high' where the planted truth is 'moderate'
+
+=== h8_book_club ===
+  Response length  frozen=high       (144.5500)  measured=high                   (144.5500)  [MATCH]
+  Emoji usage      frozen=low        (0.0000)  measured=low                    (0.0000)  [MATCH]
+  Questions        frozen=low        (0.0500)  measured=low                    (0.0500)  [MATCH]
+  Initiation       frozen=moderate   (0.6667)  measured=high                   (0.6667)  [WRONG-BAND]  <<< WRONG-BAND
+      value 0.6667 matches the planted statistic, but the band is 'high' where the planted truth is 'moderate'
+  Reply latency    frozen=high       (70.0000)  measured=high                   (70.0000)  [MATCH]
+  Vocabulary       frozen=high       (0.7962)  measured=moderate               (0.7962)  [WRONG-BAND]  <<< WRONG-BAND
+      value 0.7962 matches the planted statistic, but the band is 'moderate' where the planted truth is 'high'
+

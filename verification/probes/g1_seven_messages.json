@@ -1,0 +1,22 @@
+{
+  "persona": "g1_seven_messages",
+  "note": "Hand-authored GATE probe. The subject sends exactly 7 messages (MIN_SAMPLE is 8). Spread over 3 conversations so the conversation-count gate is satisfied. Expect: insufficient_evidence on every gated dimension, per DM-005.5/DM-005.6.",
+  "messages": [
+    {"id": "m1", "conversation_id": "c1", "speaker": "me", "text": "are you still up for the thing on thursday?", "sent_at": "2027-02-10T20:00:00"},
+    {"id": "m2", "conversation_id": "c1", "speaker": "them", "text": "yes definitely, I have not booked anything else yet", "sent_at": "2027-02-10T20:03:00"},
+    {"id": "m3", "conversation_id": "c1", "speaker": "me", "text": "great, I will let everyone know the time", "sent_at": "2027-02-10T20:06:00"},
+    {"id": "m4", "conversation_id": "c1", "speaker": "them", "text": "sounds good, see you then", "sent_at": "2027-02-10T20:08:00"},
+
+    {"id": "m5", "conversation_id": "c2", "speaker": "me", "text": "did the parts arrive for the bike", "sent_at": "2027-02-12T18:00:00"},
+    {"id": "m6", "conversation_id": "c2", "speaker": "them", "text": "they did, they are in the shed behind the mower", "sent_at": "2027-02-12T18:04:00"},
+    {"id": "m7", "conversation_id": "c2", "speaker": "me", "text": "perfect, I will fit them on saturday morning", "sent_at": "2027-02-12T18:07:00"},
+    {"id": "m8", "conversation_id": "c2", "speaker": "them", "text": "that works, the side stand needs oiling while you are in there", "sent_at": "2027-02-12T18:11:00"},
+
+    {"id": "m9", "conversation_id": "c3", "speaker": "me", "text": "what time does the train leave", "sent_at": "2027-02-14T09:00:00"},
+    {"id": "m10", "conversation_id": "c3", "speaker": "them", "text": "half seven I think, I will double check when I get home", "sent_at": "2027-02-14T09:05:00"},
+    {"id": "m11", "conversation_id": "c3", "speaker": "me", "text": "thanks, I will aim to be there for quarter to seven", "sent_at": "2027-02-14T09:09:00"},
+    {"id": "m12", "conversation_id": "c3", "speaker": "them", "text": "that gives us plenty of time, the platform is the far end", "sent_at": "2027-02-14T09:12:00"},
+    {"id": "m13", "conversation_id": "c3", "speaker": "me", "text": "fine, I will find a seat near the front instead", "sent_at": "2027-02-14T09:15:00"},
+    {"id": "m14", "conversation_id": "c3", "speaker": "them", "text": "I will text you when I am on, my phone battery is nearly flat", "sent_at": "2027-02-14T09:18:00"}
+  ]
+}

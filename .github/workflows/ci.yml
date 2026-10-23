@@ -1,0 +1,35 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: install
+        run: python -m pip install -e ".[dev]"
+      - name: lint
+        run: python -m ruff check .
+      - name: typecheck
+        run: python -m mypy src/ --strict
+      - name: tests (non-live)
+        run: |
+          PYTHONPATH=src python -m pytest tests/ -q \
+            --ignore=tests/test_temporal_live.py \
+            --ignore=tests/test_perception_live.py
+      - name: planted verification + golden snapshot
+        run: |
+          PYTHONPATH=src python verification/run_verification.py | tail -5
+          python verification/golden_fixtures.py
+      - name: held-out run (frozen labels)
+        run: PYTHONPATH=src python verification/run_verification.py --holdout | head -8

@@ -1,0 +1,26 @@
+{
+  "persona": "p10_fast_subject_slow_observer",
+  "note": "Hand-authored ADVERSARIAL probe. The subject replies within 10-40 seconds of every observer message (true reply latency = seconds, i.e. 'fast'), but the observer itself takes 5-9 hours to reply to the subject. This separates 'how long THEY take to reply' from 'the interval between two of their own messages'. Ground truth: subject is a FAST replier.",
+  "messages": [
+    {"id": "m1", "conversation_id": "c1", "speaker": "me", "text": "are you free for a coffee tomorrow?", "sent_at": "2026-12-16T10:00:00"},
+    {"id": "m2", "conversation_id": "c1", "speaker": "them", "text": "yes definitely, what time works for you?", "sent_at": "2026-12-16T10:00:25"},
+    {"id": "m3", "conversation_id": "c1", "speaker": "me", "text": "nine o'clock is good for me", "sent_at": "2026-12-16T18:30:00"},
+    {"id": "m4", "conversation_id": "c1", "speaker": "them", "text": "great, I will grab a table for nine", "sent_at": "2026-12-16T18:30:20"},
+    {"id": "m5", "conversation_id": "c1", "speaker": "me", "text": "I will meet you there", "sent_at": "2026-12-17T07:15:00"},
+    {"id": "m6", "conversation_id": "c1", "speaker": "them", "text": "looking forward to it", "sent_at": "2026-12-17T07:15:18"},
+
+    {"id": "m7", "conversation_id": "c2", "speaker": "me", "text": "did you get the details for the weekend", "sent_at": "2026-12-20T14:00:00"},
+    {"id": "m8", "conversation_id": "c2", "speaker": "them", "text": "yes, I have them, do you want me to send them again?", "sent_at": "2026-12-20T14:00:12"},
+    {"id": "m9", "conversation_id": "c2", "speaker": "me", "text": "no need, I found the email", "sent_at": "2026-12-20T22:45:00"},
+    {"id": "m10", "conversation_id": "c2", "speaker": "them", "text": "ok good, I will leave it with you then", "sent_at": "2026-12-20T22:45:30"},
+    {"id": "m11", "conversation_id": "c2", "speaker": "me", "text": "thanks, see you then", "sent_at": "2026-12-21T06:00:00"},
+    {"id": "m12", "conversation_id": "c2", "speaker": "them", "text": "see you, sleep well", "sent_at": "2026-12-21T06:00:15"},
+
+    {"id": "m13", "conversation_id": "c3", "speaker": "me", "text": "one more thing about the deposit", "sent_at": "2026-12-23T09:30:00"},
+    {"id": "m14", "conversation_id": "c3", "speaker": "them", "text": "go on, what about it", "sent_at": "2026-12-23T09:30:09"},
+    {"id": "m15", "conversation_id": "c3", "speaker": "me", "text": "I think we should just pay it and move on", "sent_at": "2026-12-23T17:00:00"},
+    {"id": "m16", "conversation_id": "c3", "speaker": "them", "text": "yes I agree, it is not worth the stress", "sent_at": "2026-12-23T17:00:20"},
+    {"id": "m17", "conversation_id": "c3", "speaker": "me", "text": "I will transfer it in the morning", "sent_at": "2026-12-24T08:10:00"},
+    {"id": "m18", "conversation_id": "c3", "speaker": "them", "text": "let me know when it has gone through", "sent_at": "2026-12-24T08:10:35"}
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "persona": "p11_fast_subject_slow_observer_padded",
+  "note": "Hand-authored ADVERSARIAL probe. Same design as p10 (subject replies in 10-40 seconds; observer takes 5-9 hours to reply) but with enough subject messages that the library's reply-latency gate PASSES, so it reports a band rather than insufficient_evidence. Ground truth: the subject's reply latency is ~20 seconds => 'low'. If the library reports 'high', it is measuring the gap between two of the SUBJECT's own messages (which is dominated by the observer's silence), not how long the subject took to reply.",
+  "messages": [
+    {"id": "m1", "conversation_id": "c1", "speaker": "me", "text": "are you free for a coffee tomorrow?", "sent_at": "2027-03-01T10:00:00"},
+    {"id": "m2", "conversation_id": "c1", "speaker": "them", "text": "yes definitely, what time works for you?", "sent_at": "2027-03-01T10:00:20"},
+    {"id": "m3", "conversation_id": "c1", "speaker": "me", "text": "nine o'clock is good for me", "sent_at": "2027-03-01T18:30:00"},
+    {"id": "m4", "conversation_id": "c1", "speaker": "them", "text": "great, I will grab a table for nine", "sent_at": "2027-03-01T18:30:15"},
+    {"id": "m5", "conversation_id": "c1", "speaker": "me", "text": "I will meet you there", "sent_at": "2027-03-02T07:15:00"},
+    {"id": "m6", "conversation_id": "c1", "speaker": "them", "text": "looking forward to it", "sent_at": "2027-03-02T07:15:30"},
+    {"id": "m7", "conversation_id": "c1", "speaker": "me", "text": "same place as last time?", "sent_at": "2027-03-02T16:40:00"},
+    {"id": "m8", "conversation_id": "c1", "speaker": "them", "text": "yes, the one by the station entrance", "sent_at": "2027-03-02T16:40:10"},
+
+    {"id": "m9", "conversation_id": "c2", "speaker": "me", "text": "did you get the details for the weekend", "sent_at": "2027-03-04T14:00:00"},
+    {"id": "m10", "conversation_id": "c2", "speaker": "them", "text": "yes, I have them, do you want me to send them again?", "sent_at": "2027-03-04T14:00:25"},
+    {"id": "m11", "conversation_id": "c2", "speaker": "me", "text": "no need, I found the email", "sent_at": "2027-03-04T22:45:00"},
+    {"id": "m12", "conversation_id": "c2", "speaker": "them", "text": "ok good, I will leave it with you then", "sent_at": "2027-03-04T22:45:15"},
+    {"id": "m13", "conversation_id": "c2", "speaker": "me", "text": "thanks, see you then", "sent_at": "2027-03-05T06:00:00"},
+    {"id": "m14", "conversation_id": "c2", "speaker": "them", "text": "see you, sleep well", "sent_at": "2027-03-05T06:00:35"},
+    {"id": "m15", "conversation_id": "c2", "speaker": "me", "text": "will do, what is the address again", "sent_at": "2027-03-05T15:20:00"},
+    {"id": "m16", "conversation_id": "c2", "speaker": "them", "text": "the old mill on Bridge Street, I will send the pin", "sent_at": "2027-03-05T15:20:18"},
+
+    {"id": "m17", "conversation_id": "c3", "speaker": "me", "text": "one more thing about the deposit", "sent_at": "2027-03-07T09:30:00"},
+    {"id": "m18", "conversation_id": "c3", "speaker": "them", "text": "go on, what about it", "sent_at": "2027-03-07T09:30:12"},
+    {"id": "m19", "conversation_id": "c3", "speaker": "me", "text": "I think we should just pay it and move on", "sent_at": "2027-03-07T17:00:00"},
+    {"id": "m20", "conversation_id": "c3", "speaker": "them", "text": "yes I agree, it is not worth the stress", "sent_at": "2027-03-07T17:00:22"},
+    {"id": "m21", "conversation_id": "c3", "speaker": "me", "text": "I will transfer it in the morning", "sent_at": "2027-03-08T08:10:00"},
+    {"id": "m22", "conversation_id": "c3", "speaker": "them", "text": "let me know when it has gone through", "sent_at": "2027-03-08T08:10:30"},
+    {"id": "m23", "conversation_id": "c3", "speaker": "me", "text": "will do, should I forward you the receipt as well", "sent_at": "2027-03-08T19:45:00"},
+    {"id": "m24", "conversation_id": "c3", "speaker": "them", "text": "yes please, that would be helpful for the file", "sent_at": "2027-03-08T19:45:14"}
+  ]
+}

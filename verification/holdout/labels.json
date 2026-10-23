@@ -1,0 +1,115 @@
+{
+  "provenance": {
+    "authored_by": "independent AI agent (separate session, no access to the system under test)",
+    "frozen_at": "2026-10-23T15:55:00+00:00",
+    "method": "I authored eight chat corpora from scratch around fixed themes, varying one profiled speaker's habits across corpora (message length, emoji, questions, thread-starting, reply timing, word choice) while keeping each corpus internally consistent. No implementation, threshold, or repository code was read; each label is what I would say as a careful human reader perusing the transcript with its timestamps. Bands were chosen per the given vocabulary, with insufficient_evidence reserved for the corpus whose profiled speaker wrote too little to judge vocabulary.",
+    "disclosure": "corpora and labels are AI-authored and disclosed as such; no thresholds of any implementation were available to the author",
+    "band_vocabulary": ["low", "moderate", "high", "insufficient_evidence"]
+  },
+  "corpora": {
+    "h1_launch_night": {
+      "corpus_sha256": "3269efd86e4d70fc36326d075f6278557c36612d5d5624a3da9e1ddbef033b18",
+      "persona": "Launch Night",
+      "summary": "A chatty colleague unwinding after launch day: quick, playful, mostly statement-led lines with a light sprinkling of emoji.",
+      "dimensions": {
+        "Response length": {"band": "moderate", "why": "Most of their messages run ten to twenty words with a few longer riffs; ordinary chat length, neither clipped nor essay-like."},
+        "Emoji usage": {"band": "moderate", "why": "A smiley or grin appears in roughly one message in five across all three chats — present and habitual, but never dense."},
+        "Questions": {"band": "low", "why": "Almost everything is a statement or a tease; over three conversations they ask only two direct questions (the banner typo, inviting priya)."},
+        "Initiation": {"band": "low", "why": "They opened only one of the three conversations — the morning-after check-in; the other two begin with my messages."},
+        "Reply latency": {"band": "low", "why": "Every reply that actually answers lands one to three minutes after my message, evening or morning alike."},
+        "Vocabulary": {"band": "moderate", "why": "Casual but varied everyday register with a few workplace turns ('support tag breakdown', 'version numbers'); nothing repetitive, nothing showy."}
+      }
+    },
+    "h2_two_cities": {
+      "corpus_sha256": "27e4fdba035e895b6b6dc03198e73eccfc2ad45cd32cb995d5706b21668e2c42",
+      "persona": "Two Cities",
+      "summary": "A warm long-distance friend who plans in whole paragraphs, asks constantly, and never touches an emoji.",
+      "dimensions": {
+        "Response length": {"band": "high", "why": "Nearly every message is a full reflection or mini-itinerary of twenty to fifty words, launched even as a conversation opener."},
+        "Emoji usage": {"band": "low", "why": "Not a single emoji or emoticon appears anywhere in their messages across the three conversations."},
+        "Questions": {"band": "high", "why": "The threads are laced with direct asks — prices, weekends, parking, the kettle, breakfast timing — usually two or three per exchange."},
+        "Initiation": {"band": "high", "why": "All three conversations begin with them, each opening a new planning thread."},
+        "Reply latency": {"band": "moderate", "why": "Answers arrive ten to twenty minutes after mine during the live exchanges — unhurried and steady, never instant, never left for hours."},
+        "Vocabulary": {"band": "high", "why": "Wide, fluid phrasing throughout — 'unsupervised in a spreadsheet', 'operationally ready', 'argue about it over that breakfast' — with varied, precise word choice."}
+      }
+    },
+    "h3_burst_pipe": {
+      "corpus_sha256": "80dbbb8216535bc88677c849589b00e768e0e1ba8ba054f97ec8c82b671c3cf5",
+      "persona": "Burst Pipe",
+      "summary": "A flatmate in full minimal mode: one-to-seven-word acknowledgements, hours of silence, no questions, no decoration.",
+      "dimensions": {
+        "Response length": {"band": "low", "why": "Their turns are almost all one to six words ('k', 'done. hall light's dead too now', 'friday'), with only a couple of short-sentence exceptions."},
+        "Emoji usage": {"band": "low", "why": "No emoji or emoticon appears in any of their messages."},
+        "Questions": {"band": "low", "why": "They never ask a direct question; every prompt in the chat starts with me."},
+        "Initiation": {"band": "low", "why": "All three conversations are opened by me; they only ever pick threads up."},
+        "Reply latency": {"band": "high", "why": "The gap between my message and their answer is usually half an hour to four hours, with one answer arriving the next morning."},
+        "Vocabulary": {"band": "insufficient_evidence", "why": "Across all three chats they write only around ninety words in total, nearly all formulaic one- and two-word turns, so there is not enough text to judge range honestly."}
+      }
+    },
+    "h4_career_crossroads": {
+      "corpus_sha256": "ca91a3d6b6b0af443789c635a20e60677b2d487b3ae16bc491a14b5048dca7ce",
+      "persona": "Career Crossroads",
+      "summary": "A mentee weighing a job offer in compact, thoughtful messages, asking a few deliberate questions and using one emoji in total.",
+      "dimensions": {
+        "Response length": {"band": "moderate", "why": "Messages typically run fifteen to thirty-five words — substantial but compact, with the longest being a forty-word opener."},
+        "Emoji usage": {"band": "low", "why": "Exactly one emoji appears, a single 🙂 in the closing good-natured message; everything else is plain text."},
+        "Questions": {"band": "moderate", "why": "Three pointed questions punctuate the corpus — the brief's narrowness, what the firm sees, and the sign-by-friday deadline."},
+        "Initiation": {"band": "moderate", "why": "They opened two of the three conversations; I began the post-interview follow-up thread myself."},
+        "Reply latency": {"band": "moderate", "why": "Answers land within half an hour to about three hours, all same-day — measured but never overnight."},
+        "Vocabulary": {"band": "high", "why": "Deliberate, precise diction — 'romanticise', 'rehearsed in a meeting room', 'sentiment is tired but the specifics are all there', 'post-mortems, not theatre'."}
+      }
+    },
+    "h5_trail_weekend": {
+      "corpus_sha256": "db592ad627380b5bb58a0157aa61f93d2bdaace364e756d04e0fc533ed67be1a",
+      "persona": "Trail Weekend",
+      "summary": "The trip's engine: emoji-studded, exclamation-heavy bursts, fast volleys, route nerdery, and a habit of ending messages on a plan.",
+      "dimensions": {
+        "Response length": {"band": "moderate", "why": "A mix of short bursts and occasional thirty-word route notes; on balance ordinary chat length rather than consistently long."},
+        "Emoji usage": {"band": "high", "why": "One to three emoji appear in nearly all of their messages, used almost as punctuation (bikes, weather, grins, croissants, phones)."},
+        "Questions": {"band": "high", "why": "They are constantly polling — start times, water sources, tomas's knee, mara's number, arrival times — eight direct questions across the three chats."},
+        "Initiation": {"band": "high", "why": "They start all three conversations, one per planning day."},
+        "Reply latency": {"band": "low", "why": "Almost every reply comes one to three minutes after mine; it is the fastest rhythm in the whole set."},
+        "Vocabulary": {"band": "high", "why": "Route-literate and varied — reservoir, gorge, switchback-free but gravel, brake pads, salt tablets, campervans — with inventive phrasing that never loops on standby words."}
+      }
+    },
+    "h6_mums_seventieth": {
+      "corpus_sha256": "6476f52e8828fe7b84e285bc029d246534a817480dc6939fc1ee33810a8964e9",
+      "persona": "Mum's Seventieth",
+      "summary": "A sibling juggling party logistics in single-line texts sent hours apart, with sparse family-themed emoji and dry punchlines.",
+      "dimensions": {
+        "Response length": {"band": "low", "why": "Nearly all of their messages are one line, rarely more than a dozen words, in both planning and joking."},
+        "Emoji usage": {"band": "moderate", "why": "A smiley or a cake emoji recurs every few messages — sparse but clearly habitual rather than absent."},
+        "Questions": {"band": "moderate", "why": "Three practical asks sit across the corpus — the guest list, dani's confirmation, and chasing the run sheet."},
+        "Initiation": {"band": "moderate", "why": "They opened two of the three conversations (the hall-booking and the run-sheet check); I began the first."},
+        "Reply latency": {"band": "high", "why": "Their answers typically arrive two to four hours later, and twice the conversation waits until the next day; the rare quick replies are the exception, not the rhythm."},
+        "Vocabulary": {"band": "moderate", "why": "Ordinary family-and-logistics vocabulary with occasional dry turns — 'coronation', 'constitution', 'jinx' — neither impoverished nor adventurous."}
+      }
+    },
+    "h7_overdue_invoice": {
+      "corpus_sha256": "88bee7f4c3a54a56d2cb5170e64e0e3094f90448fad0bfd7e4ee1a73e592f696",
+      "persona": "Overdue Invoice",
+      "summary": "A courteous freelancer chasing a late invoice in businesslike paragraphs, spelling terms out precisely and ending each thread on an agreement.",
+      "dimensions": {
+        "Response length": {"band": "moderate", "why": "Messages usually run fifteen to thirty-five words, occasionally longer when setting out terms — professional paragraphs, not essays."},
+        "Emoji usage": {"band": "low", "why": "No emoji or emoticon appears at any point in the three threads."},
+        "Questions": {"band": "moderate", "why": "Statement-led throughout, but with five procedural questions — payment date, remittance advice, escalation route, portal status, the launch date."},
+        "Initiation": {"band": "high", "why": "They start all three conversations: the first nudge, the follow-up check-in, and the next-phase terms."},
+        "Reply latency": {"band": "moderate", "why": "Replies typically come within half an hour of an hour and a half, with one answer waiting nearly four hours; nothing overnight and nothing instant."},
+        "Vocabulary": {"band": "moderate", "why": "Businesslike and consistent — remittance, reconciled, ledger, terms, escalation — clear and competent but not adventurous."}
+      }
+    },
+    "h8_book_club": {
+      "corpus_sha256": "bb7459c93902be0f9e7b5d126aee822df06f6cfb78f5005eb2ce228c3c58917a",
+      "persona": "The Salt Ledger",
+      "summary": "A bookish neighbour two doors down who reviews the novel in measured, image-rich paragraphs and never fires off a quick volley.",
+      "dimensions": {
+        "Response length": {"band": "high", "why": "Most messages are two to four sentences of twenty to forty-five words, reading like spoken criticism written down."},
+        "Emoji usage": {"band": "low", "why": "No emoji or emoticon appears anywhere in their messages."},
+        "Questions": {"band": "low", "why": "They ask only one question in three conversations (whether the tense changes in part two); everything else is observation extended toward me."},
+        "Initiation": {"band": "moderate", "why": "They opened two of the three conversations — the margin-page update and the finished-novel check-in; I began the first."},
+        "Reply latency": {"band": "high", "why": "They never volley: the fastest reply is about forty minutes, most arrive after an hour or two, and several exchanges wait overnight until the next morning."},
+        "Vocabulary": {"band": "high", "why": "Literary and wide-ranging — 'repetition itself', 'plot traffic', 'legible', 'reverence', 'prophecy', 'reallocation' — with almost no repeated pet phrases."}
+      }
+    }
+  }
+}

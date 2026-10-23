@@ -1,0 +1,43 @@
+{
+  "persona": "p2_terse_lowercase",
+  "note": "Hand-authored. Subject writes very short, lowercase, unpunctuated replies; observer writes ordinary sentences.",
+  "messages": [
+    {"id": "m1", "conversation_id": "c1", "speaker": "me", "text": "did you get the invoice I sent yesterday?", "sent_at": "2026-04-01T18:04:00"},
+    {"id": "m2", "conversation_id": "c1", "speaker": "them", "text": "yeah", "sent_at": "2026-04-01T18:06:00"},
+    {"id": "m3", "conversation_id": "c1", "speaker": "me", "text": "the landlord wants an answer by friday, can you decide?", "sent_at": "2026-04-01T18:09:00"},
+    {"id": "m4", "conversation_id": "c1", "speaker": "them", "text": "not really", "sent_at": "2026-04-01T18:11:00"},
+    {"id": "m5", "conversation_id": "c1", "speaker": "me", "text": "the plumber said he'd come back next week about the leak", "sent_at": "2026-04-01T18:14:00"},
+    {"id": "m6", "conversation_id": "c1", "speaker": "them", "text": "sounds good", "sent_at": "2026-04-01T18:16:00"},
+    {"id": "m7", "conversation_id": "c1", "speaker": "me", "text": "I'll be there around seven if that helps", "sent_at": "2026-04-01T18:20:00"},
+    {"id": "m8", "conversation_id": "c1", "speaker": "them", "text": "on my way", "sent_at": "2026-04-01T18:22:00"},
+
+    {"id": "m9", "conversation_id": "c2", "speaker": "them", "text": "morning", "sent_at": "2026-04-05T08:02:00"},
+    {"id": "m10", "conversation_id": "c2", "speaker": "me", "text": "morning, did the garage call you back about the car?", "sent_at": "2026-04-05T08:05:00"},
+    {"id": "m11", "conversation_id": "c2", "speaker": "them", "text": "yeah they did", "sent_at": "2026-04-05T08:07:00"},
+    {"id": "m12", "conversation_id": "c2", "speaker": "me", "text": "what did they say about the cost?", "sent_at": "2026-04-05T08:10:00"},
+    {"id": "m13", "conversation_id": "c2", "speaker": "them", "text": "quite a lot", "sent_at": "2026-04-05T08:12:00"},
+    {"id": "m14", "conversation_id": "c2", "speaker": "me", "text": "right, I can cover half of it if you do the rest", "sent_at": "2026-04-05T08:16:00"},
+    {"id": "m15", "conversation_id": "c2", "speaker": "them", "text": "will do", "sent_at": "2026-04-05T08:18:00"},
+
+    {"id": "m16", "conversation_id": "c3", "speaker": "me", "text": "the parent teacher thing is next thursday, are you still driving?", "sent_at": "2026-04-11T19:03:00"},
+    {"id": "m17", "conversation_id": "c3", "speaker": "them", "text": "maybe", "sent_at": "2026-04-11T19:05:00"},
+    {"id": "m18", "conversation_id": "c3", "speaker": "me", "text": "I need to know tonight so I can book the taxi", "sent_at": "2026-04-11T19:08:00"},
+    {"id": "m19", "conversation_id": "c3", "speaker": "them", "text": "sure", "sent_at": "2026-04-11T19:10:00"},
+    {"id": "m20", "conversation_id": "c3", "speaker": "me", "text": "ok, I will let you know either way", "sent_at": "2026-04-11T19:13:00"},
+    {"id": "m21", "conversation_id": "c3", "speaker": "them", "text": "cheers", "sent_at": "2026-04-11T19:15:00"},
+
+    {"id": "m22", "conversation_id": "c4", "speaker": "me", "text": "the wifi is down again in the flat", "sent_at": "2026-04-18T21:02:00"},
+    {"id": "m23", "conversation_id": "c4", "speaker": "them", "text": "no idea", "sent_at": "2026-04-18T21:04:00"},
+    {"id": "m24", "conversation_id": "c4", "speaker": "me", "text": "the router light is red so I think it needs a reboot", "sent_at": "2026-04-18T21:07:00"},
+    {"id": "m25", "conversation_id": "c4", "speaker": "them", "text": "true", "sent_at": "2026-04-18T21:09:00"},
+    {"id": "m26", "conversation_id": "c4", "speaker": "me", "text": "I will try it when I get in", "sent_at": "2026-04-18T21:12:00"},
+    {"id": "m27", "conversation_id": "c4", "speaker": "them", "text": "ok", "sent_at": "2026-04-18T21:14:00"},
+
+    {"id": "m28", "conversation_id": "c5", "speaker": "me", "text": "are you still coming to the thing on saturday", "sent_at": "2026-04-25T16:03:00"},
+    {"id": "m29", "conversation_id": "c5", "speaker": "them", "text": "yeah exactly", "sent_at": "2026-04-25T16:05:00"},
+    {"id": "m30", "conversation_id": "c5", "speaker": "me", "text": "it starts at seven so we should leave by six thirty", "sent_at": "2026-04-25T16:08:00"},
+    {"id": "m31", "conversation_id": "c5", "speaker": "them", "text": "same", "sent_at": "2026-04-25T16:10:00"},
+    {"id": "m32", "conversation_id": "c5", "speaker": "me", "text": "I will pick you up then", "sent_at": "2026-04-25T16:13:00"},
+    {"id": "m33", "conversation_id": "c5", "speaker": "them", "text": "good", "sent_at": "2026-04-25T16:15:00"}
+  ]
+}

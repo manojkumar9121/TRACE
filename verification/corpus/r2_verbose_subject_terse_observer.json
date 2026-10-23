@@ -1,0 +1,26 @@
+{
+  "persona": "r2_verbose_subject_terse_observer",
+  "note": "Hand-authored RELATIVE-BASELINE probe (pair member 2). The SUBJECT MESSAGES ARE BYTE-IDENTICAL to r1_equal_lengths (same subject, same absolute mean length). ONLY the observer changes: here the observer writes ~10-25-char replies. Relative basis predicts ratio ~15 => 'high'. The absolute basis would also say 'high' for a ~144-char subject mean, so r1 is the discriminating member; r2 confirms the baseline is actually wired. If the band for r1 and r2 is identical, the observer baseline is NOT being applied.",
+  "messages": [
+    {"id": "m1", "conversation_id": "c1", "speaker": "me", "text": "ok so", "sent_at": "2027-01-08T10:00:00"},
+    {"id": "m2", "conversation_id": "c1", "speaker": "them", "text": "That does make sense to me, honestly. A fortnight would give us more breathing room, and I do not think the booking is quite as fixed as I had been assuming.", "sent_at": "2027-01-08T10:05:00"},
+    {"id": "m3", "conversation_id": "c1", "speaker": "me", "text": "will do", "sent_at": "2027-01-08T10:20:00"},
+    {"id": "m4", "conversation_id": "c1", "speaker": "them", "text": "Good idea. My instinct is that the difference is small, but I would rather know the number than guess and then be surprised later on.", "sent_at": "2027-01-08T10:26:00"},
+    {"id": "m5", "conversation_id": "c1", "speaker": "me", "text": "will send it tomorrow", "sent_at": "2027-01-08T10:31:00"},
+    {"id": "m6", "conversation_id": "c1", "speaker": "them", "text": "No rush at all, and if the numbers are terrible we can always look at the other dates that were mentioned as a fallback option.", "sent_at": "2027-01-08T10:38:00"},
+
+    {"id": "m7", "conversation_id": "c2", "speaker": "me", "text": "no penalty apparently", "sent_at": "2027-01-15T15:00:00"},
+    {"id": "m8", "conversation_id": "c2", "speaker": "them", "text": "That is excellent news. It means we lose nothing by moving, so I will go ahead and rearrange the trains while you sort out the car hire.", "sent_at": "2027-01-15T15:04:00"},
+    {"id": "m9", "conversation_id": "c2", "speaker": "me", "text": "cheers", "sent_at": "2027-01-15T15:18:00"},
+    {"id": "m10", "conversation_id": "c2", "speaker": "them", "text": "Let us not chase the car hire for now. The train is the more important booking, and if we get that sorted the rest can follow at a more relaxed pace.", "sent_at": "2027-01-15T15:25:00"},
+    {"id": "m11", "conversation_id": "c2", "speaker": "me", "text": "true, train prices are going up", "sent_at": "2027-01-15T15:33:00"},
+    {"id": "m12", "conversation_id": "c2", "speaker": "them", "text": "Agreed, I will book the tickets this evening once the new dates are confirmed by the hotel in writing.", "sent_at": "2027-01-15T15:41:00"},
+
+    {"id": "m13", "conversation_id": "c3", "speaker": "me", "text": "all booked", "sent_at": "2027-01-22T09:30:00"},
+    {"id": "m14", "conversation_id": "c3", "speaker": "them", "text": "Brilliant, thank you for taking that on. I will let the others know, and we can look at the restaurant bookings again once the dates have actually shifted.", "sent_at": "2027-01-22T09:36:00"},
+    {"id": "m15", "conversation_id": "c3", "speaker": "me", "text": "will do", "sent_at": "2027-01-22T09:50:00"},
+    {"id": "m16", "conversation_id": "c3", "speaker": "them", "text": "I will keep an eye on the prices for the remaining bookings, but I would not lose sleep over it, they will not change dramatically.", "sent_at": "2027-01-22T09:57:00"},
+    {"id": "m17", "conversation_id": "c3", "speaker": "me", "text": "I will stop checking every morning", "sent_at": "2027-01-22T10:04:00"},
+    {"id": "m18", "conversation_id": "c3", "speaker": "them", "text": "Please do, refreshing the page does not make the number go down, and I will keep you posted if anything material changes.", "sent_at": "2027-01-22T10:11:00"}
+  ]
+}

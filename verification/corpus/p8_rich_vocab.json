@@ -1,0 +1,26 @@
+{
+  "persona": "p8_rich_vocab",
+  "note": "Hand-authored. Subject uses a wide and varied vocabulary: technical, precise, unusual words, no repetition of content words. Ground truth: high vocabulary richness.",
+  "messages": [
+    {"id": "m1", "conversation_id": "c1", "speaker": "me", "text": "how did the appraisal go?", "sent_at": "2026-11-02T10:00:00"},
+    {"id": "m2", "conversation_id": "c1", "speaker": "them", "text": "The valuer characterised the property as a substantial, if idiosyncratic, Victorian terrace with unusually generous ceiling heights and a comparatively awkward rear elevation, which he felt warranted a premium of roughly four per cent over the previous comparable sale on the adjoining street.", "sent_at": "2026-11-02T10:04:00"},
+    {"id": "m3", "conversation_id": "c1", "speaker": "me", "text": "four per cent is better than nothing, I suppose", "sent_at": "2026-11-02T10:09:00"},
+    {"id": "m4", "conversation_id": "c1", "speaker": "them", "text": "Arguably rather more than nothing, particularly given how long the comparable properties have sat unsold, and the discrepancy he identified between the measured floor area and the assumptions underpinning the original 2019 valuation is precisely what has sustained the asking price.", "sent_at": "2026-11-02T10:12:00"},
+    {"id": "m5", "conversation_id": "c1", "speaker": "me", "text": "I will take it", "sent_at": "2026-11-02T10:20:00"},
+    {"id": "m6", "conversation_id": "c1", "speaker": "them", "text": "Sensible; the surveyor's report remains outstanding, though I anticipate nothing beyond the customary condensation and drainage observations that invariably accompany a building of this vintage.", "sent_at": "2026-11-02T10:23:00"},
+
+    {"id": "m7", "conversation_id": "c2", "speaker": "me", "text": "what did the structural engineer say", "sent_at": "2026-11-09T14:00:00"},
+    {"id": "m8", "conversation_id": "c2", "speaker": "them", "text": "He confirmed that the joists are comprehensively sound, notwithstanding superficial deterioration to the mortar pointing, and recommended expedited replacement of the two compromised rafters above the kitchen extension where the moisture ingress has precipitated timber decay.", "sent_at": "2026-11-09T14:05:00"},
+    {"id": "m9", "conversation_id": "c2", "speaker": "me", "text": "so it is not a disaster", "sent_at": "2026-11-09T14:11:00"},
+    {"id": "m10", "conversation_id": "c2", "speaker": "them", "text": "Categorically not; the invoice will be substantial, but the remediation is straightforward and the underlying fabric is considerably more robust than the original survey documentation suggested, which was evidently prepared somewhat perfunctorily by the previous incumbent.", "sent_at": "2026-11-09T14:15:00"},
+    {"id": "m11", "conversation_id": "c2", "speaker": "me", "text": "that is a relief, I was dreading it", "sent_at": "2026-11-09T14:22:00"},
+    {"id": "m12", "conversation_id": "c2", "speaker": "them", "text": "Understandably so; the preliminary correspondence was not encouraging, though I would reiterate that provisional assessments invariably err towards pessimism when photographs are the only available diagnostic.", "sent_at": "2026-11-09T14:26:00"},
+
+    {"id": "m13", "conversation_id": "c3", "speaker": "me", "text": "can you explain the boundaries thing again", "sent_at": "2026-11-17T19:00:00"},
+    {"id": "m14", "conversation_id": "c3", "speaker": "them", "text": "Certainly; the eastern boundary follows the line of the original drainage culvert rather than the modern parcel delineation, meaning the strip of land between them has been in intermittent dispute since the subdivision was completed in the early nineteen-seventies.", "sent_at": "2026-11-17T19:04:00"},
+    {"id": "m15", "conversation_id": "c3", "speaker": "me", "text": "so we might own it or not", "sent_at": "2026-11-17T19:09:00"},
+    {"id": "m16", "conversation_id": "c3", "speaker": "them", "text": "Precisely; the ambiguity originates in an imprecise conveyance executed in 1973, and until the archive deposit at the registry is examined there is no deterministic resolution available to either party.", "sent_at": "2026-11-17T19:13:00"},
+    {"id": "m17", "conversation_id": "c3", "speaker": "me", "text": "I will ask my solicitor to look", "sent_at": "2026-11-17T19:18:00"},
+    {"id": "m18", "conversation_id": "c3", "speaker": "them", "text": "Advisable; the register office's archive retrieval is notoriously slow, so it would be prudent to lodge the request without delay given the connotations for the proposed extension.", "sent_at": "2026-11-17T19:22:00"}
+  ]
+}

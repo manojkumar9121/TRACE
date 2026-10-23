@@ -1,0 +1,35 @@
+{
+  "persona": "p6_fast_replier",
+  "note": "Hand-authored. Subject replies to every message within ~1-3 minutes; observer also replies quickly. Ground truth: fast replier.",
+  "messages": [
+    {"id": "m1", "conversation_id": "c1", "speaker": "me", "text": "are you free to look at the lease this afternoon?", "sent_at": "2026-09-01T09:00:00"},
+    {"id": "m2", "conversation_id": "c1", "speaker": "them", "text": "yes, send me the address and I will be there at half past two", "sent_at": "2026-09-01T09:01:30"},
+    {"id": "m3", "conversation_id": "c1", "speaker": "me", "text": "I have put a pin on the map, it is the shop with the green sign", "sent_at": "2026-09-01T09:03:00"},
+    {"id": "m4", "conversation_id": "c1", "speaker": "them", "text": "found it, I can see the shop from here actually, I will come in now", "sent_at": "2026-09-01T09:04:00"},
+    {"id": "m5", "conversation_id": "c1", "speaker": "me", "text": "no rush, they are open until six", "sent_at": "2026-09-01T09:06:00"},
+    {"id": "m6", "conversation_id": "c1", "speaker": "them", "text": "I am being served now, the lease is on the counter, one moment", "sent_at": "2026-09-01T09:07:00"},
+    {"id": "m7", "conversation_id": "c1", "speaker": "me", "text": "take your time, I will wait nearby", "sent_at": "2026-09-01T09:09:00"},
+    {"id": "m8", "conversation_id": "c1", "speaker": "them", "text": "all done, it was fine, they have a new one ready to sign", "sent_at": "2026-09-01T09:10:00"},
+
+    {"id": "m9", "conversation_id": "c2", "speaker": "me", "text": "can you confirm the pickup time for tomorrow", "sent_at": "2026-09-05T14:00:00"},
+    {"id": "m10", "conversation_id": "c2", "speaker": "them", "text": "yes, seven in the morning, they said they will be there by quarter past", "sent_at": "2026-09-05T14:01:00"},
+    {"id": "m11", "conversation_id": "c2", "speaker": "me", "text": "great, I will be waiting by the kerb", "sent_at": "2026-09-05T14:02:00"},
+    {"id": "m12", "conversation_id": "c2", "speaker": "them", "text": "ok, I will text you when I set off so you know the timing", "sent_at": "2026-09-05T14:03:30"},
+    {"id": "m13", "conversation_id": "c2", "speaker": "me", "text": "perfect, that works", "sent_at": "2026-09-05T14:05:00"},
+    {"id": "m14", "conversation_id": "c2", "speaker": "them", "text": "will do, I am putting the keys in the door now so I do not forget them", "sent_at": "2026-09-05T14:06:00"},
+
+    {"id": "m15", "conversation_id": "c3", "speaker": "me", "text": "did the plumber turn up about the radiator", "sent_at": "2026-09-09T20:00:00"},
+    {"id": "m16", "conversation_id": "c3", "speaker": "them", "text": "yes, he came at four and it is bleeding now, he said it needed a full flush", "sent_at": "2026-09-09T20:02:00"},
+    {"id": "m17", "conversation_id": "c3", "speaker": "me", "text": "that is good news, how much did he charge", "sent_at": "2026-09-09T20:03:00"},
+    {"id": "m18", "conversation_id": "c3", "speaker": "them", "text": "eighty pounds, he did not charge for the parts because he had them on the van", "sent_at": "2026-09-09T20:05:00"},
+    {"id": "m19", "conversation_id": "c3", "speaker": "me", "text": "good, I will transfer you tonight", "sent_at": "2026-09-09T20:06:00"},
+    {"id": "m20", "conversation_id": "c3", "speaker": "them", "text": "no need, treat it as a thank you for the coffee last week", "sent_at": "2026-09-09T20:07:00"},
+
+    {"id": "m21", "conversation_id": "c4", "speaker": "me", "text": "can you let me know if the survey goes ahead on thursday", "sent_at": "2026-09-14T11:00:00"},
+    {"id": "m22", "conversation_id": "c4", "speaker": "them", "text": "will do, they are coming at ten so I will know straight away", "sent_at": "2026-09-14T11:01:00"},
+    {"id": "m23", "conversation_id": "c4", "speaker": "me", "text": "thanks, I need to be out by noon", "sent_at": "2026-09-14T11:02:00"},
+    {"id": "m24", "conversation_id": "c4", "speaker": "them", "text": "no problem, I will text you the moment they arrive", "sent_at": "2026-09-14T11:04:00"},
+    {"id": "m25", "conversation_id": "c4", "speaker": "me", "text": "appreciate it", "sent_at": "2026-09-14T11:05:00"},
+    {"id": "m26", "conversation_id": "c4", "speaker": "them", "text": "anytime, I will keep you posted either way", "sent_at": "2026-09-14T11:07:00"}
+  ]
+}

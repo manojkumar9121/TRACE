@@ -1,0 +1,35 @@
+{
+  "persona": "p5_initiator",
+  "note": "Hand-authored. Subject opens most conversations (4 of 5) and the observer rarely starts one.",
+  "messages": [
+    {"id": "m1", "conversation_id": "c1", "speaker": "them", "text": "Random thought before the weekend — do you still have the camping stove, or did that go in the garage sale?", "sent_at": "2026-08-02T10:00:00"},
+    {"id": "m2", "conversation_id": "c1", "speaker": "me", "text": "I think it is in the garage somewhere, let me check on Sunday", "sent_at": "2026-08-02T11:20:00"},
+    {"id": "m3", "conversation_id": "c1", "speaker": "them", "text": "No rush, it only matters if we end up going away that weekend. If it turns up I can borrow the small one from Raj instead, he has never used it.", "sent_at": "2026-08-02T11:45:00"},
+    {"id": "m4", "conversation_id": "c1", "speaker": "me", "text": "cool, let me know what you decide", "sent_at": "2026-08-02T12:02:00"},
+
+    {"id": "m5", "conversation_id": "c2", "speaker": "them", "text": "Are you around this evening? I want to run something past you about the house but there is no rush at all, it can wait until the weekend if you are busy.", "sent_at": "2026-08-05T17:30:00"},
+    {"id": "m6", "conversation_id": "c2", "speaker": "me", "text": "I am free after six if that helps", "sent_at": "2026-08-05T17:52:00"},
+    {"id": "m7", "conversation_id": "c2", "speaker": "them", "text": "Six is perfect, I will cook something and we can talk it through then. It is only the roof, but the surveyor was quite specific that we should not leave it another winter.", "sent_at": "2026-08-05T18:10:00"},
+    {"id": "m8", "conversation_id": "c2", "speaker": "me", "text": "sure, see you then", "sent_at": "2026-08-05T18:15:00"},
+
+    {"id": "m7b", "conversation_id": "c2", "speaker": "them", "text": "Also I found the old tent in the shed, it has one bent pole but the pole splint we made in 2019 should hold. Bringing it up in case you want to fix the pole rather than buy a new one.", "sent_at": "2026-08-05T18:22:00"},
+    {"id": "m9", "conversation_id": "c2", "speaker": "me", "text": "haha okay", "sent_at": "2026-08-05T18:30:00"},
+
+    {"id": "m10", "conversation_id": "c3", "speaker": "them", "text": "Following up on the roof, the quote came back at 4,200 which is more than I expected but less than the figure the surveyor mentioned, so I think it is defensible. I have attached the breakdown for you to look at whenever you have a minute.", "sent_at": "2026-08-11T09:15:00"},
+    {"id": "m11", "conversation_id": "c3", "speaker": "me", "text": "that is more than I thought, I'll read it properly tonight", "sent_at": "2026-08-11T13:40:00"},
+    {"id": "m12", "conversation_id": "c3", "speaker": "them", "text": "Take your time, there is no deadline on my side. The main thing I wanted to check was whether the gutter replacement is included or extra, because if it is extra I would rather do that in the spring when we have more slack in the budget.", "sent_at": "2026-08-11T14:05:00"},
+    {"id": "m13", "conversation_id": "c3", "speaker": "me", "text": "ok I'll let you know", "sent_at": "2026-08-11T14:30:00"},
+
+    {"id": "m14", "conversation_id": "c4", "speaker": "them", "text": "One more thing about the weekend, I booked the ferries and the accommodation is refundable until the end of the month, so if the weather turns we can still change it. I did not want to be the one who left it to the last minute and then had to pay for a cancellation.", "sent_at": "2026-08-18T20:05:00"},
+    {"id": "m15", "conversation_id": "c4", "speaker": "me", "text": "good thinking, thanks for sorting that", "sent_at": "2026-08-18T21:11:00"},
+    {"id": "m16", "conversation_id": "c4", "speaker": "them", "text": "No problem, it took ten minutes. I will send the details over so you can put them in the shared calendar, and the ferry leaves at half past nine so we should aim for quarter to nine at the terminal.", "sent_at": "2026-08-18T21:40:00"},
+    {"id": "m17", "conversation_id": "c4", "speaker": "me", "text": "noted", "sent_at": "2026-08-18T21:55:00"},
+
+    {"id": "m18", "conversation_id": "c5", "speaker": "me", "text": "just saw the forecast, looks like rain all weekend", "sent_at": "2026-08-25T08:10:00"},
+    {"id": "m19", "conversation_id": "c5", "speaker": "them", "text": "I know, I checked it twice this morning. The tent has a fly so it should be fine, but I would bring a waterproof anyway because the site is exposed and the ground turns to mud if it does not stop.", "sent_at": "2026-08-25T08:44:00"},
+    {"id": "m20", "conversation_id": "c5", "speaker": "me", "text": "will do", "sent_at": "2026-08-25T09:02:00"},
+    {"id": "m21", "conversation_id": "c5", "speaker": "them", "text": "I will bring the spare gas canister as well, the one we have never once used but which is probably leaking by now. If the weather is that bad we can also just move to the cottage and cook there instead.", "sent_at": "2026-08-25T09:30:00"},
+    {"id": "m22", "conversation_id": "c5", "speaker": "me", "text": "sounds like a plan", "sent_at": "2026-08-25T09:48:00"},
+    {"id": "m23", "conversation_id": "c5", "speaker": "them", "text": "Right, I will sort the food and the gear tonight so we are not fumbling with it in the car park. I will send you the list so you can check I have not forgotten the obvious thing again, which I have, at least twice, that I know of.", "sent_at": "2026-08-25T10:02:00"}
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "persona": "p7_slow_replier",
+  "note": "Hand-authored. Subject takes four to nine hours to reply to every message; observer replies within a couple of minutes. Ground truth: slow replier.",
+  "messages": [
+    {"id": "m1", "conversation_id": "c1", "speaker": "me", "text": "are you around to talk about the summer plans?", "sent_at": "2026-09-21T08:00:00"},
+    {"id": "m2", "conversation_id": "c1", "speaker": "them", "text": "I am, sorry for the slow reply, the day got away from me. The short version is that I would rather not commit to the dates until I know which week the shed is free.", "sent_at": "2026-09-21T16:20:00"},
+    {"id": "m3", "conversation_id": "c1", "speaker": "me", "text": "no worries at all, whenever suits you", "sent_at": "2026-09-21T16:22:00"},
+    {"id": "m4", "conversation_id": "c1", "speaker": "them", "text": "I will confirm by the end of the week, and I will also find out whether the boat is available as a backup, because last year we turned up and it was not.", "sent_at": "2026-09-22T07:40:00"},
+    {"id": "m5", "conversation_id": "c1", "speaker": "me", "text": "sensible, let me know either way", "sent_at": "2026-09-22T07:44:00"},
+    {"id": "m6", "conversation_id": "c1", "speaker": "them", "text": "Will do. I am going to bed now, it is nearly midnight and I still have the roof to look at.", "sent_at": "2026-09-22T23:15:00"},
+
+    {"id": "m7", "conversation_id": "c2", "speaker": "me", "text": "did you ever get the spare key for the van?", "sent_at": "2026-10-03T12:05:00"},
+    {"id": "m8", "conversation_id": "c2", "speaker": "them", "text": "I did, sorry, that took a while. It was at the depot in the end, they had moved it to a different drawer and nobody had updated the system.", "sent_at": "2026-10-03T19:55:00"},
+    {"id": "m9", "conversation_id": "c2", "speaker": "me", "text": "no problem, we can sort it on saturday", "sent_at": "2026-10-03T19:58:00"},
+    {"id": "m10", "conversation_id": "c2", "speaker": "them", "text": "Saturday works, I will bring it with me. I am also going to look at the tyres while I am there, the ones on the near side looked very worn when I drove it last month.", "sent_at": "2026-10-04T13:30:00"},
+    {"id": "m11", "conversation_id": "c2", "speaker": "me", "text": "good plan, I will order a set in the meantime", "sent_at": "2026-10-04T13:33:00"},
+    {"id": "m12", "conversation_id": "c2", "speaker": "them", "text": "Do not spend anything on them, I will get them fitted and pay you back. I am sorry for the slow turn around on this, the last few weeks have been chaos.", "sent_at": "2026-10-05T09:10:00"},
+
+    {"id": "m13", "conversation_id": "c3", "speaker": "me", "text": "quick one — what did the letting agent say about the deposit?", "sent_at": "2026-10-14T10:00:00"},
+    {"id": "m14", "conversation_id": "c3", "speaker": "them", "text": "They want five weeks, which I think is too much, and they want it before they will even show anyone around. I was going to email you about it but then the evening got busy and I forgot.", "sent_at": "2026-10-14T17:45:00"},
+    {"id": "m15", "conversation_id": "c3", "speaker": "me", "text": "that is steep, do you want me to look up what other places are asking?", "sent_at": "2026-10-14T17:48:00"},
+    {"id": "m16", "conversation_id": "c3", "speaker": "them", "text": "If you have a moment that would help. I have been trying to work out whether to just pay it and move, or start again with a different place in January and risk losing a month of rent.", "sent_at": "2026-10-15T22:05:00"},
+    {"id": "m17", "conversation_id": "c3", "speaker": "me", "text": "I will look tonight and send you what I find", "sent_at": "2026-10-15T22:09:00"},
+    {"id": "m18", "conversation_id": "c3", "speaker": "them", "text": "Thank you, that is very helpful. Sorry again for the delay in replying, I know this is the second time this week you have had to chase me.", "sent_at": "2026-10-16T12:30:00"}
+  ]
+}

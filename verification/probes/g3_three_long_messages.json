@@ -1,0 +1,12 @@
+{
+  "persona": "g3_three_long_messages",
+  "note": "Hand-authored GATE micro-probe. The subject sends only THREE messages, but they are long enough to clear the vocabulary word-count gate (24 words) on their own. The message-count gate (MIN_SAMPLE = 8) is nowhere near satisfied. Expect: insufficient_evidence on every dimension, because a reading computed over 3 messages is an anecdote. This probe isolates the vocabulary dimension's word-count gate from the message-count gate.",
+  "messages": [
+    {"id": "m1", "conversation_id": "c1", "speaker": "me", "text": "what happened with the survey", "sent_at": "2027-05-03T10:00:00"},
+    {"id": "m2", "conversation_id": "c1", "speaker": "them", "text": "the surveyor came round on tuesday afternoon and spent rather longer than I had anticipated, going through absolutely everything with a moisture meter and a torch, and concluded that the roof needs entirely replacing rather than patching which is both expensive and exactly what I was hoping to avoid.", "sent_at": "2027-05-03T10:06:00"},
+    {"id": "m3", "conversation_id": "c1", "speaker": "me", "text": "that is not good news", "sent_at": "2027-05-03T10:12:00"},
+    {"id": "m4", "conversation_id": "c1", "speaker": "them", "text": "it is not, particularly given the state of the finances, so I am going to get two more quotes and then decide whether to do it now or wait until the summer when the scaffold hire is cheaper and I will have less other expenditure competing for the same money.", "sent_at": "2027-05-03T10:15:00"},
+    {"id": "m5", "conversation_id": "c1", "speaker": "me", "text": "sounds sensible, let me know what the quotes say", "sent_at": "2027-05-03T10:20:00"},
+    {"id": "m6", "conversation_id": "c1", "speaker": "them", "text": "I will, and thank you for offering to help with the insurance claim because I have never made one for water damage before and I genuinely do not know what they will want in terms of evidence and photographs of the damage.", "sent_at": "2027-05-03T10:24:00"}
+  ]
+}

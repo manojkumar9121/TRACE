@@ -1,0 +1,1546 @@
+{
+  "purpose": "golden fixture: what the library says today (PLAN.md M1)",
+  "sha256": "b25141f0a9a0adb8d6d5bf76c5ce8f65641507514ce915487b064a350b3c36a2",
+  "snapshot": {
+    "p10_fast_subject_slow_observer": {
+      "readings": {
+        "Response length": {
+          "band": "moderate",
+          "value": 33.333333333333336,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "avg 33 chars vs your 30"
+        },
+        "Emoji usage": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "in 0 of 9 messages"
+        },
+        "Questions": {
+          "band": "moderate",
+          "value": 0.2222222222222222,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "asked something in 2 of 9 messages"
+        },
+        "Initiation": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 3,
+          "n_conversations": 3,
+          "detail": "opened 0 of 3 conversations"
+        },
+        "Reply latency": {
+          "band": "low",
+          "value": 0.3333333333333333,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "median 0 minutes between messages"
+        },
+        "Vocabulary": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "Only 66 words yet; bands for vocabulary are read on 100-word windows, so this corpus is too small to say how varied their vocabulary is."
+        }
+      },
+      "predictions": {
+        "likely_length/Reply length": {
+          "value": 36.0,
+          "low": 21.0,
+          "high": 39.0,
+          "n_evidence": 9,
+          "caveat": "their own typical length; a long day or a short reply would fall outside it"
+        },
+        "likely_emoji/Uses emoji": {
+          "value": 0.09090909090909091,
+          "low": 0.0,
+          "high": 0.2991527535509594,
+          "n_evidence": 9,
+          "caveat": "their own rate across past messages, not a personality trait"
+        },
+        "likely_responds/Replies": {
+          "value": 0.9090909090909091,
+          "low": 0.7008472464490407,
+          "high": 1.0,
+          "n_evidence": 9,
+          "caveat": "share of the other's messages they answered"
+        },
+        "reply_latency_minutes/Reply latency": {
+          "value": 517.6083333333333,
+          "low": 450.18333333333334,
+          "high": 764.9666666666667,
+          "n_evidence": 6,
+          "caveat": "their own median gap between messages"
+        }
+      },
+      "path": "corpus/p10_fast_subject_slow_observer.json"
+    },
+    "p11_fast_subject_slow_observer_padded": {
+      "readings": {
+        "Response length": {
+          "band": "moderate",
+          "value": 36.0,
+          "n_evidence": 12,
+          "n_conversations": 3,
+          "detail": "avg 36 chars vs your 31"
+        },
+        "Emoji usage": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 12,
+          "n_conversations": 3,
+          "detail": "in 0 of 12 messages"
+        },
+        "Questions": {
+          "band": "moderate",
+          "value": 0.16666666666666666,
+          "n_evidence": 12,
+          "n_conversations": 3,
+          "detail": "asked something in 2 of 12 messages"
+        },
+        "Initiation": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 3,
+          "n_conversations": 3,
+          "detail": "opened 0 of 3 conversations"
+        },
+        "Reply latency": {
+          "band": "low",
+          "value": 0.31666666666666665,
+          "n_evidence": 12,
+          "n_conversations": 3,
+          "detail": "median 0 minutes between messages"
+        },
+        "Vocabulary": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 12,
+          "n_conversations": 3,
+          "detail": "Only 93 words yet; bands for vocabulary are read on 100-word windows, so this corpus is too small to say how varied their vocabulary is."
+        }
+      },
+      "predictions": {
+        "likely_length/Reply length": {
+          "value": 37.0,
+          "low": 21.0,
+          "high": 40.0,
+          "n_evidence": 12,
+          "caveat": "their own typical length; a long day or a short reply would fall outside it"
+        },
+        "likely_emoji/Uses emoji": {
+          "value": 0.07142857142857142,
+          "low": 0.0,
+          "high": 0.2425007574992425,
+          "n_evidence": 12,
+          "caveat": "their own rate across past messages, not a personality trait"
+        },
+        "likely_responds/Replies": {
+          "value": 0.9285714285714286,
+          "low": 0.7574992425007574,
+          "high": 1.0,
+          "n_evidence": 12,
+          "caveat": "share of the other's messages they answered"
+        },
+        "reply_latency_minutes/Reply latency": {
+          "value": 559.7166666666667,
+          "low": 509.9166666666667,
+          "high": 694.7333333333333,
+          "n_evidence": 9,
+          "caveat": "their own median gap between messages"
+        }
+      },
+      "path": "corpus/p11_fast_subject_slow_observer_padded.json"
+    },
+    "p12_plain_typography_no_emoji": {
+      "readings": {
+        "Response length": {
+          "band": "high",
+          "value": 56.0,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "avg 56 chars vs your 30"
+        },
+        "Emoji usage": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "in 0 of 9 messages"
+        },
+        "Questions": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "asked something in 0 of 9 messages"
+        },
+        "Initiation": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 3,
+          "n_conversations": 3,
+          "detail": "opened 0 of 3 conversations"
+        },
+        "Reply latency": {
+          "band": "low",
+          "value": 2.0,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "median 2 minutes between messages"
+        },
+        "Vocabulary": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "Only 91 words yet; bands for vocabulary are read on 100-word windows, so this corpus is too small to say how varied their vocabulary is."
+        }
+      },
+      "predictions": {
+        "likely_length/Reply length": {
+          "value": 60.0,
+          "low": 52.0,
+          "high": 62.0,
+          "n_evidence": 9,
+          "caveat": "their own typical length; a long day or a short reply would fall outside it"
+        },
+        "likely_emoji/Uses emoji": {
+          "value": 0.09090909090909091,
+          "low": 0.0,
+          "high": 0.2991527535509594,
+          "n_evidence": 9,
+          "caveat": "their own rate across past messages, not a personality trait"
+        },
+        "likely_responds/Replies": {
+          "value": 0.9090909090909091,
+          "low": 0.7008472464490407,
+          "high": 1.0,
+          "n_evidence": 9,
+          "caveat": "share of the other's messages they answered"
+        },
+        "reply_latency_minutes/Reply latency": {
+          "value": 8.0,
+          "low": 7.0,
+          "high": 9.0,
+          "n_evidence": 6,
+          "caveat": "their own median gap between messages"
+        }
+      },
+      "path": "corpus/p12_plain_typography_no_emoji.json"
+    },
+    "p1_verbose_formal": {
+      "readings": {
+        "Response length": {
+          "band": "high",
+          "value": 274.6923076923077,
+          "n_evidence": 13,
+          "n_conversations": 4,
+          "detail": "avg 274 chars vs your 20"
+        },
+        "Emoji usage": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 13,
+          "n_conversations": 4,
+          "detail": "in 0 of 13 messages"
+        },
+        "Questions": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 13,
+          "n_conversations": 4,
+          "detail": "asked something in 0 of 13 messages"
+        },
+        "Initiation": {
+          "band": "moderate",
+          "value": 0.5,
+          "n_evidence": 4,
+          "n_conversations": 4,
+          "detail": "opened 2 of 4 conversations"
+        },
+        "Reply latency": {
+          "band": "moderate",
+          "value": 12.0,
+          "n_evidence": 11,
+          "n_conversations": 4,
+          "detail": "median 12 minutes between messages"
+        },
+        "Vocabulary": {
+          "band": "moderate",
+          "value": 0.7335978835978837,
+          "n_evidence": 13,
+          "n_conversations": 4,
+          "detail": "310 distinct words in 666 across 100-word windows"
+        }
+      },
+      "predictions": {
+        "likely_length/Reply length": {
+          "value": 287.0,
+          "low": 230.0,
+          "high": 297.0,
+          "n_evidence": 13,
+          "caveat": "their own typical length; a long day or a short reply would fall outside it"
+        },
+        "likely_emoji/Uses emoji": {
+          "value": 0.06666666666666667,
+          "low": 0.0,
+          "high": 0.22810184305529166,
+          "n_evidence": 13,
+          "caveat": "their own rate across past messages, not a personality trait"
+        },
+        "likely_responds/Replies": {
+          "value": 0.8571428571428571,
+          "low": 0.6461140782014047,
+          "high": 0.9851352905492264,
+          "n_evidence": 12,
+          "caveat": "share of the other's messages they answered"
+        },
+        "reply_latency_minutes/Reply latency": {
+          "value": 19.0,
+          "low": 14.0,
+          "high": 22.0,
+          "n_evidence": 9,
+          "caveat": "their own median gap between messages"
+        }
+      },
+      "path": "corpus/p1_verbose_formal.json"
+    },
+    "p2_terse_lowercase": {
+      "readings": {
+        "Response length": {
+          "band": "low",
+          "value": 7.375,
+          "n_evidence": 16,
+          "n_conversations": 5,
+          "detail": "avg 7 chars vs your 43"
+        },
+        "Emoji usage": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 17,
+          "n_conversations": 5,
+          "detail": "in 0 of 17 messages"
+        },
+        "Questions": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 17,
+          "n_conversations": 5,
+          "detail": "asked something in 0 of 17 messages"
+        },
+        "Initiation": {
+          "band": "low",
+          "value": 0.2,
+          "n_evidence": 5,
+          "n_conversations": 5,
+          "detail": "opened 1 of 5 conversations"
+        },
+        "Reply latency": {
+          "band": "low",
+          "value": 2.0,
+          "n_evidence": 16,
+          "n_conversations": 5,
+          "detail": "median 2 minutes between messages"
+        },
+        "Vocabulary": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 17,
+          "n_conversations": 5,
+          "detail": "Only 28 words yet; bands for vocabulary are read on 100-word windows, so this corpus is too small to say how varied their vocabulary is."
+        }
+      },
+      "predictions": {
+        "likely_length/Reply length": {
+          "value": 7.0,
+          "low": 4.0,
+          "high": 10.0,
+          "n_evidence": 16,
+          "caveat": "their own typical length; a long day or a short reply would fall outside it"
+        },
+        "likely_emoji/Uses emoji": {
+          "value": 0.05263157894736842,
+          "low": 0.0,
+          "high": 0.18432366037156456,
+          "n_evidence": 17,
+          "caveat": "their own rate across past messages, not a personality trait"
+        },
+        "likely_responds/Replies": {
+          "value": 0.9444444444444444,
+          "low": 0.8063865817272802,
+          "high": 1.0,
+          "n_evidence": 16,
+          "caveat": "share of the other's messages they answered"
+        },
+        "reply_latency_minutes/Reply latency": {
+          "value": 5.0,
+          "low": 5.0,
+          "high": 6.0,
+          "n_evidence": 12,
+          "caveat": "their own median gap between messages"
+        }
+      },
+      "path": "corpus/p2_terse_lowercase.json"
+    },
+    "p3_emoji_heavy": {
+      "readings": {
+        "Response length": {
+          "band": "moderate",
+          "value": 24.647058823529413,
+          "n_evidence": 17,
+          "n_conversations": 4,
+          "detail": "avg 24 chars vs your 31"
+        },
+        "Emoji usage": {
+          "band": "high",
+          "value": 0.8823529411764706,
+          "n_evidence": 17,
+          "n_conversations": 4,
+          "detail": "in 15 of 17 messages"
+        },
+        "Questions": {
+          "band": "low",
+          "value": 0.058823529411764705,
+          "n_evidence": 17,
+          "n_conversations": 4,
+          "detail": "asked something in 1 of 17 messages"
+        },
+        "Initiation": {
+          "band": "moderate",
+          "value": 0.5,
+          "n_evidence": 4,
+          "n_conversations": 4,
+          "detail": "opened 2 of 4 conversations"
+        },
+        "Reply latency": {
+          "band": "low",
+          "value": 1.0,
+          "n_evidence": 9,
+          "n_conversations": 4,
+          "detail": "median 1 minutes between messages"
+        },
+        "Vocabulary": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 17,
+          "n_conversations": 4,
+          "detail": "Only 80 words yet; bands for vocabulary are read on 100-word windows, so this corpus is too small to say how varied their vocabulary is."
+        }
+      },
+      "predictions": {
+        "likely_length/Reply length": {
+          "value": 25.0,
+          "low": 12.0,
+          "high": 31.0,
+          "n_evidence": 17,
+          "caveat": "their own typical length; a long day or a short reply would fall outside it"
+        },
+        "likely_emoji/Uses emoji": {
+          "value": 0.8421052631578947,
+          "low": 0.6566315750229009,
+          "high": 0.967120919987079,
+          "n_evidence": 17,
+          "caveat": "their own rate across past messages, not a personality trait"
+        },
+        "likely_responds/Replies": {
+          "value": 0.9090909090909091,
+          "low": 0.7008472464490407,
+          "high": 1.0,
+          "n_evidence": 9,
+          "caveat": "share of the other's messages they answered"
+        },
+        "reply_latency_minutes/Reply latency": {
+          "value": 5.0,
+          "low": 1.0,
+          "high": 7.0,
+          "n_evidence": 13,
+          "caveat": "their own median gap between messages"
+        }
+      },
+      "path": "corpus/p3_emoji_heavy.json"
+    },
+    "p3b_emoji_star_clock": {
+      "readings": {
+        "Response length": {
+          "band": "moderate",
+          "value": 18.692307692307693,
+          "n_evidence": 13,
+          "n_conversations": 3,
+          "detail": "avg 18 chars vs your 20"
+        },
+        "Emoji usage": {
+          "band": "high",
+          "value": 1.0,
+          "n_evidence": 13,
+          "n_conversations": 3,
+          "detail": "in 13 of 13 messages"
+        },
+        "Questions": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 13,
+          "n_conversations": 3,
+          "detail": "asked something in 0 of 13 messages"
+        },
+        "Initiation": {
+          "band": "moderate",
+          "value": 0.3333333333333333,
+          "n_evidence": 3,
+          "n_conversations": 3,
+          "detail": "opened 1 of 3 conversations"
+        },
+        "Reply latency": {
+          "band": "low",
+          "value": 1.0,
+          "n_evidence": 7,
+          "n_conversations": 3,
+          "detail": "median 1 minutes between messages"
+        },
+        "Vocabulary": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 13,
+          "n_conversations": 3,
+          "detail": "Only 45 words yet; bands for vocabulary are read on 100-word windows, so this corpus is too small to say how varied their vocabulary is."
+        }
+      },
+      "predictions": {
+        "likely_length/Reply length": {
+          "value": 18.0,
+          "low": 15.0,
+          "high": 25.0,
+          "n_evidence": 13,
+          "caveat": "their own typical length; a long day or a short reply would fall outside it"
+        },
+        "likely_emoji/Uses emoji": {
+          "value": 0.9333333333333333,
+          "low": 0.7718981569447083,
+          "high": 1.0,
+          "n_evidence": 13,
+          "caveat": "their own rate across past messages, not a personality trait"
+        },
+        "likely_responds/Replies": {
+          "value": 0.8888888888888888,
+          "low": 0.6456611570247934,
+          "high": 1.0,
+          "n_evidence": 7,
+          "caveat": "share of the other's messages they answered"
+        },
+        "reply_latency_minutes/Reply latency": {
+          "value": 2.5,
+          "low": 1.0,
+          "high": 7.0,
+          "n_evidence": 10,
+          "caveat": "their own median gap between messages"
+        }
+      },
+      "path": "corpus/p3b_emoji_star_clock.json"
+    },
+    "p4_no_questions": {
+      "readings": {
+        "Response length": {
+          "band": "high",
+          "value": 57.833333333333336,
+          "n_evidence": 12,
+          "n_conversations": 3,
+          "detail": "avg 57 chars vs your 26"
+        },
+        "Emoji usage": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 12,
+          "n_conversations": 3,
+          "detail": "in 0 of 12 messages"
+        },
+        "Questions": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 12,
+          "n_conversations": 3,
+          "detail": "asked something in 0 of 12 messages"
+        },
+        "Initiation": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 3,
+          "n_conversations": 3,
+          "detail": "opened 0 of 3 conversations"
+        },
+        "Reply latency": {
+          "band": "low",
+          "value": 3.5,
+          "n_evidence": 12,
+          "n_conversations": 3,
+          "detail": "median 3 minutes between messages"
+        },
+        "Vocabulary": {
+          "band": "moderate",
+          "value": 0.7183333333333333,
+          "n_evidence": 12,
+          "n_conversations": 3,
+          "detail": "98 distinct words in 147 across 100-word windows"
+        }
+      },
+      "predictions": {
+        "likely_length/Reply length": {
+          "value": 60.5,
+          "low": 41.0,
+          "high": 67.0,
+          "n_evidence": 12,
+          "caveat": "their own typical length; a long day or a short reply would fall outside it"
+        },
+        "likely_emoji/Uses emoji": {
+          "value": 0.07142857142857142,
+          "low": 0.0,
+          "high": 0.2425007574992425,
+          "n_evidence": 12,
+          "caveat": "their own rate across past messages, not a personality trait"
+        },
+        "likely_responds/Replies": {
+          "value": 0.9285714285714286,
+          "low": 0.7574992425007574,
+          "high": 1.0,
+          "n_evidence": 12,
+          "caveat": "share of the other's messages they answered"
+        },
+        "reply_latency_minutes/Reply latency": {
+          "value": 7.0,
+          "low": 7.0,
+          "high": 8.0,
+          "n_evidence": 9,
+          "caveat": "their own median gap between messages"
+        }
+      },
+      "path": "corpus/p4_no_questions.json"
+    },
+    "p5_initiator": {
+      "readings": {
+        "Response length": {
+          "band": "high",
+          "value": 193.83333333333334,
+          "n_evidence": 12,
+          "n_conversations": 5,
+          "detail": "avg 193 chars vs your 29"
+        },
+        "Emoji usage": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 12,
+          "n_conversations": 5,
+          "detail": "in 0 of 12 messages"
+        },
+        "Questions": {
+          "band": "moderate",
+          "value": 0.16666666666666666,
+          "n_evidence": 12,
+          "n_conversations": 5,
+          "detail": "asked something in 2 of 12 messages"
+        },
+        "Initiation": {
+          "band": "high",
+          "value": 0.8,
+          "n_evidence": 5,
+          "n_conversations": 5,
+          "detail": "opened 4 of 5 conversations"
+        },
+        "Reply latency": {
+          "band": "moderate",
+          "value": 25.0,
+          "n_evidence": 8,
+          "n_conversations": 5,
+          "detail": "median 25 minutes between messages"
+        },
+        "Vocabulary": {
+          "band": "moderate",
+          "value": 0.708938992042439,
+          "n_evidence": 12,
+          "n_conversations": 5,
+          "detail": "224 distinct words in 476 across 100-word windows"
+        }
+      },
+      "predictions": {
+        "likely_length/Reply length": {
+          "value": 197.0,
+          "low": 153.0,
+          "high": 230.0,
+          "n_evidence": 12,
+          "caveat": "their own typical length; a long day or a short reply would fall outside it"
+        },
+        "likely_emoji/Uses emoji": {
+          "value": 0.07142857142857142,
+          "low": 0.0,
+          "high": 0.2425007574992425,
+          "n_evidence": 12,
+          "caveat": "their own rate across past messages, not a personality trait"
+        },
+        "likely_responds/Replies": {
+          "value": 0.6428571428571429,
+          "low": 0.3906175873976139,
+          "high": 0.8618821601026385,
+          "n_evidence": 12,
+          "caveat": "share of the other's messages they answered"
+        },
+        "reply_latency_minutes/Reply latency": {
+          "value": 46.0,
+          "low": 32.0,
+          "high": 105.0,
+          "n_evidence": 7,
+          "caveat": "their own median gap between messages"
+        }
+      },
+      "path": "corpus/p5_initiator.json"
+    },
+    "p6_fast_replier": {
+      "readings": {
+        "Response length": {
+          "band": "high",
+          "value": 61.92307692307692,
+          "n_evidence": 13,
+          "n_conversations": 4,
+          "detail": "avg 61 chars vs your 38"
+        },
+        "Emoji usage": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 13,
+          "n_conversations": 4,
+          "detail": "in 0 of 13 messages"
+        },
+        "Questions": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 13,
+          "n_conversations": 4,
+          "detail": "asked something in 0 of 13 messages"
+        },
+        "Initiation": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 4,
+          "n_conversations": 4,
+          "detail": "opened 0 of 4 conversations"
+        },
+        "Reply latency": {
+          "band": "low",
+          "value": 1.0,
+          "n_evidence": 13,
+          "n_conversations": 4,
+          "detail": "median 1 minutes between messages"
+        },
+        "Vocabulary": {
+          "band": "moderate",
+          "value": 0.6644871794871795,
+          "n_evidence": 13,
+          "n_conversations": 4,
+          "detail": "102 distinct words in 177 across 100-word windows"
+        }
+      },
+      "predictions": {
+        "likely_length/Reply length": {
+          "value": 61.0,
+          "low": 57.0,
+          "high": 70.0,
+          "n_evidence": 13,
+          "caveat": "their own typical length; a long day or a short reply would fall outside it"
+        },
+        "likely_emoji/Uses emoji": {
+          "value": 0.06666666666666667,
+          "low": 0.0,
+          "high": 0.22810184305529166,
+          "n_evidence": 13,
+          "caveat": "their own rate across past messages, not a personality trait"
+        },
+        "likely_responds/Replies": {
+          "value": 0.9333333333333333,
+          "low": 0.7718981569447083,
+          "high": 1.0,
+          "n_evidence": 13,
+          "caveat": "share of the other's messages they answered"
+        },
+        "reply_latency_minutes/Reply latency": {
+          "value": 3.0,
+          "low": 2.5,
+          "high": 3.0,
+          "n_evidence": 9,
+          "caveat": "their own median gap between messages"
+        }
+      },
+      "path": "corpus/p6_fast_replier.json"
+    },
+    "p7_slow_replier": {
+      "readings": {
+        "Response length": {
+          "band": "high",
+          "value": 152.33333333333334,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "avg 152 chars vs your 46"
+        },
+        "Emoji usage": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "in 0 of 9 messages"
+        },
+        "Questions": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "asked something in 0 of 9 messages"
+        },
+        "Initiation": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 3,
+          "n_conversations": 3,
+          "detail": "opened 0 of 3 conversations"
+        },
+        "Reply latency": {
+          "band": "high",
+          "value": 918.0,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "median 918 minutes between messages"
+        },
+        "Vocabulary": {
+          "band": "moderate",
+          "value": 0.6910994764397901,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "150 distinct words in 290 across 100-word windows"
+        }
+      },
+      "predictions": {
+        "likely_length/Reply length": {
+          "value": 153.0,
+          "low": 139.0,
+          "high": 166.0,
+          "n_evidence": 9,
+          "caveat": "their own typical length; a long day or a short reply would fall outside it"
+        },
+        "likely_emoji/Uses emoji": {
+          "value": 0.09090909090909091,
+          "low": 0.0,
+          "high": 0.2991527535509594,
+          "n_evidence": 9,
+          "caveat": "their own rate across past messages, not a personality trait"
+        },
+        "likely_responds/Replies": {
+          "value": 0.9090909090909091,
+          "low": 0.7008472464490407,
+          "high": 1.0,
+          "n_evidence": 9,
+          "caveat": "share of the other's messages they answered"
+        },
+        "reply_latency_minutes/Reply latency": {
+          "value": 995.0,
+          "low": 920.0,
+          "high": 1180.0,
+          "n_evidence": 6,
+          "caveat": "their own median gap between messages"
+        }
+      },
+      "path": "corpus/p7_slow_replier.json"
+    },
+    "p8_rich_vocab": {
+      "readings": {
+        "Response length": {
+          "band": "high",
+          "value": 241.55555555555554,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "avg 241 chars vs your 30"
+        },
+        "Emoji usage": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "in 0 of 9 messages"
+        },
+        "Questions": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "asked something in 0 of 9 messages"
+        },
+        "Initiation": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 3,
+          "n_conversations": 3,
+          "detail": "opened 0 of 3 conversations"
+        },
+        "Reply latency": {
+          "band": "low",
+          "value": 4.0,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "median 4 minutes between messages"
+        },
+        "Vocabulary": {
+          "band": "high",
+          "value": 0.8086829268292687,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "213 distinct words in 304 across 100-word windows"
+        }
+      },
+      "predictions": {
+        "likely_length/Reply length": {
+          "value": 265.0,
+          "low": 202.0,
+          "high": 276.0,
+          "n_evidence": 9,
+          "caveat": "their own typical length; a long day or a short reply would fall outside it"
+        },
+        "likely_emoji/Uses emoji": {
+          "value": 0.09090909090909091,
+          "low": 0.0,
+          "high": 0.2991527535509594,
+          "n_evidence": 9,
+          "caveat": "their own rate across past messages, not a personality trait"
+        },
+        "likely_responds/Replies": {
+          "value": 0.9090909090909091,
+          "low": 0.7008472464490407,
+          "high": 1.0,
+          "n_evidence": 9,
+          "caveat": "share of the other's messages they answered"
+        },
+        "reply_latency_minutes/Reply latency": {
+          "value": 9.5,
+          "low": 9.0,
+          "high": 11.0,
+          "n_evidence": 6,
+          "caveat": "their own median gap between messages"
+        }
+      },
+      "path": "corpus/p8_rich_vocab.json"
+    },
+    "p9_repetitive": {
+      "readings": {
+        "Response length": {
+          "band": "low",
+          "value": 13.583333333333334,
+          "n_evidence": 12,
+          "n_conversations": 3,
+          "detail": "avg 13 chars vs your 30"
+        },
+        "Emoji usage": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 12,
+          "n_conversations": 3,
+          "detail": "in 0 of 12 messages"
+        },
+        "Questions": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 12,
+          "n_conversations": 3,
+          "detail": "asked something in 0 of 12 messages"
+        },
+        "Initiation": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 3,
+          "n_conversations": 3,
+          "detail": "opened 0 of 3 conversations"
+        },
+        "Reply latency": {
+          "band": "low",
+          "value": 2.0,
+          "n_evidence": 12,
+          "n_conversations": 3,
+          "detail": "median 2 minutes between messages"
+        },
+        "Vocabulary": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 12,
+          "n_conversations": 3,
+          "detail": "Only 35 words yet; bands for vocabulary are read on 100-word windows, so this corpus is too small to say how varied their vocabulary is."
+        }
+      },
+      "predictions": {
+        "likely_length/Reply length": {
+          "value": 14.0,
+          "low": 9.0,
+          "high": 14.0,
+          "n_evidence": 12,
+          "caveat": "their own typical length; a long day or a short reply would fall outside it"
+        },
+        "likely_emoji/Uses emoji": {
+          "value": 0.07142857142857142,
+          "low": 0.0,
+          "high": 0.2425007574992425,
+          "n_evidence": 12,
+          "caveat": "their own rate across past messages, not a personality trait"
+        },
+        "likely_responds/Replies": {
+          "value": 0.9285714285714286,
+          "low": 0.7574992425007574,
+          "high": 1.0,
+          "n_evidence": 12,
+          "caveat": "share of the other's messages they answered"
+        },
+        "reply_latency_minutes/Reply latency": {
+          "value": 5.0,
+          "low": 5.0,
+          "high": 6.0,
+          "n_evidence": 9,
+          "caveat": "their own median gap between messages"
+        }
+      },
+      "path": "corpus/p9_repetitive.json"
+    },
+    "r1_equal_lengths": {
+      "readings": {
+        "Response length": {
+          "band": "moderate",
+          "value": 134.55555555555554,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "avg 134 chars vs your 115"
+        },
+        "Emoji usage": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "in 0 of 9 messages"
+        },
+        "Questions": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "asked something in 0 of 9 messages"
+        },
+        "Initiation": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 3,
+          "n_conversations": 3,
+          "detail": "opened 0 of 3 conversations"
+        },
+        "Reply latency": {
+          "band": "moderate",
+          "value": 7.0,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "median 7 minutes between messages"
+        },
+        "Vocabulary": {
+          "band": "moderate",
+          "value": 0.7369402985074618,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "140 distinct words in 233 across 100-word windows"
+        }
+      },
+      "predictions": {
+        "likely_length/Reply length": {
+          "value": 133.0,
+          "low": 127.0,
+          "high": 149.0,
+          "n_evidence": 9,
+          "caveat": "their own typical length; a long day or a short reply would fall outside it"
+        },
+        "likely_emoji/Uses emoji": {
+          "value": 0.09090909090909091,
+          "low": 0.0,
+          "high": 0.2991527535509594,
+          "n_evidence": 9,
+          "caveat": "their own rate across past messages, not a personality trait"
+        },
+        "likely_responds/Replies": {
+          "value": 0.9090909090909091,
+          "low": 0.7008472464490407,
+          "high": 1.0,
+          "n_evidence": 9,
+          "caveat": "share of the other's messages they answered"
+        },
+        "reply_latency_minutes/Reply latency": {
+          "value": 18.5,
+          "low": 14.0,
+          "high": 21.0,
+          "n_evidence": 6,
+          "caveat": "their own median gap between messages"
+        }
+      },
+      "path": "corpus/r1_equal_lengths.json"
+    },
+    "r2_verbose_subject_terse_observer": {
+      "readings": {
+        "Response length": {
+          "band": "high",
+          "value": 134.55555555555554,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "avg 134 chars vs your 15"
+        },
+        "Emoji usage": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "in 0 of 9 messages"
+        },
+        "Questions": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "asked something in 0 of 9 messages"
+        },
+        "Initiation": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 3,
+          "n_conversations": 3,
+          "detail": "opened 0 of 3 conversations"
+        },
+        "Reply latency": {
+          "band": "moderate",
+          "value": 7.0,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "median 7 minutes between messages"
+        },
+        "Vocabulary": {
+          "band": "moderate",
+          "value": 0.7369402985074618,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "140 distinct words in 233 across 100-word windows"
+        }
+      },
+      "predictions": {
+        "likely_length/Reply length": {
+          "value": 133.0,
+          "low": 127.0,
+          "high": 149.0,
+          "n_evidence": 9,
+          "caveat": "their own typical length; a long day or a short reply would fall outside it"
+        },
+        "likely_emoji/Uses emoji": {
+          "value": 0.09090909090909091,
+          "low": 0.0,
+          "high": 0.2991527535509594,
+          "n_evidence": 9,
+          "caveat": "their own rate across past messages, not a personality trait"
+        },
+        "likely_responds/Replies": {
+          "value": 0.9090909090909091,
+          "low": 0.7008472464490407,
+          "high": 1.0,
+          "n_evidence": 9,
+          "caveat": "share of the other's messages they answered"
+        },
+        "reply_latency_minutes/Reply latency": {
+          "value": 18.5,
+          "low": 14.0,
+          "high": 21.0,
+          "n_evidence": 6,
+          "caveat": "their own median gap between messages"
+        }
+      },
+      "path": "corpus/r2_verbose_subject_terse_observer.json"
+    },
+    "r3_verbose_subject_very_verbose_observer": {
+      "readings": {
+        "Response length": {
+          "band": "moderate",
+          "value": 168.44444444444446,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "avg 168 chars vs your 132"
+        },
+        "Emoji usage": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "in 0 of 9 messages"
+        },
+        "Questions": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "asked something in 0 of 9 messages"
+        },
+        "Initiation": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 3,
+          "n_conversations": 3,
+          "detail": "opened 0 of 3 conversations"
+        },
+        "Reply latency": {
+          "band": "moderate",
+          "value": 7.0,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "median 7 minutes between messages"
+        },
+        "Vocabulary": {
+          "band": "moderate",
+          "value": 0.7323834196891188,
+          "n_evidence": 9,
+          "n_conversations": 3,
+          "detail": "166 distinct words in 292 across 100-word windows"
+        }
+      },
+      "predictions": {
+        "likely_length/Reply length": {
+          "value": 157.0,
+          "low": 138.0,
+          "high": 189.0,
+          "n_evidence": 9,
+          "caveat": "their own typical length; a long day or a short reply would fall outside it"
+        },
+        "likely_emoji/Uses emoji": {
+          "value": 0.09090909090909091,
+          "low": 0.0,
+          "high": 0.2991527535509594,
+          "n_evidence": 9,
+          "caveat": "their own rate across past messages, not a personality trait"
+        },
+        "likely_responds/Replies": {
+          "value": 0.9090909090909091,
+          "low": 0.7008472464490407,
+          "high": 1.0,
+          "n_evidence": 9,
+          "caveat": "share of the other's messages they answered"
+        },
+        "reply_latency_minutes/Reply latency": {
+          "value": 18.5,
+          "low": 14.0,
+          "high": 21.0,
+          "n_evidence": 6,
+          "caveat": "their own median gap between messages"
+        }
+      },
+      "path": "corpus/r3_verbose_subject_very_verbose_observer.json"
+    },
+    "g1_seven_messages": {
+      "readings": {
+        "Response length": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 7,
+          "n_conversations": 3,
+          "detail": "Not enough messages yet to say anything about their reply length."
+        },
+        "Emoji usage": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 7,
+          "n_conversations": 3,
+          "detail": "Not enough messages yet to say anything about how often they use emoji."
+        },
+        "Questions": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 7,
+          "n_conversations": 3,
+          "detail": "Not enough messages yet to say anything about how often they ask things."
+        },
+        "Initiation": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 3,
+          "n_conversations": 3,
+          "detail": "opened 0 of 3 conversations"
+        },
+        "Reply latency": {
+          "band": "low",
+          "value": 3.0,
+          "n_evidence": 7,
+          "n_conversations": 3,
+          "detail": "median 3 minutes between messages"
+        },
+        "Vocabulary": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 7,
+          "n_conversations": 3,
+          "detail": "Only 74 words yet; bands for vocabulary are read on 100-word windows, so this corpus is too small to say how varied their vocabulary is."
+        }
+      },
+      "predictions": {
+        "likely_length/Reply length": {
+          "value": 55.0,
+          "low": 47.0,
+          "high": 61.0,
+          "n_evidence": 7,
+          "caveat": "their own typical length; a long day or a short reply would fall outside it"
+        },
+        "likely_emoji/Uses emoji": {
+          "value": 0.1111111111111111,
+          "low": 0.0,
+          "high": 0.35433884297520657,
+          "n_evidence": 7,
+          "caveat": "their own rate across past messages, not a personality trait"
+        },
+        "likely_responds/Replies": {
+          "value": 0.8888888888888888,
+          "low": 0.6456611570247934,
+          "high": 1.0,
+          "n_evidence": 7,
+          "caveat": "share of the other's messages they answered"
+        },
+        "reply_latency_minutes/Reply latency": {
+          "value": 6.5,
+          "low": 5.0,
+          "high": 7.0,
+          "n_evidence": 4,
+          "caveat": "their own median gap between messages"
+        }
+      },
+      "path": "probes/g1_seven_messages.json"
+    },
+    "g2_twenty_messages_one_conversation": {
+      "readings": {
+        "Response length": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 20,
+          "n_conversations": 1,
+          "detail": "Only 1 conversation so far \u2014 that is an anecdote, not a pattern."
+        },
+        "Emoji usage": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 20,
+          "n_conversations": 1,
+          "detail": "Only 1 conversation so far \u2014 that is an anecdote, not a pattern."
+        },
+        "Questions": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 20,
+          "n_conversations": 1,
+          "detail": "Only 1 conversation so far \u2014 that is an anecdote, not a pattern."
+        },
+        "Initiation": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 20,
+          "n_conversations": 1,
+          "detail": "Only 1 conversation so far \u2014 that is an anecdote, not a pattern."
+        },
+        "Reply latency": {
+          "band": "low",
+          "value": 1.0,
+          "n_evidence": 19,
+          "n_conversations": 1,
+          "detail": "median 1 minutes between messages"
+        },
+        "Vocabulary": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 20,
+          "n_conversations": 1,
+          "detail": "Their words sit in one conversation so far \u2014 that is an anecdote, not a pattern."
+        }
+      },
+      "predictions": {
+        "likely_length/Reply length": {
+          "value": 78.5,
+          "low": 71.0,
+          "high": 84.0,
+          "n_evidence": 20,
+          "caveat": "their own typical length; a long day or a short reply would fall outside it"
+        },
+        "likely_emoji/Uses emoji": {
+          "value": 0.045454545454545456,
+          "low": 0.0,
+          "high": 0.16113012549493322,
+          "n_evidence": 20,
+          "caveat": "their own rate across past messages, not a personality trait"
+        },
+        "likely_responds/Replies": {
+          "value": 0.9090909090909091,
+          "low": 0.7638641064874331,
+          "high": 0.9911187805671268,
+          "n_evidence": 20,
+          "caveat": "share of the other's messages they answered"
+        },
+        "reply_latency_minutes/Reply latency": {
+          "value": 2.0,
+          "low": 1.0,
+          "high": 3.0,
+          "n_evidence": 19,
+          "caveat": "every timed reply so far took exactly this long, so the range is a narrow placeholder rather than a measured spread"
+        }
+      },
+      "path": "probes/g2_twenty_messages_one_conversation.json"
+    },
+    "g3_three_long_messages": {
+      "readings": {
+        "Response length": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 3,
+          "n_conversations": 1,
+          "detail": "Not enough messages yet to say anything about their reply length."
+        },
+        "Emoji usage": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 3,
+          "n_conversations": 1,
+          "detail": "Not enough messages yet to say anything about how often they use emoji."
+        },
+        "Questions": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 3,
+          "n_conversations": 1,
+          "detail": "Not enough messages yet to say anything about how often they ask things."
+        },
+        "Initiation": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 3,
+          "n_conversations": 1,
+          "detail": "Only 1 conversation so far \u2014 that is an anecdote, not a pattern."
+        },
+        "Reply latency": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 3,
+          "n_conversations": 1,
+          "detail": "Only 3 timed replies yet; 5 are needed to say how quickly they reply."
+        },
+        "Vocabulary": {
+          "band": "insufficient_evidence",
+          "value": null,
+          "n_evidence": 3,
+          "n_conversations": 1,
+          "detail": "Their words sit in one conversation so far \u2014 that is an anecdote, not a pattern."
+        }
+      },
+      "predictions": {
+        "likely_length/Reply length": {
+          "value": 258.0,
+          "low": 221.0,
+          "high": 301.0,
+          "n_evidence": 3,
+          "caveat": "their own typical length; a long day or a short reply would fall outside it"
+        },
+        "likely_emoji/Uses emoji": {
+          "value": 0.2,
+          "low": 0.0,
+          "high": 0.5615060804490177,
+          "n_evidence": 3,
+          "caveat": "their own rate across past messages, not a personality trait"
+        },
+        "likely_responds/Replies": {
+          "value": 0.8,
+          "low": 0.43849391955098227,
+          "high": 1.0,
+          "n_evidence": 3,
+          "caveat": "share of the other's messages they answered"
+        },
+        "reply_latency_minutes/Reply latency": {
+          "value": 0.0,
+          "low": 0.0,
+          "high": 0.0,
+          "n_evidence": 2,
+          "caveat": "not enough timed replies to predict from"
+        }
+      },
+      "path": "probes/g3_three_long_messages.json"
+    },
+    "g4_same_words_short_vs_long": {
+      "readings": {
+        "Response length": {
+          "band": "high",
+          "value": 69.6,
+          "n_evidence": 15,
+          "n_conversations": 2,
+          "detail": "avg 69 chars vs your 22"
+        },
+        "Emoji usage": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 15,
+          "n_conversations": 2,
+          "detail": "in 0 of 15 messages"
+        },
+        "Questions": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 15,
+          "n_conversations": 2,
+          "detail": "asked something in 0 of 15 messages"
+        },
+        "Initiation": {
+          "band": "low",
+          "value": 0.0,
+          "n_evidence": 2,
+          "n_conversations": 2,
+          "detail": "opened 0 of 2 conversations"
+        },
+        "Reply latency": {
+          "band": "low",
+          "value": 3.0,
+          "n_evidence": 15,
+          "n_conversations": 2,
+          "detail": "median 3 minutes between messages"
+        },
+        "Vocabulary": {
+          "band": "low",
+          "value": 0.4120238095238096,
+          "n_evidence": 15,
+          "n_conversations": 2,
+          "detail": "54 distinct words in 183 across 100-word windows"
+        }
+      },
+      "predictions": {
+        "likely_length/Reply length": {
+          "value": 26.0,
+          "low": 19.0,
+          "high": 123.0,
+          "n_evidence": 15,
+          "caveat": "their own typical length; a long day or a short reply would fall outside it"
+        },
+        "likely_emoji/Uses emoji": {
+          "value": 0.058823529411764705,
+          "low": 0.0,
+          "high": 0.20388926630434784,
+          "n_evidence": 15,
+          "caveat": "their own rate across past messages, not a personality trait"
+        },
+        "likely_responds/Replies": {
+          "value": 0.9411764705882353,
+          "low": 0.7961107336956521,
+          "high": 1.0,
+          "n_evidence": 15,
+          "caveat": "share of the other's messages they answered"
+        },
+        "reply_latency_minutes/Reply latency": {
+          "value": 8.0,
+          "low": 8.0,
+          "high": 10.0,
+          "n_evidence": 13,
+          "caveat": "their own median gap between messages"
+        }
+      },
+      "path": "probes/g4_same_words_short_vs_long.json"
+    }
+  }
+}

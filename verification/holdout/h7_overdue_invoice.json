@@ -1,0 +1,280 @@
+{
+  "persona": "Overdue Invoice",
+  "subject": "them",
+  "observer": "me",
+  "messages": [
+    {
+      "id": "m0",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "Hi — a nudge on invoice 0142, issued 12 July, now 28 days past terms. Amount is 4,150. Could you give me a payment date?",
+      "sent_at": "2026-08-10T10:05:00+01:00"
+    },
+    {
+      "id": "m1",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "hi! sorry, it's with finance — the september payment run is the 8th. i pushed for an earlier slot but the queue is locked",
+      "sent_at": "2026-08-10T10:52:00+01:00"
+    },
+    {
+      "id": "m2",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "Thanks, i can work with the 8th. Would you mind forwarding the remittance advice when it clears?",
+      "sent_at": "2026-08-10T11:34:00+01:00"
+    },
+    {
+      "id": "m3",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "will do, automatic",
+      "sent_at": "2026-08-10T11:40:00+01:00"
+    },
+    {
+      "id": "m4",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "Appreciated. Also flagging: this is the third invoice this year to run past strict terms — the previous two each went a week over. I'd like us both to stay comfortable with the arrangement.",
+      "sent_at": "2026-08-10T11:55:00+01:00"
+    },
+    {
+      "id": "m5",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "that's fair, and i'd rather know than wonder. the queue thing is real, the AP team shrank in may",
+      "sent_at": "2026-08-10T12:03:00+01:00"
+    },
+    {
+      "id": "m6",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "Thanks for being straight about it. If the september run misses, what's the escalation route — a name, an email, a ticket?",
+      "sent_at": "2026-08-10T12:40:00+01:00"
+    },
+    {
+      "id": "m7",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "alfred.mensah, AP lead — mention my name and doors open",
+      "sent_at": "2026-08-10T12:46:00+01:00"
+    },
+    {
+      "id": "m8",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "Noted, thank you. I'll also issue the current sprint on the 1st as usual, so it lands inside the same run rather than drifting.",
+      "sent_at": "2026-08-10T13:21:00+01:00"
+    },
+    {
+      "id": "m9",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "smart. that PO is pre-approved, i fast-tracked it myself",
+      "sent_at": "2026-08-10T13:25:00+01:00"
+    },
+    {
+      "id": "m10",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "Good — that keeps the ledger tidy on my end too. And thanks for the quick replies, chasing is genuinely painless when the other side shows up.",
+      "sent_at": "2026-08-10T13:50:00+01:00"
+    },
+    {
+      "id": "m11",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "anyway — that sprint handover doc you sent thursday was excellent, legal had zero comments",
+      "sent_at": "2026-08-10T13:52:00+01:00"
+    },
+    {
+      "id": "m12",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "Glad to hear it. I'd tightened the liability section after the last round of comments — that part is usually what earns the zero.",
+      "sent_at": "2026-08-10T14:05:00+01:00"
+    },
+    {
+      "id": "m13",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "Morning — quick check-in. Invoice 0142 shows as pending on the portal rather than scheduled, and 0143 went out friday. Different process now, or still the queue?",
+      "sent_at": "2026-08-17T09:15:00+01:00"
+    },
+    {
+      "id": "m14",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "good catch. portal-pending means finance has it but the run file wasn't cut yet. i'll ask alfred to confirm it's in the 8th",
+      "sent_at": "2026-08-17T09:58:00+01:00"
+    },
+    {
+      "id": "m15",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "Thanks. To be clear, the 8th itself is fine — it's the unknown-weeks kind of pending that makes planning hard.",
+      "sent_at": "2026-08-17T10:47:00+01:00"
+    },
+    {
+      "id": "m16",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "understood, i'd hate it too. let me chase before lunch",
+      "sent_at": "2026-08-17T10:52:00+01:00"
+    },
+    {
+      "id": "m17",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "Alfred replied — scheduled for the run, reference attached. So we're tidy again. For the next engagement i'd like to test a half-up-front term, starting small.",
+      "sent_at": "2026-08-17T14:31:00+01:00"
+    },
+    {
+      "id": "m18",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "half up front on the next one, sure. you're hardly a flight risk, but twelve years of agency work teaches a person things",
+      "sent_at": "2026-08-17T14:37:00+01:00"
+    },
+    {
+      "id": "m19",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "Exactly that. It's not about trust, it's about cash rhythm. I'll draft the terms as a one-pager this week so it isn't a surprise in september.",
+      "sent_at": "2026-08-17T15:12:00+01:00"
+    },
+    {
+      "id": "m20",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "send it over. legal reads fast when it's one page",
+      "sent_at": "2026-08-17T15:18:00+01:00"
+    },
+    {
+      "id": "m21",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "You'll have it by thursday. And when 0142 clears, ping me — i mark things reconciled the same day, so my ledger and theirs never disagree.",
+      "sent_at": "2026-08-17T15:55:00+01:00"
+    },
+    {
+      "id": "m22",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "will do. genuinely sorry about the runaround this quarter",
+      "sent_at": "2026-08-17T16:01:00+01:00"
+    },
+    {
+      "id": "m23",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "Apology accepted, and honestly unnecessary — queues happen. Consistency is all i ask.",
+      "sent_at": "2026-08-17T16:44:00+01:00"
+    },
+    {
+      "id": "m24",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "consistency, coming up. the one-pager will help",
+      "sent_at": "2026-08-17T16:47:00+01:00"
+    },
+    {
+      "id": "m25",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "Then we're aligned on all of it.",
+      "sent_at": "2026-08-17T17:20:00+01:00"
+    },
+    {
+      "id": "m26",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "Morning — 0142 cleared on the 29th, thank you, the reference matched. Two things for the next phase: the rate review we discussed in june, and whether you can commit to a minimum of 20 hours a month from october.",
+      "sent_at": "2026-09-02T08:47:00+01:00"
+    },
+    {
+      "id": "m27",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "cleared, great. october pilot: yes, i can get 20 hours signed off. rate review — send your sheet and i'll take it to budget",
+      "sent_at": "2026-09-02T09:31:00+01:00"
+    },
+    {
+      "id": "m28",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "Sheet's coming today. I've held the day rate flat for two years, so the review is really about the surcharge rules — rush work and the small-jobs admin tax.",
+      "sent_at": "2026-09-02T10:14:00+01:00"
+    },
+    {
+      "id": "m29",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "'small-jobs admin tax' is a great name. legal will hate it, which is how you know it's good",
+      "sent_at": "2026-09-02T10:20:00+01:00"
+    },
+    {
+      "id": "m30",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "All the better — precise dislike is how good contracts get written.",
+      "sent_at": "2026-09-02T10:52:00+01:00"
+    },
+    {
+      "id": "m31",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "budget meets on the 11th, so expect a decision that same week",
+      "sent_at": "2026-09-02T12:10:00+01:00"
+    },
+    {
+      "id": "m32",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "Works for me. One flag: if it stalls past the 15th, the october start slips a month — i'd rather say that now than renegotiate mid-flight.",
+      "sent_at": "2026-09-02T14:38:00+01:00"
+    },
+    {
+      "id": "m33",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "fair flag. i'll make sure it doesn't stall",
+      "sent_at": "2026-09-02T14:44:00+01:00"
+    },
+    {
+      "id": "m34",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "Appreciated. Also — i saw the launch date moved again. Is that real this time, or the usual ambition?",
+      "sent_at": "2026-09-02T15:20:00+01:00"
+    },
+    {
+      "id": "m35",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "the date moving is basically our culture now. anyway, rate sheet goes to budget today",
+      "sent_at": "2026-09-02T15:26:00+01:00"
+    },
+    {
+      "id": "m36",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "Small thing to keep records clean: when the sign-off lands, drop a 'confirmed' in this thread — written receipts have rescued two invoices of mine already this year.",
+      "sent_at": "2026-09-02T15:55:00+01:00"
+    },
+    {
+      "id": "m37",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "you're the most organised person i have ever owed money to",
+      "sent_at": "2026-09-02T16:03:00+01:00"
+    },
+    {
+      "id": "m38",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "Occupational hazard. Talk next week.",
+      "sent_at": "2026-09-02T16:41:00+01:00"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "persona": "p3b_emoji_star_clock",
+  "note": "Hand-authored. Subject uses very common emoji that live OUTSIDE the library's three codepoint ranges (U+2B50 star, U+23F0 alarm clock, U+231B hourglass, U+2B55 heavy circle, U+23F3 hourglass done). A human reads these as emoji; the ground truth is a high emoji rate.",
+  "messages": [
+    {"id": "m1", "conversation_id": "c1", "speaker": "me", "text": "how was the flight?", "sent_at": "2026-06-02T19:02:00"},
+    {"id": "m2", "conversation_id": "c1", "speaker": "them", "text": "it was delayed the whole way ⭐", "sent_at": "2026-06-02T19:03:00"},
+    {"id": "m3", "conversation_id": "c1", "speaker": "them", "text": "landed at 2am ⏰", "sent_at": "2026-06-02T19:04:00"},
+    {"id": "m4", "conversation_id": "c1", "speaker": "me", "text": "that is brutal, was there any food", "sent_at": "2026-06-02T19:10:00"},
+    {"id": "m5", "conversation_id": "c1", "speaker": "them", "text": "just a sandwich ⌛", "sent_at": "2026-06-02T19:11:00"},
+    {"id": "m6", "conversation_id": "c1", "speaker": "them", "text": "still worth it though ⭐", "sent_at": "2026-06-02T19:12:00"},
+
+    {"id": "m7", "conversation_id": "c2", "speaker": "them", "text": "the new place is booked ⏰", "sent_at": "2026-06-08T13:02:00"},
+    {"id": "m8", "conversation_id": "c2", "speaker": "me", "text": "for saturday?", "sent_at": "2026-06-08T13:05:00"},
+    {"id": "m9", "conversation_id": "c2", "speaker": "them", "text": "for saturday night ⭐", "sent_at": "2026-06-08T13:06:00"},
+    {"id": "m10", "conversation_id": "c2", "speaker": "me", "text": "what time", "sent_at": "2026-06-08T13:09:00"},
+    {"id": "m11", "conversation_id": "c2", "speaker": "them", "text": "eight o'clock ⏰", "sent_at": "2026-06-08T13:10:00"},
+    {"id": "m12", "conversation_id": "c2", "speaker": "them", "text": "i already told everyone ⌛", "sent_at": "2026-06-08T13:11:00"},
+    {"id": "m13", "conversation_id": "c2", "speaker": "me", "text": "you are terrible at waiting", "sent_at": "2026-06-08T13:18:00"},
+    {"id": "m14", "conversation_id": "c2", "speaker": "them", "text": "i know ⭐", "sent_at": "2026-06-08T13:19:00"},
+
+    {"id": "m15", "conversation_id": "c3", "speaker": "me", "text": "the deadline got moved up to monday", "sent_at": "2026-06-15T10:01:00"},
+    {"id": "m16", "conversation_id": "c3", "speaker": "them", "text": "of course it did ⏰", "sent_at": "2026-06-15T10:02:00"},
+    {"id": "m17", "conversation_id": "c3", "speaker": "them", "text": "i will have it done tonight ⌛", "sent_at": "2026-06-15T10:03:00"},
+    {"id": "m18", "conversation_id": "c3", "speaker": "me", "text": "please do", "sent_at": "2026-06-15T10:09:00"},
+    {"id": "m19", "conversation_id": "c3", "speaker": "them", "text": "i will ⭐", "sent_at": "2026-06-15T10:10:00"},
+    {"id": "m20", "conversation_id": "c3", "speaker": "them", "text": "probably ⏰", "sent_at": "2026-06-15T10:11:00"}
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "persona": "Two Cities",
+  "subject": "them",
+  "observer": "me",
+  "messages": [
+    {
+      "id": "m0",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "been looking at trains for the second weekend of september and honestly the prices have dropped since spring. if we book by thursday it works out about half of what we paid in may",
+      "sent_at": "2026-08-18T19:41:00+02:00"
+    },
+    {
+      "id": "m1",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "seriously? that's the weekend after your work thing, right?",
+      "sent_at": "2026-08-18T19:49:00+02:00"
+    },
+    {
+      "id": "m2",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "right, so i'd come to you friday evening and stay until monday morning. and my manager finally approved the extra day, so i wouldn't be travelling back sunday night in the dark",
+      "sent_at": "2026-08-18T19:58:00+02:00"
+    },
+    {
+      "id": "m3",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "that changes everything. my flat's free that week too, my flatmate is at her sister's",
+      "sent_at": "2026-08-18T20:00:00+02:00"
+    },
+    {
+      "id": "m4",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "oh that's good. two questions though: do you want the quiet version of the plan or the loud one, and how do you feel about an early ferry on the saturday?",
+      "sent_at": "2026-08-18T20:09:00+02:00"
+    },
+    {
+      "id": "m5",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "loud, obviously. and ferries are fine as long as i'm not the one driving after",
+      "sent_at": "2026-08-18T20:11:00+02:00"
+    },
+    {
+      "id": "m6",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "fair. then i'd say saturday markets in the morning, that long walk along the water after lunch, and if the weather holds, the little museum with the ship models. sunday can stay empty on purpose",
+      "sent_at": "2026-08-18T20:23:00+02:00"
+    },
+    {
+      "id": "m7",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "you've basically written an itinerary while i was eating dinner",
+      "sent_at": "2026-08-18T20:25:00+02:00"
+    },
+    {
+      "id": "m8",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "i know. i've been unsupervised in a spreadsheet all afternoon. tell me if there's anything you'd hate — food, hills, crowds — before i get too attached to this",
+      "sent_at": "2026-08-18T20:36:00+02:00"
+    },
+    {
+      "id": "m9",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "crowds after 3pm, no. hills fine. food never an issue",
+      "sent_at": "2026-08-18T20:38:00+02:00"
+    },
+    {
+      "id": "m10",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "noted, that rounds the plan down nicely actually. shall i book the seats tonight, or do you want to check your saturday first?",
+      "sent_at": "2026-08-18T20:47:00+02:00"
+    },
+    {
+      "id": "m11",
+      "conversation_id": "c1",
+      "speaker": "me",
+      "text": "book them. if i get stuck i'll swap, i've done worse",
+      "sent_at": "2026-08-18T20:50:00+02:00"
+    },
+    {
+      "id": "m12",
+      "conversation_id": "c1",
+      "speaker": "them",
+      "text": "booked. two return seats on the quiet side of the carriage, and i checked your platform section so you don't have to cross the whole station. goodnight — confirmation should land tomorrow morning",
+      "sent_at": "2026-08-18T21:05:00+02:00"
+    },
+    {
+      "id": "m13",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "confirmation came through this morning. while i remember — does your building still have that guest parking rule, in case i bring the car instead?",
+      "sent_at": "2026-08-21T08:12:00+02:00"
+    },
+    {
+      "id": "m14",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "no rule anyone actually enforces, but the street fills up after nine",
+      "sent_at": "2026-08-21T08:26:00+02:00"
+    },
+    {
+      "id": "m15",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "then i'd aim early and walk the last stretch. how is the shoulder by the way — you said it was still sore after the move?",
+      "sent_at": "2026-08-21T08:40:00+02:00"
+    },
+    {
+      "id": "m16",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "mostly fine, it complains if i sleep on it wrong. no lifting the giant suitcase",
+      "sent_at": "2026-08-21T08:52:00+02:00"
+    },
+    {
+      "id": "m17",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "it'll be the small one, prague taught me that lesson for good. last practical thing: is your kettle the slow kind or the fast kind? some mornings matter more than others",
+      "sent_at": "2026-08-21T09:07:00+02:00"
+    },
+    {
+      "id": "m18",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "the fast kind, i replaced it after that winter",
+      "sent_at": "2026-08-21T09:09:00+02:00"
+    },
+    {
+      "id": "m19",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "perfect, then we are operationally ready. i'll stop planning now and let september do the work",
+      "sent_at": "2026-08-21T09:14:00+02:00"
+    },
+    {
+      "id": "m20",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "you say that like you believe it",
+      "sent_at": "2026-08-21T09:16:00+02:00"
+    },
+    {
+      "id": "m21",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "i don't. there's a whole notes app of ideas for the sunday you haven't vetoed yet",
+      "sent_at": "2026-08-21T09:31:00+02:00"
+    },
+    {
+      "id": "m22",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "sunday was supposed to be the empty one",
+      "sent_at": "2026-08-21T09:33:00+02:00"
+    },
+    {
+      "id": "m23",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "empty by design, not by accident. i keep one rain standby — the covered market — unless that's too touristy for a local these days?",
+      "sent_at": "2026-08-21T09:52:00+02:00"
+    },
+    {
+      "id": "m24",
+      "conversation_id": "c2",
+      "speaker": "me",
+      "text": "it's touristy but the cheese stall earns it. so yes",
+      "sent_at": "2026-08-21T09:54:00+02:00"
+    },
+    {
+      "id": "m25",
+      "conversation_id": "c2",
+      "speaker": "them",
+      "text": "then sunday is sorted if the weather turns, and the good days get to stay unplanned. those are my favourite ones",
+      "sent_at": "2026-08-21T10:10:00+02:00"
+    },
+    {
+      "id": "m26",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "small detour from the plan: my sister asked if she can borrow the friday, so would you rather i came thursday night, or we shift the whole thing a week?",
+      "sent_at": "2026-08-27T20:03:00+02:00"
+    },
+    {
+      "id": "m27",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "thursday night works, more saturday that way",
+      "sent_at": "2026-08-27T20:16:00+02:00"
+    },
+    {
+      "id": "m28",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "that's what i thought too. one more while we're at it: the big breakfast place — first morning, or keep it for the last one as a send-off?",
+      "sent_at": "2026-08-27T20:29:00+02:00"
+    },
+    {
+      "id": "m29",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "last morning. it's a send-off, not a starter",
+      "sent_at": "2026-08-27T20:31:00+02:00"
+    },
+    {
+      "id": "m30",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "agreed, which conveniently settles another corner of the plan. i'll bring your book back too — i finally finished it the week my flatmate was away",
+      "sent_at": "2026-08-27T20:44:00+02:00"
+    },
+    {
+      "id": "m31",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "and? you never actually told me",
+      "sent_at": "2026-08-27T20:45:00+02:00"
+    },
+    {
+      "id": "m32",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "the middle sags where he over-explains, but the ending is better than i ever gave it credit for. which reminds me — did you fold the corner of page 91 too, or am i unique in my crimes?",
+      "sent_at": "2026-08-27T21:01:00+02:00"
+    },
+    {
+      "id": "m33",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "page 91 is entirely my fault, i was on a train",
+      "sent_at": "2026-08-27T21:03:00+02:00"
+    },
+    {
+      "id": "m34",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "then we are both guilty, and it's exactly the kind of thing to argue about over that breakfast. nearly two weeks to go",
+      "sent_at": "2026-08-27T21:18:00+02:00"
+    },
+    {
+      "id": "m35",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "i'll give the kettle a descale as a treat",
+      "sent_at": "2026-08-27T21:19:00+02:00"
+    },
+    {
+      "id": "m36",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "it has earned it. i'll also pack the tin from the baker near the office unless you've gone off it",
+      "sent_at": "2026-08-27T21:33:00+02:00"
+    },
+    {
+      "id": "m37",
+      "conversation_id": "c3",
+      "speaker": "me",
+      "text": "nobody has ever gone off that tin",
+      "sent_at": "2026-08-27T21:35:00+02:00"
+    },
+    {
+      "id": "m38",
+      "conversation_id": "c3",
+      "speaker": "them",
+      "text": "glad we agree on the essentials. goodnight — next time we talk i'll have a train time and probably three more questions",
+      "sent_at": "2026-08-27T21:52:00+02:00"
+    }
+  ]
+}
