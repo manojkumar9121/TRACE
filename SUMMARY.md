@@ -30,7 +30,7 @@ adversarial instructions", not "independently audited".
 | **Held-out agreement (frozen labels)** | — | **0.617 graded (29/47), overall 30/48, zero value mismatches** |
 | Gaps opened over the course | — | **14** — **13 closed or moved out; 1 open (G-3)** |
 | Normative requirements implemented | — | **107** (28 DM · 54 PM · 13 IF · 7 INV · 5 CDI) |
-| Milestones done | 3 of 14 | **11 of 14** (2 moved to the consumer's record, 1 open — the upload itself) |
+| Milestones done | 3 of 14 | **12 of 14** (2 moved to the consumer's record, M10 closed on first push 2026-10-23) |
 | Trait recovery (planted corpora) | 71/96 (74%) | **93/96 graded (96.9%)** — the vocabulary disagreements went 8 → 0 (G-11); the 3 residual rows are recorded, not re-thresholded |
 | T3 planted-reactivity recovery | — | **5/5** (2 of them `unsettled`) |
 | T4 live-model separation | — | **20/20** (a smoke test, not a benchmark) |
@@ -65,7 +65,7 @@ not made on the same transcripts that tuned the code.
 | M7 | Screenshot adapter | **Moved out** | A record of the reference integration, not a TRACE deliverable — held in the private integration notes (M10). |
 | M8 | Second author on the evidence | **Done** | Satisfied by the held-out authoring protocol: 8 corpora + labels written by an independent second author with no access to the implementation, frozen before any run (§9.19). |
 | M9 | Consumer adopts the library | **Moved out** | The consumer's policy-equivalence record, held with the consumer (private notes). |
-| M10 | Publish | **Open — user-side** | Publication-ready after Rev 6's sanitization; the PyPI/GitHub upload is the maintainer's action. |
+| M10 | Publish | **Done** | Published 2026-10-23: [`manojkumar9121/TRACE`](https://github.com/manojkumar9121/TRACE), tag `v0.2.0`, first-push CI green — 440 passed, GOLDEN OK, held-out 0.617 on Python 3.11–3.13. The PyPI upload remains open as its own act. |
 
 ### 2.2 Requirements — 107 normative statements
 
